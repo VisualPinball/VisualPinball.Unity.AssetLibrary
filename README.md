@@ -4,7 +4,7 @@ This repository contains the asset library for the [Visual Pinball Engine](https
 
 More to come.
 
-# Setup
+## Setup
 
 You'll need [git LFS](https://git-lfs.github.com/) in order to use this repo. [Install the extension](https://github.com/git-lfs/git-lfs/releases/download/v2.12.0/git-lfs-windows-v2.12.0.exe) if you don't already have. Then enable it before cloning the repo.
 
@@ -13,6 +13,6 @@ git lfs install
 git clone https://github.com/freezy/VisualPinball.AssetLibrary.git
 ```
 
-# License
+## License
 
 [Creative Commons Attribution-ShareAlike 4.0](LICENSE.md)
