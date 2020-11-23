@@ -1,0 +1,37 @@
+{
+  "name": "org.visualpinball.project.hdrp",
+  "version": "0.1.0",
+  "displayName": "Visual Pinball HDRP Project",
+  "description": "VPE HDRP Project",
+  "unity": "2020.2",
+  "unityRelease": "b8",
+  "dependencies": {
+    "com.unity.burst": "1.3.4", 
+    "com.unity.collections": "0.12.0-preview.13", 
+    "com.unity.rendering.hybrid": "0.8.0-preview.18",
+    "com.unity.jobs": "0.5.0-preview.14",
+    "com.unity.mathematics": "1.2.1",
+    "com.unity.inputsystem": "1.0.0",
+    "com.unity.test-framework": "1.1.16"
+    "com.unity.render-pipelines.high-definition": "10.1.0"
+  },
+  "keywords": [
+    "Pinball",
+    "Visual",
+    "Editor", 
+    "Player",
+    "HDRP"
+  ],
+  "author": ["freezy <freezy@vpdb.io>"],
+  "contributors": [
+    "ravarcade <ravarcade@gmail.com>",
+    "shaderbytes",
+    "jsm174 <jsm174@gmail.com>",
+    "Roger Bocksnick <roger.bocksnick@gmail.com>",
+    "VrôÕnsh <vroonsh@free.fr>",
+    "Rowlan",
+    "Kleis Auke Wolthuizen <info@kleisauke.nl>",
+    "Eli Curtz <eli@nuprometheus.com>", 
+    "pandeli"
+  ]
+}

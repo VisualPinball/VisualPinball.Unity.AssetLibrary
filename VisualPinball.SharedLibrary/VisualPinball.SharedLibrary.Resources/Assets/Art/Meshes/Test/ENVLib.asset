@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c12cb5f71c6440825869433552460, type: 3}
+  m_Name: ENVLib
+  m_EditorClassIdentifier: 
+  <environments>k__BackingField:
+  - {fileID: 710252866351955458}
+--- !u!114 &710252866351955458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 612aa45d38dd94a479185b83f080aa22, type: 3}
+  m_Name: New Environment
+  m_EditorClassIdentifier: 
+  m_CubemapGUID: 54a3a0570aebe8949bec4966f1376581
+  rotation: 0
+  exposure: 0
+  m_Latitude: 60
+  m_Longitude: 299
+  shadowColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}

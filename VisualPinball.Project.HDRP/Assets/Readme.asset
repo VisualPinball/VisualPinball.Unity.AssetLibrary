@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: c51c3f937a647ec42b30e37495c828f8, type: 3}
+  title: Visual Pinball Engine - HDRP Project
+  sections:
+  - heading: 
+    text: 'This project is for table playing and editing with <b>High-end Graphics</b>.
+      It is developed for platforms that support Shader Model 5.0 (DX11 and above).
+      This project utilizes Unity''s <b>High Definition Render Pipeline (HDRP)</b>,
+      a modern rendering pipeline that includes advanced material types and realistic
+      lighting models. This project also includes a default table with usage examples
+      as well as the shared asset library package.  This project does not currently
+      include support for VR or Raytracing (DXR) features. '
+    linkText: 
+    url: 
+  - heading: VPE Shared Asset Library
+    text: The VPE Shared Asset Library package contains materials and models that
+      can be used directly in table builds.   It is intended to be used to abstract
+      the material based objects on a table, such as plastic posts, various metals
+      etc.  Using the materials can reduce the amount of work required to generate
+      a quality table as well as reduce the download size.  Only table assets that
+      require specific scans for decals will need to be generated.
+    linkText: 
+    url: 
+  - heading: 
+    text: '    This project sets up the editor, scene and render pipeline settings
+      to provide a consistent working base for all VPE tables.  This ensures that
+      all tables will look correct when viewed in the final player.  '
+    linkText: 
+    url: 
+  - heading: 
+    text: '     Included in this project a <b> Light Environment Editor </b>.  This
+      allows you to preview different lighting conditions for your table.  The lighting
+      environment for the game will be separate from the tables, allowing the player
+      choose what their preferred lighting setup is.  This tool allows you to quickly
+      change between different lighting scenarios to test your table and make sure
+      it looks exactly as you intend it to in a wide variety of situations.  The
+      window for this can be found under the Visual Pinball menu on the top menu
+      bar.  '
+    linkText: 
+    url: 
+  - heading: Documentation
+    text: To read more about using Visual Pinball Engine please see the <b>Visual
+      Pinball documentation:</b>
+    linkText: Visual Pinball Engine
+    url: https://docs.visualpinball.org/
+  - heading: 
+    text: 'To read more about HDRP please see the <b>HDRP documentation</b> :'
+    linkText: High Definition Render Pipeline
+    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@latest/index.html
+  - heading: 
+    text: 'HDRP uses its own implementation of <b>post-processing</b>. It uses the
+      <b>Volume system</b> to allow you to localize post-processing effects to a
+      certain area of your Scene. For more information about post-processing and
+      the Volume system, see the pages :'
+    linkText: Post-processing
+    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@latest/index.html?subfolder=/manual/Post-Processing-Main.html?preview=1
+  - heading: Sample Content
+    text: Coming soon...
+    linkText: 
+    url: 
+  - heading: Ray tracing (Unsupported with VPE at this time)
+    text: 'This version of HDRP includes a preview of Ray tracing features. While
+      it is possible to setup, this is not well documented and requires a lot of
+      manual configuration.  It is not recommended for use at this time with VPE. 
+      To read more on this topic please see our <b>"Getting started"</b> guide :'
+    linkText: Getting started with Ray Tracing
+    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@latest/index.html?subfolder=/manual/Ray-Tracing-Getting-Started.html?preview=1
+  - heading: 
+    text: 'Ray tracing features are also demonstrated in this small sample projet
+      :'
+    linkText: Small office Ray tracing
+    url: https://github.com/Unity-Technologies/SmallOfficeRayTracing
+  loadedLayout: 1
