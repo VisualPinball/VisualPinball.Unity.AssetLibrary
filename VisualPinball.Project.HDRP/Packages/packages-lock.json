@@ -75,7 +75,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -298,7 +298,7 @@
       "url": "https://packages.unity.com"
     },
     "org.visualpinball.assetlibrary": {
-      "version": "file:E:/VPE/VisualPinball.AssetLibrary/VisualPinball.SharedLibrary",
+      "version": "file:../../VisualPinball.SharedLibrary",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -306,7 +306,7 @@
       }
     },
     "org.visualpinball.engine.unity": {
-      "version": "file:E:/VPE/VisualPinball.Engine",
+      "version": "file:../../../VisualPinball.Engine",
       "depth": 0,
       "source": "local",
       "dependencies": {
