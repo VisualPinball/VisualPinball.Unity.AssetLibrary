@@ -6,7 +6,6 @@
   "unity": "2020.2",
   "unityRelease": "0b6",
   "dependencies": {
-    "com.unity.render-pipelines.high-definition": "10.0.0-preview.27"
   },
   "keywords": [
     "Pinball",
