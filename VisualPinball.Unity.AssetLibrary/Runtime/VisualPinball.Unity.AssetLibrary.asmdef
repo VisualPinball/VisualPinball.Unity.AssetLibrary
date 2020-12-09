@@ -1,0 +1,8 @@
+{
+	"name": "VisualPinball.Unity.AssetLibrary",
+	"references": [
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": true
+}
