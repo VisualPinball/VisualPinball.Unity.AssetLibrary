@@ -18,5 +18,12 @@
     "Kleis Auke Wolthuizen <info@kleisauke.nl>",
     "Eli Curtz <eli@nuprometheus.com>",
     "Pandeli"
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/freezy/VisualPinball.AssetLibrary.git",
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.visualpinball.org"
+  }
 }

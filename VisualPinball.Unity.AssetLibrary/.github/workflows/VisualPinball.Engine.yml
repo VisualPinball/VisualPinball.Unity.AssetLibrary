@@ -9,14 +9,16 @@ jobs:
           fetch-depth: 0
       - name: Fetch next version
         id: nextVersion
-        uses: freezy/VisualPinball.NextVersionAction@v0.1.1
+        uses: freezy/VisualPinball.NextVersionAction@v0.1.4
         with:
           tagPrefix: 'v'
       - name: Publish
         run: |
           echo "//registry.visualpinball.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
           npm version ${{ steps.nextVersion.output.nextVersion }} --no-git-tag-version
-          npm publish --registry https://registry.visualpinball.org
+          npm publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Create Release
         uses: actions/create-release@v1
         with:
@@ -25,3 +27,4 @@ jobs:
           prerelease: ${{ steps.nextVersion.output.isPrerelease }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
