@@ -1,0 +1,27 @@
+on: [push, pull_request]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Fetch next version
+        id: nextVersion
+        uses: freezy/VisualPinball.NextVersionAction@v0.1.1
+        with:
+          tagPrefix: 'v'
+      - name: Publish
+        run: |
+          echo "//registry.visualpinball.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+          npm version ${{ steps.nextVersion.output.nextVersion }} --no-git-tag-version
+          npm publish --registry https://registry.visualpinball.org
+      - name: Create Release
+        uses: actions/create-release@v1
+        with:
+          tag_name: ${{ steps.nextVersion.output.nextTag }}
+          release_name: ${{ steps.nextVersion.output.nextTag }}
+          prerelease: ${{ steps.nextVersion.output.isPrerelease }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

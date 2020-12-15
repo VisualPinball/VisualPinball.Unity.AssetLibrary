@@ -1,6 +1,6 @@
 {
   "name": "org.visualpinball.unity.assetlibrary",
-  "version": "0.1.0",
+  "version": "0.0.1-preview.0",
   "displayName": "Visual Pinball Engine (Common Assets)",
   "description": "Renderpipeline-independent assets.",
   "unity": "2020.2",
