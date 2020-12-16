@@ -46,12 +46,7 @@ and there are subtle differences, here's how will be referring to them:
 
 We have the following dependencies:
 
-- vpe.unity - *none*
-- vpe.unity.hdrp -> unity.hdrp
-- vpe.unity.hdrp -> vpe.unity
-- vpe.unity.hdrp -> vpe.unity.assets.hdrp
-- vpe.unity.assets.hdrp -> vpe.unity.assets
-- vpe.unity.assets -> *none*
+![](https://user-images.githubusercontent.com/70426/102411603-7a371d80-3ff2-11eb-8210-6203a74a635d.png)
 
 So we see that vpe.unity.hdrp pulls in three other dependencies. These have to be added manually at the moment. So when
 working with HDRP, you would have the following packages under *Custom* in the package manager:
