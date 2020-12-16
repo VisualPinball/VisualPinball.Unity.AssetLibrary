@@ -27,20 +27,20 @@ and there are subtle differences, here's how will be referring to them:
 
 |                         | Package Name                              | Repository                            |
 |-------------------------|-------------------------------------------|---------------------------------------|
-| vpe.unity (also "main") | org.visualpinball.engine.unity            | [VisualPinball.Engine](https://github.com/freezy/VisualPinball.Engine)                  |
-| vpe.unity.hdrp          | org.visualpinball.engine.unity.hdrp       | [VisualPinball.Unity.Hdrp](https://github.com/freezy/VisualPinball.Unity.Hdrp)              |
-| vpe.unity.assets        | org.visualpinball.unity.assetlibrary      | [VisualPinball.Unity.AssetLibrary](https://github.com/freezy/VisualPinball.AssetLibrary/tree/refactor/repos/VisualPinball.Unity.AssetLibrary)      |
-| vpe.unity.assets.hdrp   | org.visualpinball.unity.assetlibrary.hdrp | [VisualPinball.Unity.AssetLibrary.Hdrp](https://github.com/freezy/VisualPinball.AssetLibrary/tree/refactor/repos/VisualPinball.Unity.AssetLibrary.Hdrp) |
+| vpe (also "core") | org.visualpinball.engine.unity            | [VisualPinball.Engine](https://github.com/freezy/VisualPinball.Engine)                  |
+| vpe.hdrp          | org.visualpinball.engine.unity.hdrp       | [VisualPinball.Unity.Hdrp](https://github.com/freezy/VisualPinball.Unity.Hdrp)              |
+| vpe.assets        | org.visualpinball.unity.assetlibrary      | [VisualPinball.Unity.AssetLibrary](https://github.com/freezy/VisualPinball.AssetLibrary/tree/refactor/repos/VisualPinball.Unity.AssetLibrary)      |
+| vpe.assets.hdrp   | org.visualpinball.unity.assetlibrary.hdrp | [VisualPinball.Unity.AssetLibrary.Hdrp](https://github.com/freezy/VisualPinball.AssetLibrary/tree/refactor/repos/VisualPinball.Unity.AssetLibrary.Hdrp) |
 | unity.hdrp              | com.unity.render-pipelines.high-definition | [Unity/Graphics](https://github.com/Unity-Technologies/Graphics/tree/master/com.unity.render-pipelines.high-definition) |
 
 
-- **vpe.unity** is the main repo. It contains mainly the code, and some resources, which will 
+- **vpe** is the main repo. It contains mainly the code, and some resources, which will 
   probably move into vpe.unity.assets at some point. It doesn't have any dependencies, neither
   to any of the other vpe packages nor to Unity's HDRP or URP. If only this repo is used in a 
   project, the standard renderpipeline is used.
-- **vpe.unity.hdrp** contains HDRP-specific code.
-- **vpe.unity.assets** contains common assets only, i.e. asses that are render pipeline-agnostic.
-- **vpe.unity.assets.hdrp** contains HDRP-specific assets.
+- **vpe.hdrp** contains HDRP-specific code.
+- **vpe.assets** contains common assets only, i.e. asses that are render pipeline-agnostic.
+- **vpe.assets.hdrp** contains HDRP-specific assets.
 
 ### Dependencies
 
@@ -48,7 +48,7 @@ We have the following dependencies:
 
 ![](https://user-images.githubusercontent.com/70426/102411603-7a371d80-3ff2-11eb-8210-6203a74a635d.png)
 
-So we see that vpe.unity.hdrp pulls in three other dependencies. These have to be added manually at the moment. So when
+So we see that vpe.hdrp pulls in three other dependencies. These have to be added manually at the moment. So when
 working with HDRP, you would have the following packages under *Custom* in the package manager:
 
 - Visual Pinball Engine
