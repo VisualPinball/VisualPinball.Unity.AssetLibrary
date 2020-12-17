@@ -1,9 +1,0 @@
-{
-	"name": "VisualPinball.Unity.AssetLibrary.Hdrp",
-	"references": [
-		"VisualPinball.Unity.AssetLibrary"
-	],
-	"includePlatforms": [],
-	"excludePlatforms": [],
-	"allowUnsafeCode": true
-}
