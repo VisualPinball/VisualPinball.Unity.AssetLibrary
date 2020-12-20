@@ -7,6 +7,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          lfs: true
       - name: Fetch next version
         id: nextVersion
         uses: freezy/VisualPinball.NextVersionAction@v0.1.4

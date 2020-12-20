@@ -5,7 +5,7 @@
   "description": "Common assets for all render pipelines.",
   "keywords": ["Assets", "Unity"],
   "unity": "2020.2",
-  "unityRelease": "0b12",
+  "unityRelease": "0f1",
   "dependencies": {
   },
   "author": "freezy <freezy@vpdb.io>",
