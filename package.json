@@ -1,13 +1,15 @@
 {
   "name": "org.visualpinball.unity.assetlibrary",
-  "version": "0.0.1-preview.0",
+  "version": "0.0.1-preview.5",
   "displayName": "Visual Pinball Engine (Common Assets)",
   "description": "Common assets for all render pipelines.",
-  "keywords": ["Assets", "Unity"],
+  "keywords": [
+    "Assets",
+    "Unity"
+  ],
   "unity": "2020.2",
   "unityRelease": "0f1",
-  "dependencies": {
-  },
+  "dependencies": {},
   "author": "freezy <freezy@vpdb.io>",
   "contributors": [
     "ravarcade <ravarcade@gmail.com>",
