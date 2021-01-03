@@ -44,15 +44,5 @@ namespace VisualPinball.Unity.AssetLibrary
 		/// EditorGUI icons folder path.
 		/// </summary>
 		public const string IconPath = AssetRootPath + "EditorResources/Icons/EditorGUI";
-
-		/// <summary>
-		/// Path to the shared editor settings
-		/// </summary>
-		public const string SettingsPath = RootPath + "EditorResources/Settings";
-
-		/// <summary>
-		/// Window Layouts directory
-		/// </summary>
-		public const string LayoutPath = SettingsPath + "WindowLayouts";
 	}
 }
