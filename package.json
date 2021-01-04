@@ -22,6 +22,9 @@
     "Eli Curtz <eli@nuprometheus.com>",
     "Pandeli"
   ],
+  "documentationUrl": "https://docs.visualpinball.org/",
+  "changelogUrl": "https://docs.visualpinball.org/CHANGELOG.html",
+  "licensesUrl": "https://github.com/VisualPinball/VisualPinball.Unity.AssetLibrary.Hdrp/blob/master/LICENSE.md",
   "repository": {
     "url": "https://github.com/VisualPinball/VisualPinball.Unity.AssetLibrary.git",
     "type": "git"
