@@ -24,7 +24,7 @@
   ],
   "documentationUrl": "https://docs.visualpinball.org/",
   "changelogUrl": "https://docs.visualpinball.org/CHANGELOG.html",
-  "licensesUrl": "https://github.com/VisualPinball/VisualPinball.Unity.AssetLibrary.Hdrp/blob/master/LICENSE.md",
+  "licensesUrl": "https://github.com/VisualPinball/VisualPinball.Unity.AssetLibrary/blob/master/LICENSE.md",
   "repository": {
     "url": "https://github.com/VisualPinball/VisualPinball.Unity.AssetLibrary.git",
     "type": "git"
