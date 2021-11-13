@@ -1,6 +1,6 @@
 {
   "name": "org.visualpinball.unity.assetlibrary",
-  "version": "0.0.1-preview.21",
+  "version": "0.0.1-preview.22",
   "displayName": "Visual Pinball Engine (Common Assets)",
   "description": "Common assets for all render pipelines.",
   "keywords": [
