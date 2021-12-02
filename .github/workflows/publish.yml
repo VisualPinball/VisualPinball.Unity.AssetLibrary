@@ -64,6 +64,7 @@ jobs:
           echo $REGISTRY_SSH_KEY > ~/.ssh/id_rsa
           echo $REGISTRY_SSH_PUBKEY > ~/.ssh/id_rsa.pub
           chmod 600 ~/.ssh/id_rsa
+          dos2unix ~/.ssh/id_rsa
           echo Getting package.json to patch...
           scp -v -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH/package.json package-registry.json
           cat package-registry.json
