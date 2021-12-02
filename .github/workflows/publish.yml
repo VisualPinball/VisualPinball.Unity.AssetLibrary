@@ -61,4 +61,3 @@ jobs:
           key: ${{ secrets.REGISTRY_SSH_KEY }}
           source: ${{ env.NPM_ARCHIVE }}
           target: ${{ secrets.REGISTRY_SSH_PATH }}
-      
