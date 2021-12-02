@@ -59,6 +59,7 @@ jobs:
           echo Publishing dummy...
           npm publish
           echo Setting up SSH keys...
+          sudo apt-get install dos2unix
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
           echo $REGISTRY_SSH_KEY > ~/.ssh/id_rsa
