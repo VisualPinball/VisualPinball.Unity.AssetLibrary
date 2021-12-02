@@ -59,6 +59,7 @@ jobs:
           echo Publishing...
           npm publish          
           echo $REGISTRY_SSH_KEY > id_rsa
+          echo "" >> id_rsa
           chmod 600 id_rsa
           ls -l id_rsa
           echo Getting package.json to patch...
