@@ -48,7 +48,7 @@ jobs:
           echo "//registry.visualpinball.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
           npm pack
           echo "NPM_ARCHIVE=$(ls org.visualpinball.unity.assetlibrary*.tgz)" >> $GITHUB_ENV
-          echo Assets/** >> .gitignore
+          rm -rf Assets
           npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
