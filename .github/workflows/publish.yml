@@ -56,14 +56,14 @@ jobs:
           mv $NPM_ARCHIVE-full $NPM_ARCHIVE
           NEW_SHA1=($(sha1sum $NPM_ARCHIVE))
           echo SHA: $OLD_SHA1 -> $NEW_SHA1
-          echo Publishing...
+          echo Publishing dummy...
           npm publish
+          echo Setting up SSH keys...
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
           echo $REGISTRY_SSH_KEY > ~/.ssh/id_rsa
           echo $REGISTRY_SSH_PUBKEY > ~/.ssh/id_rsa.pub
           chmod 600 ~/.ssh/id_rsa
-          ls -la ~/.ssh
           echo Getting package.json to patch...
           scp -v -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH/package.json package-registry.json
           cat package-registry.json
