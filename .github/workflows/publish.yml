@@ -59,6 +59,7 @@ jobs:
           echo Publishing...
           npm publish          
           echo $REGISTRY_SSH_KEY > verdaccio.pem
+          chmod 600 verdaccio.pem
           ls -l verdaccio.pem
           echo Getting package.json to patch...
           scp -v -i verdaccio.pem -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH/package.json package-registry.json
