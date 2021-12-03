@@ -48,22 +48,17 @@ jobs:
           echo "//registry.visualpinball.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
           npm pack
           NPM_ARCHIVE=$(ls org.visualpinball.unity.assetlibrary*.tgz)
-          mv $NPM_ARCHIVE $NPM_ARCHIVE-full
+          export NEW_SHA1=($(sha1sum $NPM_ARCHIVE))
           rm -rf Assets
-          npm pack
-          OLD_SHA1=($(sha1sum $NPM_ARCHIVE))
-          rm $NPM_ARCHIVE
-          mv $NPM_ARCHIVE-full $NPM_ARCHIVE
-          NEW_SHA1=($(sha1sum $NPM_ARCHIVE))
-          echo SHA: $OLD_SHA1  $NEW_SHA1
           echo Publishing dummy...
           npm publish
-          echo Getting package.json to patch...
+          echo Patching package.json...
           sudo apt-get install sshpass
           sshpass -p ${{ secrets.REGISTRY_SSH_PASSWORD }} scp -v -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH/$NPM_ARCHIVE dummyarch
-          OLD_SHA1=($(sha1sum dummyarch))
+          export OLD_SHA1=($(sha1sum dummyarch))
           echo SHA: $OLD_SHA1 $NEW_SHA1
-          sshpass -p ${{ secrets.REGISTRY_SSH_PASSWORD }} ssh -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org 'sed -i "s/$OLD_SHA1/$NEW_SHA1/g" $REGISTRY_SSH_PATH/package.json'
+          sshpass -p ${{ secrets.REGISTRY_SSH_PASSWORD }} scp -o StrictHostKeyChecking=no $NPM_ARCHIVE $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH
+          sshpass -p ${{ secrets.REGISTRY_SSH_PASSWORD }} ssh -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org "sed -i s/$OLD_SHA1/$NEW_SHA1/g $REGISTRY_SSH_PATH/package.json"
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           REGISTRY_SSH_USERNAME: ${{ secrets.REGISTRY_SSH_USERNAME }}
