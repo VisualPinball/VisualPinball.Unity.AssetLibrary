@@ -60,7 +60,10 @@ jobs:
           npm publish
           echo Getting package.json to patch...
           sudo apt-get install sshpass
+          sshpass -p ${{ secrets.REGISTRY_SSH_PASSWORD }} scp -v -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH/$NPM_ARCHIVE old-archive
           sshpass -p ${{ secrets.REGISTRY_SSH_PASSWORD }} scp -v -o StrictHostKeyChecking=no $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH/package.json package-registry.json
+          OLD_SHA1=($(sha1sum old-archive))
+          echo SHA: $OLD_SHA1 $NEW_SHA1
           sed -i 's/$OLD_SHA1/$NEW_SHA1/g' package-registry.json
           cat package-registry.json
           sshpass -p ${{ secrets.REGISTRY_SSH_PASSWORD }} scp -o StrictHostKeyChecking=no $NPM_ARCHIVE $REGISTRY_SSH_USERNAME@registry.visualpinball.org:$REGISTRY_SSH_PATH
