@@ -14,30 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: d718bcd7-3efc-4b62-b193-8f1f701ec667
   LibraryRoot: Packages\org.visualpinball.unity.assetlibrary\Assets\Library
-  IsLocked: 0
+  IsLocked: 1
   _db:
     Assets:
       m_keys:
       - 22f532b774d025a4cbbba5c3667b0d83
+      - f3755a995dedae84690f5f9a2fe27e50
       m_values:
       - Object: {fileID: 7702016325547957866, guid: 22f532b774d025a4cbbba5c3667b0d83, type: 3}
         _addedAt: 2022-05-24T00:34:43.7028795+02:00
-        Description: 'Metal apron for Gottlieb''s System-1 machines.
+        Description: 'Metal apron for Gottlieb machines.
 
 
-          Print
-          is from Volley, but can be replaced, Substance painter file is included.'
+          Print is from
+          Volley, but can be replaced, Substance painter file is included.
+
+
+          The
+          middle notch is baked into the normal map.
+
+
+          Model by BorgDog,
+          textures by freezy.
+
+
+'
         _categoryId: bbb765a5-6f24-41d9-8da9-793646218b40
         Attributes:
         - Key: Manufacturer
           Value: Gottlieb
+        - Key: Author
+          Value: BorgDog, freezy
         Links: []
         Tags:
-          m_keys:
-          - System-1
+          m_keys: []
+      - Object: {fileID: 2327764142222264507, guid: f3755a995dedae84690f5f9a2fe27e50, type: 3}
+        _addedAt: 2022-05-24T22:04:16.9416542+02:00
+        Description: 'Plunger apron for Gottlieb machines.
+
+
+          Print is from
+          Volley, but can be replaced, Substance painter file is included.
+
+
+          This
+          prefab includes the top collider.
+
+
+          Model by BorgDog, textures
+          by freezy.
+
+'
+        _categoryId: e0739eb3-6944-4bc3-9715-fc20889b5ecd
+        Attributes:
+        - Key: Manufacturer
+          Value: Gottlieb
+        - Key: Author
+          Value: BorgDog,freezy
+        Links: []
+        Tags:
+          m_keys: []
     Categories:
       m_keys:
       - bbb765a5-6f24-41d9-8da9-793646218b40
+      - e0739eb3-6944-4bc3-9715-fc20889b5ecd
       m_values:
       - Id: bbb765a5-6f24-41d9-8da9-793646218b40
         Name: Apron
+      - Id: e0739eb3-6944-4bc3-9715-fc20889b5ecd
+        Name: Plunger
