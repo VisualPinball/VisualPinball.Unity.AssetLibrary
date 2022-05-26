@@ -86,6 +86,8 @@ MonoBehaviour:
           Value: C-13150, A-13150
         - Key: Size
           Value: 3 Inch
+        - Key: Author
+          Value: Bord
         Links:
         - Key: Marco Specialities
           Value: https://www.marcospecialties.com/pinball-parts/C-13150
@@ -101,6 +103,8 @@ MonoBehaviour:
           Value: C-13150, A-13150
         - Key: Size
           Value: 3 Inch
+        - Key: Author
+          Value: Bord
         Links:
         - Key: Marco Specialities
           Value: https://www.marcospecialties.com/pinball-parts/C-13150
