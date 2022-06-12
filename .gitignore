@@ -59,3 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 org.visualpinball.unity.assetlibrary*.tgz
+*_autosave*.spp
+*_autosave*.spp.meta
+*.blend1
