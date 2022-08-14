@@ -7,18 +7,18 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Post - Red Plastic
+  m_Name: Post - Red Plastic_old
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
+  - _MAPPING_TRIPLANAR
   - _MASKMAP
   - _MATERIAL_FEATURE_TRANSMISSION
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
   - _REFRACTION_SPHERE
   - _SURFACE_TYPE_TRANSPARENT
-  - _THICKNESSMAP
   - _TRANSPARENT_WRITES_MOTION_VEC
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -31,6 +31,7 @@ Material:
   - DistortionVectors
   - MOTIONVECTORS
   - RayTracingPrepass
+  - TransparentDepthPrepass
   - ForwardEmissiveForDeferred
   m_SavedProperties:
     serializedVersion: 3
@@ -84,11 +85,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: 46dcb325effc7a845a7357f631efaacf, type: 3}
+        m_Texture: {fileID: 2800000, guid: a0fe967e48020ed45ab897835d2fd21c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: ac71bafd75c36a84493a066057b48e1c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 72063170e4014424993ec0af98652899, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
@@ -112,7 +113,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
-        m_Texture: {fileID: 2800000, guid: 780271855a05e10479c059476faed8a7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TransmittanceColorMap:
@@ -198,7 +199,7 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _InvTilingScale: 1
+    - _InvTilingScale: 0.17211704
     - _Ior: 1.005
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
@@ -246,11 +247,11 @@ Material:
     - _TransparentBackfaceEnable: 1
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 1
-    - _TransparentDepthPrepassEnable: 1
+    - _TransparentDepthPrepassEnable: 0
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 1
     - _TransparentZWrite: 0
-    - _UVBase: 0
+    - _UVBase: 5
     - _UVDetail: 0
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
@@ -272,10 +273,10 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ThicknessRemap: {r: 0.40302652, g: 1, b: 0, a: 0}
+    - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 0.7372549, g: 0, b: 0, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
-    - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
+    - _UVMappingMask: {r: 0, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5688198111047547604
