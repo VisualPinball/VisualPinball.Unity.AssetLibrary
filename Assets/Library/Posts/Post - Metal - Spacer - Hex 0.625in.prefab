@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8694418805293578012}
   - component: {fileID: 1072258149224943888}
   m_Layer: 0
-  m_Name: Post - Metal - Spacer - Hex 0
+  m_Name: Post - Metal - Spacer - Hex 0.625in
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
