@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3936637370792126942}
   - component: {fileID: 7651188876247238514}
   m_Layer: 0
-  m_Name: Post - Plastic - Faceted - 1
+  m_Name: Post - Plastic - Faceted - 1.1875in
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,14 +25,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8739998644613467805}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.2549, y: 0, z: 0.1958}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &3936637370792126942
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8739998644613467805}
-  m_Mesh: {fileID: 8286029847830298619, guid: e07230dcdd31a654ea80ad2128dfb23b, type: 3}
+  m_Mesh: {fileID: -8963785911728537676, guid: e07230dcdd31a654ea80ad2128dfb23b, type: 3}
 --- !u!23 &7651188876247238514
 MeshRenderer:
   m_ObjectHideFlags: 0
