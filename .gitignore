@@ -62,3 +62,5 @@ org.visualpinball.unity.assetlibrary*.tgz
 *_autosave*.spp
 *_autosave*.spp.meta
 *.blend1
+*.assbin
+*.painter_lock
