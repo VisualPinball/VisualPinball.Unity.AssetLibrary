@@ -74,7 +74,7 @@ The library assets can be found at [Assets/Library](Assets/Library). We'll go th
 - **Asset Folder**: [`Posts/Plastic Spacers`](Assets/Library/Posts/Plastic%20Spacers)
 - **Export**: Select items in the *Plastic Spacers* category. The only difference between hi-poly and low-poly are the modifiers.
 - **Material**: We don't use an albedo texture for the plastic, because it should be easily customizable. The other maps aren't very important, but *edgeglowplastic* seems to work well.
-- **Notes**: There are two materials, *Plastic - Peg Red* and *Metal - Peg*, which need to be renamed to *Plastic* and *Metal* respectively. Only the plastic needs any exported textures, the metal is generic. The plastic however needs a **thickness map** as well.
+- **Notes**: There are two materials, *Plastic - Gray Glossy* and *Metal - Peg*, which need to be renamed to *Plastic* and *Metal* respectively. Only the plastic needs any exported textures, the metal is generic.
 
 
 #### Metal Posts
@@ -101,7 +101,7 @@ The library assets can be found at [Assets/Library](Assets/Library). We'll go th
 
 - **Source**: [`Posts/src~/Metal Posts.blend`](Assets/Library/Posts/src%7E/Metal%20Posts.blend)
 - **Reference**: [`/Posts/Metal Posts.blend`](https://github.com/vbousquet/pinball-parts/blob/main/Posts/Metal%20Posts.blend)
-- **Asset Folder**: [`Posts/Metal Round Spacers`](Assets/Library/Posts/Metal%20Hex%20Spacers)
+- **Asset Folder**: [`Posts/Metal Round Spacers`](Assets/Library/Posts/Metal%20Round%20Spacers)
 - **Export**: Select items in the *Round Spacers* category. Toggling modifiers is enough.
 - **Material**: We currently use *Steel Stained* with *Luminosity* of *Steel Base* set to `0.55`.
 - **Notes**: Only one material - straight forward.
