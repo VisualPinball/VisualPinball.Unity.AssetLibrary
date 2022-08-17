@@ -29,7 +29,7 @@ Most of the materials have been created in Substance Painter, which we also use 
 
 How to add or update items can vary depending on the asset, and will be specified in the next section. The principles are always the same:
 
-- One Blender file may result in multiple exports. For example, `Plastic Posts.blend` exports to *Plastic Posts* and *Plastic Spacers*. The different exports are grouped by categories in the Blender file and have the same name as the exported FBX file.
+- One Blender file may result in multiple exports. For example, `Plastic Posts.blend` exports to *Plastic Posts* and *Plastic Spacers*. The different exports are grouped by categories in the Blender file.
 - Items of an FBX file all share the same material. There may be several materials because there are meshes with multiple material slots, but one material type is applied to all the items in the FBX with that material type.
 - If a Blender file has complex geometry that is baked down that cannot be implemented purely with modifiers, there will be additional categories with low-poly and hi-poly meshes. These need to be toggled when exporting.
 
@@ -53,13 +53,58 @@ With that out of the way, here is a typical workflow for adding or updating item
 
 The library assets can be found at [Assets/Library](Assets/Library). We'll go through each of the curated assets with a short description about how to deal with them.
 
-### Plastic Posts
+### Posts
+
+- `Plastic Posts.blend` contains both *Plastic Posts* and *Plastic Spacers*.
+- `Metal Posts.blend` contains *Metal Posts*, *Metal Hex Spacers* and *Metal Round Spacers*.
+
+#### Plastic Posts
 
 - **Source**: [`Posts/src~/Plastic Posts.blend`](Assets/Library/Posts/src%7E/Plastic%20Posts.blend)
-- **Reference**: [`/Posts/Plastic%20Posts.blend`](https://github.com/vbousquet/pinball-parts/blob/main/Posts/Plastic%20Posts.blend)
-- **FBX**: [`Posts/Plastic Posts/Plastic Posts.fbx`](Assets/Library/Posts/Plastic%20Posts/Plastic%20Posts.fbx)
+- **Reference**: [`/Posts/Plastic Posts.blend`](https://github.com/vbousquet/pinball-parts/blob/main/Posts/Plastic%20Posts.blend)
+- **Asset Folder**: [`Posts/Plastic Posts`](Assets/Library/Posts/Plastic%20Posts)
 - **Export**: Select items in the *Plastic Posts* category. The only difference between hi-poly and low-poly are the modifiers.
+- **Material**: We don't use an albedo texture for the plastic, because it should be easily customizable. The other maps aren't very important, but *edgeglowplastic* seems to work well.
 - **Notes**: There are two materials, *Plastic - Peg Red* and *Metal - Peg*, which need to be renamed to *Plastic* and *Metal* respectively. Only the plastic needs any exported textures, the metal is generic. The plastic however needs a **thickness map** as well.
+
+#### Plastic Spacers
+
+- **Source**: [`Posts/src~/Plastic Posts.blend`](Assets/Library/Posts/src%7E/Plastic%20Posts.blend)
+- **Reference**: [`/Posts/Plastic Posts.blend`](https://github.com/vbousquet/pinball-parts/blob/main/Posts/Plastic%20Posts.blend)
+- **Asset Folder**: [`Posts/Plastic Spacers`](Assets/Library/Posts/Plastic%20Spacers)
+- **Export**: Select items in the *Plastic Spacers* category. The only difference between hi-poly and low-poly are the modifiers.
+- **Material**: We don't use an albedo texture for the plastic, because it should be easily customizable. The other maps aren't very important, but *edgeglowplastic* seems to work well.
+- **Notes**: There are two materials, *Plastic - Peg Red* and *Metal - Peg*, which need to be renamed to *Plastic* and *Metal* respectively. Only the plastic needs any exported textures, the metal is generic. The plastic however needs a **thickness map** as well.
+
+
+#### Metal Posts
+
+- **Source**: [`Posts/src~/Metal Posts.blend`](Assets/Library/Posts/src%7E/Metal%20Posts.blend)
+- **Reference**: [`/Posts/Metal Posts.blend`](https://github.com/vbousquet/pinball-parts/blob/main/Posts/Metal%20Posts.blend)
+- **Asset Folder**: [`Posts/Metal Posts`](Assets/Library/Posts/Metal%20Posts)
+- **Export**: Select items in the *Metal Posts* category. Apart from the modifiers, we have a low-poly and hi-poly category that need to be toggled when exporting.
+- **Material**: We currently use *Steel Stained* with *Luminosity* of *Steel Base* set to `0.55`.
+- **Notes**: There are two materials, *Plastic - Sleeve Yellow* and *Metal - Peg*, which need to be renamed to *Plastic* and *Metal* respectively. Both materials are exported to textures.
+
+
+#### Metal Hex Spacers
+
+- **Source**: [`Posts/src~/Metal Posts.blend`](Assets/Library/Posts/src%7E/Metal%20Posts.blend)
+- **Reference**: [`/Posts/Metal Posts.blend`](https://github.com/vbousquet/pinball-parts/blob/main/Posts/Metal%20Posts.blend)
+- **Asset Folder**: [`Posts/Metal Hex Spacers`](Assets/Library/Posts/Metal%20Hex%20Spacers)
+- **Export**: Select items in the *Hex Spacers* category. Toggling modifiers is enough.
+- **Material**: We currently use *Steel Stained* with *Luminosity* of *Steel Base* set to `0.55`.
+- **Notes**: Only one material - straight forward.
+
+
+#### Metal Round Spacers
+
+- **Source**: [`Posts/src~/Metal Posts.blend`](Assets/Library/Posts/src%7E/Metal%20Posts.blend)
+- **Reference**: [`/Posts/Metal Posts.blend`](https://github.com/vbousquet/pinball-parts/blob/main/Posts/Metal%20Posts.blend)
+- **Asset Folder**: [`Posts/Metal Round Spacers`](Assets/Library/Posts/Metal%20Hex%20Spacers)
+- **Export**: Select items in the *Round Spacers* category. Toggling modifiers is enough.
+- **Material**: We currently use *Steel Stained* with *Luminosity* of *Steel Base* set to `0.55`.
+- **Notes**: Only one material - straight forward.
 
 ## Dependency Graph
 
@@ -67,6 +112,10 @@ Both the HDRP and URP packages have a dependency to this, however the main proje
 
 ![image](https://user-images.githubusercontent.com/70426/103706934-feefd880-4fad-11eb-95c3-820ec6738076.png)
 
+
+## Credits
+
+Most of the assets in this library are derivations of [pinball-parts](https://github.com/vbousquet/pinball-parts). We use the low-poly geometry of these assets, and bake them into normal maps.
 
 ## License
 
