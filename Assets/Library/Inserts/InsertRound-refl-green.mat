@@ -23,7 +23,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Insert - Round - 1.5in - Reflector
+  m_Name: InsertRound-refl-green
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ValidKeywords:
   - _DISABLE_DECALS
@@ -255,9 +255,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.4509804, g: 0.4425797, b: 0, a: 0.54509807}
+    - _BaseColor: {r: 0.4509804, g: 0.39253572, b: 0, a: 0.54509807}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.45098037, g: 0.44257966, b: 0, a: 0.54509807}
+    - _Color: {r: 0.45098037, g: 0.3925357, b: 0, a: 0.54509807}
     - _DiffusionProfileAsset: {r: 6.692493e+26, g: -8.878948e+31, b: -3.2961314e-28, a: -1.5023907e-26}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
