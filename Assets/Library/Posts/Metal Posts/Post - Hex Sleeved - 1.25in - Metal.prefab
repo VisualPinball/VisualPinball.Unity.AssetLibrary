@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8810113193786197181}
   - component: {fileID: 993160796408680610}
   m_Layer: 0
-  m_Name: Post - Hex Sleeved - 1
+  m_Name: Post - Hex Sleeved - 1.25in - Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 53b530704bc94e34bbd6d0422907f024, type: 2}
-  - {fileID: 2100000, guid: c57953c4a73e17145990021f9e254efa, type: 2}
+  - {fileID: 2100000, guid: e3298969e4462fa46beaf303eb7749ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
