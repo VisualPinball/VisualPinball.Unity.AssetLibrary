@@ -29,10 +29,11 @@ Material:
   - _DISABLE_DECALS
   - _ENABLE_GEOMETRIC_SPECULAR_AA
   - _MASKMAP
+  - _MATERIAL_FEATURE_CLEAR_COAT
   - _MATERIAL_FEATURE_TRANSMISSION
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
-  - _REFRACTION_PLANE
+  - _REFRACTION_SPHERE
   - _SURFACE_TYPE_TRANSPARENT
   - _THICKNESSMAP
   m_InvalidKeywords: []
@@ -160,7 +161,7 @@ Material:
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
     - _BlendMode: 0
-    - _CoatMask: 0
+    - _CoatMask: 0.178
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
@@ -179,7 +180,7 @@ Material:
     - _DstBlend: 10
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
-    - _EmissiveIntensity: 1
+    - _EmissiveIntensity: 0.083442405
     - _EmissiveIntensityUnit: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 0
@@ -195,7 +196,7 @@ Material:
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
     - _InvTilingScale: 1
-    - _Ior: 1.485
+    - _Ior: 1.011
     - _IridescenceMask: 1
     - _IridescenceThickness: 0.255
     - _LinkDetailsWithBase: 1
@@ -204,7 +205,7 @@ Material:
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _NormalMapSpace: 0
-    - _NormalScale: 0.25
+    - _NormalScale: 1.91
     - _OpaqueCullMode: 2
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
@@ -214,10 +215,10 @@ Material:
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 1
-    - _RefractionModel: 1
+    - _RefractionModel: 2
     - _Smoothness: 0.862
-    - _SmoothnessRemapMax: 0.64106613
-    - _SmoothnessRemapMin: 0.5460935
+    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMin: 0.27006823
     - _SpecularAAScreenSpaceVariance: 0.12
     - _SpecularAAThreshold: 0.114
     - _SpecularOcclusionMode: 1
@@ -254,19 +255,19 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.93333334, g: 0.71119297, b: 0.15294114, a: 0.11372549}
+    - _BaseColor: {r: 0.4509804, g: 0.4425797, b: 0, a: 0.54509807}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.93333334, g: 0.71119297, b: 0.15294111, a: 0.11372549}
+    - _Color: {r: 0.45098037, g: 0.44257966, b: 0, a: 0.54509807}
     - _DiffusionProfileAsset: {r: 6.692493e+26, g: -8.878948e+31, b: -3.2961314e-28, a: -1.5023907e-26}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColorLDR: {r: 0.88031507, g: 0.56062776, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ThicknessRemap: {r: 0, g: 0.08501704, b: 0, a: 0}
-    - _TransmittanceColor: {r: 0.83137256, g: 0.6257163, b: 0, a: 1}
+    - _ThicknessRemap: {r: 0.7531546, g: 0.8381717, b: 0, a: 0}
+    - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
