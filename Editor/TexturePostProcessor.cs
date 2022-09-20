@@ -17,6 +17,7 @@
 using System.IO;
 using UnityEditor;
 using UnityEditor.Presets;
+using UnityEngine;
 
 namespace VisualPinball.Unity.AssetLibrary.Editor
 {
@@ -40,14 +41,22 @@ namespace VisualPinball.Unity.AssetLibrary.Editor
 				if (_maskMapPreset == null) {
 					_maskMapPreset = AssetDatabase.LoadAssetAtPath<Preset>($"{presetPath}/MaskMap.preset");
 				}
-				_maskMapPreset.ApplyTo(assetImporter);
+				if (_maskMapPreset) {
+					_maskMapPreset.ApplyTo(assetImporter);
+				} else {
+					Debug.LogWarning($"Unable to load mask map preset for {assetPath}.");
+				}
 			}
 
 			if (Path.GetFileNameWithoutExtension(assetPath).EndsWith("Normal")) {
 				if (_normalMapPreset == null) {
 					_normalMapPreset = AssetDatabase.LoadAssetAtPath<Preset>($"{presetPath}/NormalMap.preset");
 				}
-				_normalMapPreset.ApplyTo(assetImporter);
+				if (_normalMapPreset) {
+					_normalMapPreset.ApplyTo(assetImporter);
+				} else {
+					Debug.LogWarning($"Unable to load normal map preset for {assetPath}.");
+				}
 			}
 		}
 	}
