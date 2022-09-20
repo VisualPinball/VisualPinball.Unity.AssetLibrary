@@ -77,4 +77,4 @@ Build~/**
 *.blend1
 ProjectSettings/RiderScriptEditorPersistedState.asset
 *.assbin
-
+*.spp

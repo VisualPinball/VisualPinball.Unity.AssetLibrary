@@ -21,7 +21,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.HighDefinition;
 
-namespace VisualPinball.Unity
+namespace VisualPinball.Unity.AssetLibrary
 {
 	[ExecuteAlways]
 	public class CameraShadowAdjustment : MonoBehaviour
