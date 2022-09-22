@@ -18,6 +18,7 @@ using System;
 using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
+using VisualPinball.Unity.Editor;
 using Object = UnityEngine.Object;
 
 namespace VisualPinball.Unity.Library
@@ -55,7 +56,8 @@ namespace VisualPinball.Unity.Library
 		private void Screenshot()
 		{
 			if (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(Prefab, out var guid, out long _)) {
-				var path = @$"C:\temp\thumbs\{guid}.png";
+
+				var path = @$"{AssetBrowser.ThumbPath}/{guid}.png";
 				ScreenCapture.CaptureScreenshot(path);
 				Debug.Log($"Screenshot for \"{Prefab.name}\" saved at {path}");
 
