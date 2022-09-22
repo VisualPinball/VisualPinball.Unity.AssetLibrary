@@ -20,6 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
+using UnityEditor.Presets;
 using UnityEngine;
 using VisualPinball.Unity.Editor;
 
@@ -33,10 +34,23 @@ namespace VisualPinball.Unity.Library
 		private List<AssetResult> _assets;
 		private GameObject _currentGo;
 		private ThumbGeneratorComponent _currentTbc;
+		private Camera _camera;
+		private Preset _defaultThumbCameraPreset;
+
+		private PlayfieldComponent _pf;
+		private Vector3 _tableCenter;
 
 		public void StartProcessing()
 		{
+			_camera = Camera.main;
+			const string presetPath = "Packages/org.visualpinball.engine.unity/VisualPinball.Unity/Assets/Presets";
+			_defaultThumbCameraPreset = (Preset)AssetDatabase.LoadAssetAtPath($"{presetPath}/Asset Thumbcam - Default.preset", typeof(Preset));
+
+			_pf = GetComponentInChildren<PlayfieldComponent>();
+			_tableCenter = new Vector3(_pf.Width / 2f, _pf.Height / 2f,0);
+
 			var category = AssetLibrary.GetCategories().FirstOrDefault(c => c.Name.Contains("Posts"));
+			//var category = AssetLibrary.GetCategories().FirstOrDefault(c => c.Name.Contains("Flipper"));
 			if (category != null) {
 				Debug.Log($"Category: {category}");
 				var query = new LibraryQuery {
@@ -46,6 +60,7 @@ namespace VisualPinball.Unity.Library
 
 				if (assets.Length == 0) {
 					Debug.LogWarning("No assets found.");
+					return;
 				}
 
 				_assets = new List<AssetResult>(assets);
@@ -58,12 +73,24 @@ namespace VisualPinball.Unity.Library
 
 		private void Process(LibraryAsset asset)
 		{
-			var pf = GetComponentInChildren<PlayfieldComponent>();
-			var parent = pf.gameObject;
 
-			_currentGo = PrefabUtility.InstantiatePrefab(asset.Object, parent.transform) as GameObject;
+			if (asset.ThumbCameraPreset != null) {
+				asset.ThumbCameraPreset.ApplyTo(_camera.transform);
+			} else {
+				_defaultThumbCameraPreset.ApplyTo(_camera.transform);
+			}
+
+			if (asset.Scale == AssetScale.Table) {
+				var parent = _pf.gameObject;
+				_currentGo = PrefabUtility.InstantiatePrefab(asset.Object, parent.transform) as GameObject;
+				_currentGo!.transform.localPosition = _tableCenter;
+
+			} else {
+				_currentGo = PrefabUtility.InstantiatePrefab(asset.Object) as GameObject;
+			}
+
+			Debug.Log($"Processing {_currentGo!.name}");
 			_currentTbc = _currentGo!.AddComponent<ThumbGeneratorComponent>();
-			_currentGo!.transform.localPosition = new Vector3(pf.Width / 2f, pf.Height / 2f,0);
 			_currentTbc!.Prefab = asset.Object;
 			_currentTbc!.OnScreenshot += DoneProcessing;
 		}
@@ -77,6 +104,7 @@ namespace VisualPinball.Unity.Library
 			if (next != null) {
 				Process(next.Asset);
 			} else {
+				_defaultThumbCameraPreset.ApplyTo(_camera.transform);
 				Debug.Log("All done!");
 			}
 		}

@@ -28,19 +28,24 @@ namespace VisualPinball.Unity.Library
 		[NonSerialized]
 		public Object Prefab;
 
-		private int _remainingFrames = 1;
+		private const int NumPreFrames = 32;
+		private const int NumPostFrames = 2;
+		private int _frame;
 
 		public event EventHandler OnScreenshot;
 
 		private void Start()
 		{
-			Screenshot();
+			_frame = NumPreFrames + NumPostFrames;
 			InternalEditorUtility.RepaintAllViews();
 		}
 
 		private void OnRenderObject()
 		{
-			if (_remainingFrames-- > 0) {
+			if (_frame == NumPreFrames) {
+				Screenshot();
+			}
+			if (_frame-- > 0) {
 				InternalEditorUtility.RepaintAllViews();
 				return;
 			}
