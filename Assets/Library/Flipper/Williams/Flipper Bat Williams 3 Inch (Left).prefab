@@ -154,11 +154,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4440381279647306322, guid: ff1ba79e682ea784ca6fe006fb174291, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 238.28731
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4440381279647306322, guid: ff1ba79e682ea784ca6fe006fb174291, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1755.1294
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4440381279647306322, guid: ff1ba79e682ea784ca6fe006fb174291, type: 3}
       propertyPath: m_LocalPosition.z
@@ -230,7 +230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8904124417643437867, guid: ff1ba79e682ea784ca6fe006fb174291, type: 3}
       propertyPath: m_Name
-      value: LeftFlipper
+      value: Flipper Bat Williams 3 Inch (Left)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff1ba79e682ea784ca6fe006fb174291, type: 3}
