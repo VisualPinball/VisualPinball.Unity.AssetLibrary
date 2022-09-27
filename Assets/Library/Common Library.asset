@@ -118,6 +118,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2327764142222264507, guid: f3755a995dedae84690f5f9a2fe27e50, type: 3}
         _addedAt: 2022-05-24T22:04:16.9416542+02:00
         Description: 'Plunger apron for Gottlieb machines.
@@ -146,6 +147,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 5178778220497712839, guid: 24667fa133077da4bb2c590413314e32, type: 3}
         _addedAt: 2022-05-25T00:16:57.7141263+02:00
         Description: Includes all the necessary components. Configured for the left
@@ -163,8 +165,12 @@ MonoBehaviour:
         Links:
         - Key: Marco Specialities
           Value: https://www.marcospecialties.com/pinball-parts/C-13150
+        - Key: New Link
+          Value: https://
         Tags:
-          m_keys: []
+          m_keys:
+          - Gottlieb
+        MaterialVariations: []
       - Object: {fileID: 1423176538143981114, guid: 4b6035333f0c85945ace5d8bc280e02e, type: 3}
         _addedAt: 2022-05-29T00:25:05.9494840+02:00
         Description: Includes all the necessary components.
@@ -182,7 +188,9 @@ MonoBehaviour:
         - Key: Marco Specialities
           Value: https://www.marcospecialties.com/pinball-parts/515-5133-06-06
         Tags:
-          m_keys: []
+          m_keys:
+          - Flipper
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: a787d673086f70f40a75d7618dc9596c, type: 3}
         _addedAt: 2022-05-29T12:24:56.5198862+02:00
         Description: 
@@ -195,6 +203,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 4cda94c4c5aba224099faebf411ee590, type: 3}
         _addedAt: 2022-05-29T12:24:56.8249132+02:00
         Description: 
@@ -207,6 +216,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: babdeccc15996ff4e9b3475c799bb86e, type: 3}
         _addedAt: 2022-05-29T12:24:56.9861760+02:00
         Description: 
@@ -219,6 +229,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 1c414d7f7a846a14d8777ae123acedd0, type: 3}
         _addedAt: 2022-05-29T12:24:57.1433139+02:00
         Description: 
@@ -231,6 +242,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: e9437c9720315fb46b6f469c6a8dbf5c, type: 3}
         _addedAt: 2022-05-29T12:24:57.2988323+02:00
         Description: 
@@ -243,6 +255,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3652863682208279386, guid: f12347acd70aa6d4f973b9fde04673d4, type: 3}
         _addedAt: 2022-05-29T12:24:57.4503686+02:00
         Description: 
@@ -255,6 +268,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2619405475073460773, guid: 371319493293b864e8e13e170d4fcc65, type: 3}
         _addedAt: 2022-05-29T12:24:57.6144599+02:00
         Description: 
@@ -267,6 +281,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3168389461764320640, guid: 05967101be2d6bb4a9c158ab66627c2f, type: 3}
         _addedAt: 2022-05-29T12:24:57.7733958+02:00
         Description: 
@@ -279,6 +294,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: ec5bb17177be8cc40b05b67f3649e17c, type: 3}
         _addedAt: 2022-05-29T12:24:57.9269404+02:00
         Description: 
@@ -291,6 +307,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 5e48707677acc0e4a835ae019c3de625, type: 3}
         _addedAt: 2022-05-29T12:24:58.0827729+02:00
         Description: 
@@ -303,6 +320,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 525760e06c77f6b40a3470645b66af97, type: 3}
         _addedAt: 2022-05-29T12:24:58.2453110+02:00
         Description: 
@@ -315,6 +333,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 71265c3a7ac91df409cc1731aefa96bb, type: 3}
         _addedAt: 2022-05-29T12:24:58.3994094+02:00
         Description: 
@@ -327,6 +346,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: dd4a5ff8949aa3043b85e8d96918d214, type: 3}
         _addedAt: 2022-05-29T12:24:58.5564466+02:00
         Description: 
@@ -339,6 +359,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 015eb88e15b2310468f3d537f77d1423, type: 3}
         _addedAt: 2022-05-29T12:24:58.7159348+02:00
         Description: 
@@ -351,6 +372,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: acf61ae6451ab1747a38d09b71d0310e, type: 3}
         _addedAt: 2022-05-29T12:24:58.8679565+02:00
         Description: 
@@ -363,6 +385,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 1567e1cdca0c0ec48b6a6beff46659ae, type: 3}
         _addedAt: 2022-05-29T12:24:59.0217266+02:00
         Description: 
@@ -375,6 +398,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 7379809962973484137, guid: eacc3b9b1ee01004d9cfc51ce9bbafb1, type: 3}
         _addedAt: 2022-05-29T12:24:59.1877886+02:00
         Description: 
@@ -387,6 +411,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: dfabf84e0ea3cc44fb5c659e13a6a310, type: 3}
         _addedAt: 2022-05-29T12:24:59.3424231+02:00
         Description: 
@@ -399,6 +424,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 008e1232bad65b54ba945f30f6980789, type: 3}
         _addedAt: 2022-05-29T12:24:59.4989659+02:00
         Description: 
@@ -411,6 +437,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: 2dff7fcea975f3441997505b997b1215, type: 3}
         _addedAt: 2022-05-29T12:24:59.6585425+02:00
         Description: 
@@ -423,6 +450,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8995522957136317554, guid: d4249b1a27d991140ad390e6d9c5861a, type: 3}
         _addedAt: 2022-05-29T12:24:59.8153294+02:00
         Description: 
@@ -435,6 +463,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 9165129953807371071, guid: 6eb7400b2ab50974c8ad9cb10df3e1d2, type: 3}
         _addedAt: 2022-05-29T12:24:59.9677121+02:00
         Description: 
@@ -447,6 +476,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 6886810545672663807, guid: 9ee31173dc80a6648bafd0cf43c1860b, type: 3}
         _addedAt: 2022-06-04T23:55:25.9288378+02:00
         Description: '3/4" Nail-On Glide
@@ -465,6 +495,7 @@ MonoBehaviour:
           Value: https://www.acehardware.com/departments/hardware/cabinet-and-furniture-hardware/chair-glides/51723?store=12005&gbraid=0AAAAADtqLJGh5Ug4VpbmAupWgbtpREAo4&gbraid=0AAAAADtqLJGh5Ug4VpbmAupWgbtpREAo4&gclid=Cj0KCQjwheyUBhD-ARIsAHJNM-P9l_3s1tu6YJGWn0wDW5HVURr_OFL6OV49EjtnYpZ5lhMWg1pZRuUaAvjxEALw_wcB&gclsrc=aw.ds
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2810410396279534851, guid: 604ead9a9cea7ff4a9d0ade261c545da, type: 3}
         _addedAt: 2022-06-08T00:33:14.8081317+02:00
         Description: 
@@ -477,6 +508,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 7630494575841591853, guid: 24881a51fca43124883062599a5eb768, type: 3}
         _addedAt: 2022-09-21T00:40:12.1258285+02:00
         Description: 
@@ -487,6 +519,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3040740684242103991, guid: 506ae7ed7f73c9149bbdaf0fad6b8424, type: 3}
         _addedAt: 2022-09-21T00:40:27.2673867+02:00
         Description: 
@@ -497,6 +530,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 4878683001666819339, guid: 6f216f9a67e11d7479fba17f7e415937, type: 3}
         _addedAt: 2022-09-22T23:25:51.1028759+02:00
         Description: 
@@ -507,6 +541,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 9126529742800089139, guid: ee43aeab30f798047861ce25dd73ab66, type: 3}
         _addedAt: 2022-09-22T23:25:53.8927529+02:00
         Description: 
@@ -517,6 +552,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8739998644613467805, guid: 43def0056521bf44ab6121507675c535, type: 3}
         _addedAt: 2022-09-22T23:25:56.2797674+02:00
         Description: 
@@ -527,6 +563,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 1994206309651177157, guid: 8cb4193308d196a45b303a4ab620b8ce, type: 3}
         _addedAt: 2022-09-22T23:25:58.7111350+02:00
         Description: 
@@ -537,6 +574,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 1673217450647454267, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
         _addedAt: 2022-09-22T23:26:02.3695566+02:00
         Description: 
@@ -547,6 +585,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2716828627827821297, guid: 2bcdb760250381f4da80432ca075fc81, type: 3}
         _addedAt: 2022-09-22T23:26:09.4311917+02:00
         Description: 
@@ -557,6 +596,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 433035718996922932, guid: af1846c6745373748ae1086c65d4d089, type: 3}
         _addedAt: 2022-09-22T23:26:11.6710608+02:00
         Description: 
@@ -567,6 +607,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3400563377027867111, guid: 6361cf0e08a034343a9bd1637cc66bce, type: 3}
         _addedAt: 2022-09-22T23:26:15.6828715+02:00
         Description: 
@@ -577,6 +618,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 6042044929055217257, guid: 89dbbdd9e361d5240aa9caf297652e2c, type: 3}
         _addedAt: 2022-09-22T23:26:22.0361396+02:00
         Description: 
@@ -587,6 +629,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8330624143551021313, guid: 82cd22a02b2607843b2b063c320866ee, type: 3}
         _addedAt: 2022-09-22T23:26:25.6450546+02:00
         Description: 
@@ -597,6 +640,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 73452326192962576, guid: a79e6210c243cf04eaa4d2a58dfbafd7, type: 3}
         _addedAt: 2022-09-22T23:31:18.9722450+02:00
         Description: 
@@ -607,6 +651,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 5941633136803709614, guid: 525ca63b38d5f154a938d3f82cb3459a, type: 3}
         _addedAt: 2022-09-22T23:31:21.6943133+02:00
         Description: 
@@ -617,16 +662,18 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3786757237390196493, guid: e2ec78f1bdf797845b69980689f435a9, type: 3}
         _addedAt: 2022-09-22T23:31:24.6167238+02:00
         Description: 
         Scale: 0
-        ThumbCameraPreset: {fileID: 0}
+        ThumbCameraPreset: {fileID: 2655988077585873504, guid: 42ff1390796e56943a02edf674c5cc7e, type: 2}
         _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
         Attributes: []
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 1570157975116853482, guid: 719913d29b261cb4eaff0c32ab414186, type: 3}
         _addedAt: 2022-09-22T23:31:29.7915151+02:00
         Description: 
@@ -637,6 +684,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 5263284904895932898, guid: d3237d95b429d634a9a397b9d17b5e58, type: 3}
         _addedAt: 2022-09-22T23:31:41.2276247+02:00
         Description: 
@@ -647,6 +695,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 7805441745042757327, guid: f04f39ab13935af46a28a34837104ce7, type: 3}
         _addedAt: 2022-09-22T23:31:43.8695989+02:00
         Description: 
@@ -657,6 +706,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3779980016352390365, guid: 4732658ed58c22b4cbeb626c9ed534f3, type: 3}
         _addedAt: 2022-09-22T23:31:46.7758318+02:00
         Description: 
@@ -667,6 +717,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 292987247278266026, guid: 496eb415cc95ca4449023191c515f424, type: 3}
         _addedAt: 2022-09-22T23:31:49.1399188+02:00
         Description: 
@@ -677,6 +728,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 6015789443076533717, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
         _addedAt: 2022-09-22T23:32:03.7644749+02:00
         Description: 
@@ -687,6 +739,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 8361169533947878984, guid: 4b70b15aaecee514cae17416b920384c, type: 3}
         _addedAt: 2022-09-22T23:32:07.3794358+02:00
         Description: 
@@ -697,6 +750,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 7527631211510752712, guid: 06ca98752a37f534c8e99b47c19789f2, type: 3}
         _addedAt: 2022-09-22T23:32:11.2154401+02:00
         Description: 
@@ -707,6 +761,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 4076115155944977345, guid: f247617af12b9ed4ea3c3bdca935ec3f, type: 3}
         _addedAt: 2022-09-22T23:32:14.2661630+02:00
         Description: 
@@ -717,6 +772,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2529658122603312603, guid: 47df8382b05681f4fadb255ce0af5559, type: 3}
         _addedAt: 2022-09-22T23:32:25.2340730+02:00
         Description: 
@@ -727,6 +783,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 4276683851849443340, guid: dda2c0c697690624dbb1c6d72ba3fb15, type: 3}
         _addedAt: 2022-09-22T23:32:28.1478598+02:00
         Description: 
@@ -737,6 +794,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 1941947406955193740, guid: 850d975639f051247be9d049f1ea23f0, type: 3}
         _addedAt: 2022-09-22T23:32:30.8298725+02:00
         Description: 
@@ -747,6 +805,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3475352462071148291, guid: 7a9f33fc05a89ba42a8e99dee5f623b7, type: 3}
         _addedAt: 2022-09-22T23:32:34.4554865+02:00
         Description: 
@@ -757,6 +816,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 5965052265784558520, guid: 026da4fff3c0eb34c8cbafac1a15d8c2, type: 3}
         _addedAt: 2022-09-22T23:32:37.6054639+02:00
         Description: 
@@ -767,6 +827,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2372637649872909360, guid: 8814f91121cc5774c88cfa1056639ac5, type: 3}
         _addedAt: 2022-09-22T23:32:40.3817381+02:00
         Description: 
@@ -777,6 +838,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 575581752341959173, guid: 5981e8d5fd25a58498943886bab0ae3c, type: 3}
         _addedAt: 2022-09-22T23:32:42.8199382+02:00
         Description: 
@@ -787,6 +849,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 9108022383502141884, guid: 93a7ebc76cc972241887c3fcc43715f6, type: 3}
         _addedAt: 2022-09-22T23:32:44.9386019+02:00
         Description: 
@@ -797,6 +860,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3787605387027437897, guid: d68c6d630e8bf2f46aadc28e80d25aa0, type: 3}
         _addedAt: 2022-09-22T23:32:47.1215896+02:00
         Description: 
@@ -807,6 +871,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2558305577185887121, guid: 1fc03416d31100542812e6e35fc0d9ba, type: 3}
         _addedAt: 2022-09-22T23:32:53.0800132+02:00
         Description: 
@@ -817,6 +882,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 563585369295131350, guid: 678e89b4c6a0cff42b9dcf1910ed6867, type: 3}
         _addedAt: 2022-09-22T23:32:55.3485108+02:00
         Description: 
@@ -827,6 +893,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2741747278291522521, guid: a04400ddc2e2f714788e0eb5419b8c92, type: 3}
         _addedAt: 2022-09-22T23:32:57.6369746+02:00
         Description: 
@@ -837,6 +904,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 2862570272627241035, guid: bd6473e95629dcc4a822a12190567541, type: 3}
         _addedAt: 2022-09-22T23:32:59.9273463+02:00
         Description: 
@@ -847,6 +915,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 3481760945262210823, guid: dfd24e5d0a9148d489fad1f2d32edaea, type: 3}
         _addedAt: 2022-09-22T23:33:02.1245772+02:00
         Description: 
@@ -857,6 +926,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 335378330346434487, guid: 365eb1d5dbacb144bb31d1e36fb49e7a, type: 3}
         _addedAt: 2022-09-22T23:33:04.6788731+02:00
         Description: 
@@ -867,6 +937,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 5638146829582514101, guid: 537a647f2ddff1e49ab1df422684a347, type: 3}
         _addedAt: 2022-09-22T23:33:07.1359174+02:00
         Description: 
@@ -877,6 +948,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 5240607848192507431, guid: 2ea81add3270e864c8b85e45ba4828f0, type: 3}
         _addedAt: 2022-09-22T23:33:09.5077918+02:00
         Description: 
@@ -887,6 +959,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
       - Object: {fileID: 7795429092739654929, guid: 4834431763b92b84ca78765cea5432c6, type: 3}
         _addedAt: 2022-09-22T23:33:11.7602231+02:00
         Description: 
@@ -897,6 +970,7 @@ MonoBehaviour:
         Links: []
         Tags:
           m_keys: []
+        MaterialVariations: []
     Categories:
       m_keys:
       - bbb765a5-6f24-41d9-8da9-793646218b40
