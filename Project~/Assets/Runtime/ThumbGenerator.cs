@@ -20,7 +20,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
-using UnityEditor.Presets;
 using UnityEngine;
 using VisualPinball.Unity.Editor;
 
@@ -31,7 +30,7 @@ namespace VisualPinball.Unity.Library
 		[SerializeReference]
 		public Editor.AssetLibrary AssetLibrary;
 
-		private List<AssetResult> _assets;
+		private List<AssetWithVariation> _assets;
 		private GameObject _currentGo;
 		private ThumbGeneratorComponent _currentTbc;
 		private Camera _camera;
@@ -60,35 +59,60 @@ namespace VisualPinball.Unity.Library
 					return;
 				}
 
-				_assets = new List<AssetResult>(assets);
-				Process(NextResult().Asset);
+
+				_assets = new List<AssetWithVariation>(assets
+					.SelectMany(a => {
+						var variations = new List<AssetWithVariation>(new[] { new AssetWithVariation(a.Asset) });
+						if (a.Asset.MaterialVariations == null || a.Asset.MaterialVariations.Count == 0) {
+							return variations;
+						}
+
+						foreach (var variation in a.Asset.MaterialVariations) {
+							foreach (var variationOverride in variation.Overrides) {
+								variations.Add(new AssetWithVariation(a.Asset, variation, variationOverride));
+							}
+						}
+						return variations;
+					})
+				);
+				Process(NextAsset());
 
 			} else {
 				Debug.Log($"No category found.");
 			}
 		}
 
-		private void Process(Asset asset)
+		private void Process(AssetWithVariation a)
 		{
 
-			if (asset.ThumbCameraPreset != null) {
-				asset.ThumbCameraPreset.ApplyTo(_camera.transform);
+			if (a.Asset.ThumbCameraPreset != null) {
+				a.Asset.ThumbCameraPreset.ApplyTo(_camera.transform);
 			} else {
 				AssetLibrary.DefaultThumbCameraPreset.ApplyTo(_camera.transform);
 			}
 
-			if (asset.Scale == AssetScale.Table) {
+			if (a.Asset.Scale == AssetScale.Table) {
 				var parent = _pf.gameObject;
-				_currentGo = PrefabUtility.InstantiatePrefab(asset.Object, parent.transform) as GameObject;
+				_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object, parent.transform) as GameObject;
 				_currentGo!.transform.localPosition = _tableCenter;
 
 			} else {
-				_currentGo = PrefabUtility.InstantiatePrefab(asset.Object) as GameObject;
+				_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object) as GameObject;
+			}
+
+			if (a.HasVariation) {
+				var obj = _currentGo!.transform.Find(a.MaterialVariation.Object.name);
+				var materials = obj.gameObject.GetComponent<MeshRenderer>().sharedMaterials;
+				materials[a.MaterialVariation.Slot] = a.MaterialOverride.Material;
+				obj.gameObject.GetComponent<MeshRenderer>().sharedMaterials = materials;
 			}
 
 			Debug.Log($"Processing {_currentGo!.name}");
 			_currentTbc = _currentGo!.AddComponent<ThumbGeneratorComponent>();
-			_currentTbc!.Prefab = asset.Object;
+			if (a.HasVariation) {
+				_currentTbc!.ThumbnailGuid = a.MaterialOverride.Id;
+			}
+			_currentTbc!.Prefab = a.Asset.Object;
 			_currentTbc!.OnScreenshot += DoneProcessing;
 		}
 
@@ -97,16 +121,16 @@ namespace VisualPinball.Unity.Library
 			_currentTbc!.OnScreenshot -= DoneProcessing;
 			DestroyImmediate(_currentGo);
 
-			var next = NextResult();
+			var next = NextAsset();
 			if (next != null) {
-				Process(next.Asset);
+				Process(next);
 			} else {
 				AssetLibrary.DefaultThumbCameraPreset.ApplyTo(_camera.transform);
 				Debug.Log("All done!");
 			}
 		}
 
-		private AssetResult NextResult()
+		private AssetWithVariation NextAsset()
 		{
 			if (_assets.Count == 0) {
 				return null;
@@ -114,6 +138,27 @@ namespace VisualPinball.Unity.Library
 			var next = _assets.First();
 			_assets.RemoveAt(0);
 			return next;
+		}
+	}
+
+	internal class AssetWithVariation
+	{
+		public readonly Asset Asset;
+		public readonly AssetMaterialVariation MaterialVariation;
+		public readonly AssetMaterialOverride MaterialOverride;
+
+		public bool HasVariation => MaterialVariation != null && MaterialOverride != null;
+
+		public AssetWithVariation(Asset asset)
+		{
+			Asset = asset;
+		}
+
+		public AssetWithVariation(Asset asset, AssetMaterialVariation materialVariation, AssetMaterialOverride materialOverride)
+		{
+			Asset = asset;
+			MaterialVariation = materialVariation;
+			MaterialOverride = materialOverride;
 		}
 	}
 }

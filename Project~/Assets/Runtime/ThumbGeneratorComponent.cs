@@ -29,6 +29,8 @@ namespace VisualPinball.Unity.Library
 		[NonSerialized]
 		public Object Prefab;
 
+		public string ThumbnailGuid;
+
 		private const int NumPreFrames = 32;
 		private const int NumPostFrames = 2;
 		private int _frame;
@@ -55,15 +57,22 @@ namespace VisualPinball.Unity.Library
 
 		private void Screenshot()
 		{
-			if (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(Prefab, out var guid, out long _)) {
+			if (!string.IsNullOrEmpty(ThumbnailGuid)) {
+				Screenshot(ThumbnailGuid);
 
-				var path = @$"{AssetBrowser.ThumbPath}/{guid}.png";
-				ScreenCapture.CaptureScreenshot(path);
-				Debug.Log($"Screenshot for \"{Prefab.name}\" saved at {path}");
+			} else if (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(Prefab, out var guid, out long _)) {
+				Screenshot(guid);
 
 			} else {
 				Debug.LogWarning($"Cannot find GUID for {Prefab.name}.");
 			}
+		}
+
+		private void Screenshot(string guid)
+		{
+			var path = @$"{AssetBrowser.ThumbPath}/{guid}.png";
+			ScreenCapture.CaptureScreenshot(path);
+			Debug.Log($"Screenshot for \"{Prefab.name}\" saved at {path}");
 		}
 	}
 }
