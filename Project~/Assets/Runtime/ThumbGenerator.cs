@@ -35,7 +35,6 @@ namespace VisualPinball.Unity.Library
 		private GameObject _currentGo;
 		private ThumbGeneratorComponent _currentTbc;
 		private Camera _camera;
-		private Preset _defaultThumbCameraPreset;
 
 		private PlayfieldComponent _pf;
 		private Vector3 _tableCenter;
@@ -43,18 +42,16 @@ namespace VisualPinball.Unity.Library
 		public void StartProcessing()
 		{
 			_camera = Camera.main;
-			const string presetPath = "Packages/org.visualpinball.engine.unity/VisualPinball.Unity/Assets/Presets";
-			_defaultThumbCameraPreset = (Preset)AssetDatabase.LoadAssetAtPath($"{presetPath}/Asset Thumbcam - Default.preset", typeof(Preset));
 
 			_pf = GetComponentInChildren<PlayfieldComponent>();
 			_tableCenter = new Vector3(_pf.Width / 2f, _pf.Height / 2f,0);
 
-			var category = AssetLibrary.GetCategories().FirstOrDefault(c => c.Name.Contains("Posts"));
+			var category = AssetLibrary.GetCategories().FirstOrDefault(c => c.Name.Contains("Flipper"));
 			//var category = AssetLibrary.GetCategories().FirstOrDefault(c => c.Name.Contains("Flipper"));
 			if (category != null) {
 				Debug.Log($"Category: {category}");
 				var query = new LibraryQuery {
-					Categories = new List<LibraryCategory> { category }
+					Categories = new List<AssetCategory> { category }
 				};
 				var assets = AssetLibrary.GetAssets(query).ToArray();
 
@@ -71,13 +68,13 @@ namespace VisualPinball.Unity.Library
 			}
 		}
 
-		private void Process(LibraryAsset asset)
+		private void Process(Asset asset)
 		{
 
 			if (asset.ThumbCameraPreset != null) {
 				asset.ThumbCameraPreset.ApplyTo(_camera.transform);
 			} else {
-				_defaultThumbCameraPreset.ApplyTo(_camera.transform);
+				AssetLibrary.DefaultThumbCameraPreset.ApplyTo(_camera.transform);
 			}
 
 			if (asset.Scale == AssetScale.Table) {
@@ -104,7 +101,7 @@ namespace VisualPinball.Unity.Library
 			if (next != null) {
 				Process(next.Asset);
 			} else {
-				_defaultThumbCameraPreset.ApplyTo(_camera.transform);
+				AssetLibrary.DefaultThumbCameraPreset.ApplyTo(_camera.transform);
 				Debug.Log("All done!");
 			}
 		}
