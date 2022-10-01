@@ -30,7 +30,7 @@ namespace VisualPinball.Unity.Library
 		[SerializeReference]
 		public Editor.AssetLibrary AssetLibrary;
 
-		private List<AssetWithVariation> _assets;
+		private List<AssetMaterialCombination> _assets;
 		private GameObject _currentGo;
 		private ThumbGeneratorComponent _currentTbc;
 		private Camera _camera;
@@ -59,21 +59,8 @@ namespace VisualPinball.Unity.Library
 					return;
 				}
 
-
-				_assets = new List<AssetWithVariation>(assets
-					.SelectMany(a => {
-						var variations = new List<AssetWithVariation>(new[] { new AssetWithVariation(a.Asset) });
-						if (a.Asset.MaterialVariations == null || a.Asset.MaterialVariations.Count == 0) {
-							return variations;
-						}
-
-						foreach (var variation in a.Asset.MaterialVariations) {
-							foreach (var variationOverride in variation.Overrides) {
-								variations.Add(new AssetWithVariation(a.Asset, variation, variationOverride));
-							}
-						}
-						return variations;
-					})
+				_assets = new List<AssetMaterialCombination>(assets
+					.SelectMany(a => AssetMaterialCombination.GetCombinations(a.Asset))
 				);
 				Process(NextAsset());
 
@@ -82,7 +69,7 @@ namespace VisualPinball.Unity.Library
 			}
 		}
 
-		private void Process(AssetWithVariation a)
+		private void Process(AssetMaterialCombination a)
 		{
 
 			if (a.Asset.ThumbCameraPreset != null) {
@@ -100,18 +87,11 @@ namespace VisualPinball.Unity.Library
 				_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object) as GameObject;
 			}
 
-			if (a.HasVariation) {
-				var obj = _currentGo!.transform.Find(a.MaterialVariation.Object.name);
-				var materials = obj.gameObject.GetComponent<MeshRenderer>().sharedMaterials;
-				materials[a.MaterialVariation.Slot] = a.MaterialOverride.Material;
-				obj.gameObject.GetComponent<MeshRenderer>().sharedMaterials = materials;
-			}
+			a.Apply(_currentGo);
 
 			Debug.Log($"Processing {_currentGo!.name}");
 			_currentTbc = _currentGo!.AddComponent<ThumbGeneratorComponent>();
-			if (a.HasVariation) {
-				_currentTbc!.ThumbnailGuid = a.MaterialOverride.Id;
-			}
+			_currentTbc!.ThumbnailGuid = a.ThumbId;
 			_currentTbc!.Prefab = a.Asset.Object;
 			_currentTbc!.OnScreenshot += DoneProcessing;
 		}
@@ -130,7 +110,7 @@ namespace VisualPinball.Unity.Library
 			}
 		}
 
-		private AssetWithVariation NextAsset()
+		private AssetMaterialCombination NextAsset()
 		{
 			if (_assets.Count == 0) {
 				return null;
@@ -138,27 +118,6 @@ namespace VisualPinball.Unity.Library
 			var next = _assets.First();
 			_assets.RemoveAt(0);
 			return next;
-		}
-	}
-
-	internal class AssetWithVariation
-	{
-		public readonly Asset Asset;
-		public readonly AssetMaterialVariation MaterialVariation;
-		public readonly AssetMaterialOverride MaterialOverride;
-
-		public bool HasVariation => MaterialVariation != null && MaterialOverride != null;
-
-		public AssetWithVariation(Asset asset)
-		{
-			Asset = asset;
-		}
-
-		public AssetWithVariation(Asset asset, AssetMaterialVariation materialVariation, AssetMaterialOverride materialOverride)
-		{
-			Asset = asset;
-			MaterialVariation = materialVariation;
-			MaterialOverride = materialOverride;
 		}
 	}
 }
