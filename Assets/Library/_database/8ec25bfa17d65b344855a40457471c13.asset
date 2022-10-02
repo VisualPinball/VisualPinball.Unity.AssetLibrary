@@ -16,9 +16,13 @@ MonoBehaviour:
   Object: {fileID: 8748870325282454467, guid: 8ec25bfa17d65b344855a40457471c13, type: 3}
   _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
   _addedAt: 2022-09-29T23:23:22.7686597+02:00
-  Description: 
-  Attributes: []
-  Tags: []
+  Description: A generic flipper with a much too high poly count.
+  Attributes:
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Plastic
+  - TagName: Rubber
   Links: []
   MaterialVariations:
   - Name: Rubber
@@ -31,5 +35,12 @@ MonoBehaviour:
     - Name: Orange
       Material: {fileID: 2100000, guid: e0e4a5182dd9a094f87b758b99200453, type: 2}
       Id: f056b0de-177a-4ced-92d2-83fe22130e1a
+  - Name: Plastic
+    Object: {fileID: 5047909533642800156, guid: 8ec25bfa17d65b344855a40457471c13, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: e25fda4e6190226468a7c72d042761f4, type: 2}
+      Id: b731c391-013a-4ad0-aad4-617fe3a95d8c
   Scale: 1
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
