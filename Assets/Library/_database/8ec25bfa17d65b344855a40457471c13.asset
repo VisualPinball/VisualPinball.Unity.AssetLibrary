@@ -37,7 +37,7 @@ MonoBehaviour:
       Id: f056b0de-177a-4ced-92d2-83fe22130e1a
   - Name: Plastic
     Object: {fileID: 5047909533642800156, guid: 8ec25bfa17d65b344855a40457471c13, type: 3}
-    Slot: 0
+    Slot: 1
     Overrides:
     - Name: Yellow
       Material: {fileID: 2100000, guid: e25fda4e6190226468a7c72d042761f4, type: 2}
