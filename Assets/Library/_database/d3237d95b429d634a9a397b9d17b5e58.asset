@@ -20,6 +20,16 @@ MonoBehaviour:
   Attributes: []
   Tags: []
   Links: []
-  MaterialVariations: []
-  Scale: 0
+  MaterialVariations:
+  - Name: Metal
+    Object: {fileID: 5263284904895932898, guid: d3237d95b429d634a9a397b9d17b5e58, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Light
+      Material: {fileID: 2100000, guid: 14884ba420de15643922fde58029ce0f, type: 2}
+      Id: 03367a24-20c5-45b3-99be-49a5fb935a6e
+    - Name: Gold
+      Material: {fileID: 2100000, guid: 68c1f563064c71449a60573d52c233f9, type: 2}
+      Id: d1cbf218-b736-4546-885f-fe23bc0a07b2
+  Scale: 1
   ThumbCameraPreset: {fileID: 0}

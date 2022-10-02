@@ -16,10 +16,20 @@ MonoBehaviour:
   Object: {fileID: 73452326192962576, guid: a79e6210c243cf04eaa4d2a58dfbafd7, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-09-28T00:53:10.3510515+02:00
-  Description: 
+  Description: test
   Attributes: []
   Tags: []
   Links: []
-  MaterialVariations: []
+  MaterialVariations:
+  - Name: Metal
+    Object: {fileID: 73452326192962576, guid: a79e6210c243cf04eaa4d2a58dfbafd7, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Light
+      Material: {fileID: 2100000, guid: 14884ba420de15643922fde58029ce0f, type: 2}
+      Id: 8f1eec0b-8b08-483d-b8dc-8bbb08ef4373
+    - Name: Gold
+      Material: {fileID: 2100000, guid: 68c1f563064c71449a60573d52c233f9, type: 2}
+      Id: 8392f2ed-13b2-44ff-b2bb-abda15608026
   Scale: 0
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 42ff1390796e56943a02edf674c5cc7e, type: 2}
+  ThumbCameraPreset: {fileID: 0}

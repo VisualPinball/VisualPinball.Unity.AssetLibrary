@@ -22,6 +22,10 @@ MonoBehaviour:
     Value: BorgDog
   Tags: []
   Links: []
-  MaterialVariations: []
-  Scale: 1
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  MaterialVariations:
+  - Name: 
+    Object: {fileID: 0}
+    Slot: 0
+    Overrides: []
+  Scale: 0
+  ThumbCameraPreset: {fileID: 0}

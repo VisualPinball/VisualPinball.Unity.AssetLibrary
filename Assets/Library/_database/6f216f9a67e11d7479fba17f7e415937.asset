@@ -22,6 +22,10 @@ MonoBehaviour:
     Value: Niwak
   Tags: []
   Links: []
-  MaterialVariations: []
+  MaterialVariations:
+  - Name: 
+    Object: {fileID: 0}
+    Slot: 0
+    Overrides: []
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
