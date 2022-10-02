@@ -32,4 +32,4 @@ MonoBehaviour:
     Url: https://www.pinballlife.com/bally-flipper-bat-and-shaft-white.html
   MaterialVariations: []
   Scale: 1
-  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}

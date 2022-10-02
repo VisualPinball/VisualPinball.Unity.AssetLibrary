@@ -31,5 +31,5 @@ MonoBehaviour:
     - Name: Gold
       Material: {fileID: 2100000, guid: 68c1f563064c71449a60573d52c233f9, type: 2}
       Id: d1cbf218-b736-4546-885f-fe23bc0a07b2
-  Scale: 1
+  Scale: 0
   ThumbCameraPreset: {fileID: 0}
