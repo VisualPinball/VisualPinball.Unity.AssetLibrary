@@ -10,30 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: a79e6210c243cf04eaa4d2a58dfbafd7
+  m_Name: f2ae716a2f78c9347b18dc8d4ac05fa5
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 73452326192962576, guid: a79e6210c243cf04eaa4d2a58dfbafd7, type: 3}
+  Object: {fileID: 6015789443076533717, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
-  _addedAt: 2022-09-28T00:53:10.3510515+02:00
-  Description: Dual rubber bumper post with 8-32 bottom machine thread.
+  _addedAt: 2022-10-04T13:58:08.7755625+02:00
+  Description: Playfield minipost with wood screw base measures 1-7/16 inch overall
+    (including screw thread).
   Attributes:
   - Key: Size
-    Value: 1-3/16"
+    Value: 1"
   - Key: Part Number
-    Value: 02-4608
+    Value: 530-5004-00,02-3905,2A-3905,A-14792,97-00010-02
   Tags:
   - TagName: Metal
   Links:
   - Name: Marco Specialties
-    Url: https://www.marcospecialties.com/pinball-parts/02-4608
+    Url: https://www.marcospecialties.com/pinball-parts/530-5004-00
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/1-716-tall-metal-post-with-cutaway-with-wood-screw-base.html
   MaterialVariations:
   - Name: Metal
-    Object: {fileID: 73452326192962576, guid: a79e6210c243cf04eaa4d2a58dfbafd7, type: 3}
+    Object: {fileID: 6015789443076533717, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
     Slot: 0
     Overrides:
     - Name: Light
       Material: {fileID: 2100000, guid: db66bf43cda18af44b995e8105ca2471, type: 2}
-      Id: 8f1eec0b-8b08-483d-b8dc-8bbb08ef4373
+      Id: e2a762cc-21c1-41fb-b147-eb6ed12afb97
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
