@@ -50,7 +50,8 @@ namespace VisualPinball.Unity.Library
 			if (category != null) {
 				Debug.Log($"Category: {category}");
 				var query = new LibraryQuery {
-					Categories = new List<AssetCategory> { category }
+					//Keywords = "post -hex - 1.2"
+					//Categories = new List<AssetCategory> { category }
 				};
 				var assets = AssetLibrary.GetAssets(query).ToArray();
 
@@ -62,7 +63,11 @@ namespace VisualPinball.Unity.Library
 				_assets = new List<AssetMaterialCombination>(assets
 					.SelectMany(a => AssetMaterialCombination.GetCombinations(a.Asset))
 				);
-				Process(NextAsset());
+				if (_assets.Count > 0) {
+					Process(NextAsset());
+				} else {
+					Debug.Log("No assets found to process.");
+				}
 
 			} else {
 				Debug.Log($"No category found.");
@@ -71,7 +76,6 @@ namespace VisualPinball.Unity.Library
 
 		private void Process(AssetMaterialCombination a)
 		{
-
 			if (a.Asset.ThumbCameraPreset != null) {
 				a.Asset.ThumbCameraPreset.ApplyTo(_camera.transform);
 			} else {
