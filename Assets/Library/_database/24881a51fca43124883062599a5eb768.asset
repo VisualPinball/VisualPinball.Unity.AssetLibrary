@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 24881a51fca43124883062599a5eb768
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 7630494575841591853, guid: 24881a51fca43124883062599a5eb768, type: 3}
+  _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
+  _addedAt: 2022-10-04T09:15:24.7962287+02:00
+  Description: 
+  Attributes: []
+  Tags: []
+  Links: []
+  MaterialVariations: []
+  Scale: 0
+  ThumbCameraPreset: {fileID: 0}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: ee43aeab30f798047861ce25dd73ab66
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 9126529742800089139, guid: ee43aeab30f798047861ce25dd73ab66, type: 3}
+  _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
+  _addedAt: 2022-10-04T09:15:23.6235084+02:00
+  Description: '1" tall red ribbed plastic playfield post with concentric finned
+    ring design used on many early solid state Bally and Williams pinball machine
+    playfields. '
+  Attributes:
+  - Key: Size
+    Value: 1"
+  - Key: Part Number
+    Value: 4A-258,C-951-1,C-951-2,C-951-7
+  Tags: []
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/C-951-7
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/finned-star-post-1.html
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 9126529742800089139, guid: ee43aeab30f798047861ce25dd73ab66, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: 7f069889-f129-400a-acbc-0252de629a37
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
+      Id: 866aa0dc-b388-444d-a5e9-7794dd013d64
+    - Name: Green
+      Material: {fileID: 2100000, guid: af61f4e55b4098a41895bf6fe58a51c4, type: 2}
+      Id: 1e7ead51-2ba3-47b0-8f43-b1c9486c40ad
+  Scale: 0
+  ThumbCameraPreset: {fileID: 0}
