@@ -16,10 +16,34 @@ MonoBehaviour:
   Object: {fileID: 1673217450647454267, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T09:15:24.5023297+02:00
-  Description: 
-  Attributes: []
-  Tags: []
-  Links: []
-  MaterialVariations: []
+  Description: 'Plastic minipost 1 inch tall used in pinball machines.
+
+    
+
+    Typically
+    uses a 27/64 inch white rubber ring (not included).'
+  Attributes:
+  - Key: Size
+    Value: 1"
+  - Key: Part Number
+    Value: 03-8044
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/03-8044-9
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/translucent-plastic-mini-posts-1-tall.html
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 1673217450647454267, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    Slot: 1
+    Overrides:
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: 78f46102-f3b5-422a-ad53-e38db468abef
+    - Name: Orange
+      Material: {fileID: 2100000, guid: 3a2701a0e4173794fbe74f129031708c, type: 2}
+      Id: 28659e16-f5ca-4dd4-a3c8-d4430cd69377
   Scale: 0
   ThumbCameraPreset: {fileID: 0}

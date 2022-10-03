@@ -16,10 +16,62 @@ MonoBehaviour:
   Object: {fileID: 3766792209538596551, guid: c51bd1563bb08104a8cebebf66370824, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T09:15:26.4649745+02:00
-  Description: 
-  Attributes: []
-  Tags: []
-  Links: []
-  MaterialVariations: []
+  Description: 'Transparent plastic 1-1/4 inch tall post or standoff is common to
+    many late model electronic pinball machines.
+
+    
+
+    It typically is fitted
+    with a 3/16 inch Inner Diameter rubber ring. '
+  Attributes:
+  - Key: Size
+    Value: 1-1/4"
+  - Key: Part Number
+    Value: 03-8365
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/03-8365-9
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/williamsbally-1-14-narrow-plastic-posts.html
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 3766792209538596551, guid: c51bd1563bb08104a8cebebf66370824, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
+      Id: 89e21976-7461-45ff-afaa-cac45e8f150e
+    - Name: Light Blue
+      Material: {fileID: 2100000, guid: f58dc073dcd8ca046aacfe0ab385caf1, type: 2}
+      Id: 080e1d83-c601-4ee1-afb3-b93e3dbb100c
+    - Name: Orange
+      Material: {fileID: 2100000, guid: 3a2701a0e4173794fbe74f129031708c, type: 2}
+      Id: 73b76308-1590-42e2-bdb6-630fee7d50ec
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: 2a8d09cb-6ee1-4b41-8f15-865e9a7e1ba8
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: 4a677b2cf1473f0409ef05622041f92f, type: 2}
+      Id: 05e5e8fc-eb6f-4029-ae59-82300479a23f
+    - Name: Purple
+      Material: {fileID: 2100000, guid: d3e2031fac8f2fa4d9c568362bd9e33a, type: 2}
+      Id: 6d1355d6-74c1-4ce0-afd2-3d5566ce25ab
+    - Name: Teal
+      Material: {fileID: 2100000, guid: 7825d51f5decd48499203461a98e744f, type: 2}
+      Id: dccd5f1d-d0a8-4318-8be5-6864972dc86f
+    - Name: Amber
+      Material: {fileID: 2100000, guid: 779e37cc7054f1841918632767c28508, type: 2}
+      Id: 0af67f7b-1cfe-4fa4-a44e-35085ceaf4f9
+    - Name: Black
+      Material: {fileID: 2100000, guid: b59d0fa73fffa7344ad56aecc99cc2e9, type: 2}
+      Id: 56d4aafc-4339-4e43-ae41-996dba64695c
+    - Name: Chrome
+      Material: {fileID: 2100000, guid: e64b520fb84ca8b43932af6fa0d3cec0, type: 2}
+      Id: 732556f4-f1c8-4158-8574-6aa35c0cb717
+    - Name: Gold
+      Material: {fileID: 2100000, guid: 9ab5c310b7c3e7740a1003afd75e9d70, type: 2}
+      Id: ef03fae7-0fd0-4ef6-8c1c-88a000268e0b
   Scale: 0
   ThumbCameraPreset: {fileID: 0}

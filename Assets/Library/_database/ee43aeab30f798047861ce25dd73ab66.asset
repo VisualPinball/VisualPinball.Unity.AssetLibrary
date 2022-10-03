@@ -16,15 +16,18 @@ MonoBehaviour:
   Object: {fileID: 9126529742800089139, guid: ee43aeab30f798047861ce25dd73ab66, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T09:15:23.6235084+02:00
-  Description: '1" tall red ribbed plastic playfield post with concentric finned
-    ring design used on many early solid state Bally and Williams pinball machine
-    playfields. '
+  Description: "1\" tall ribbed plastic playfield post with concentric finned ring
+    design used on many early solid state Bally and Williams pinball machine playfields.
+    \n\nThis is the shorter of the two posts commonly used on older Bally and Williams
+    solid-state pinball games, and some other makes/models as well.\n\nIncludes inner
+    metal post."
   Attributes:
   - Key: Size
     Value: 1"
   - Key: Part Number
     Value: 4A-258,C-951-1,C-951-2,C-951-7
-  Tags: []
+  Tags:
+  - TagName: Plastic
   Links:
   - Name: Marco Specialties
     Url: https://www.marcospecialties.com/pinball-parts/C-951-7

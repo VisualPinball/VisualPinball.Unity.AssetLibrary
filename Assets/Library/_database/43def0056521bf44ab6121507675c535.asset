@@ -16,10 +16,39 @@ MonoBehaviour:
   Object: {fileID: 8739998644613467805, guid: 43def0056521bf44ab6121507675c535, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T09:15:23.9166306+02:00
-  Description: 
-  Attributes: []
-  Tags: []
-  Links: []
-  MaterialVariations: []
+  Description: "1-3/16 inch red faceted playfield post used on many early Stern pinball
+    machines. Fits over #6 posts. \n\nInner metal post included."
+  Attributes:
+  - Key: Size
+    Value: 1-3/8"
+  - Key: Part Number
+    Value: C-11562
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/C-11562-20
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/faceted-post-1-316-tall-white.html
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 8739998644613467805, guid: 43def0056521bf44ab6121507675c535, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: ac1dd9e9-6741-445f-9233-e4857a5cfb56
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
+      Id: 73d829c0-5604-4281-9a42-cefc56c86feb
+    - Name: Green
+      Material: {fileID: 2100000, guid: af61f4e55b4098a41895bf6fe58a51c4, type: 2}
+      Id: 678bb7db-8aaa-4327-a797-9be250908f72
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: 4a677b2cf1473f0409ef05622041f92f, type: 2}
+      Id: e35bf160-c026-4909-a2f3-4524fecc96ac
+    - Name: White
+      Material: {fileID: 2100000, guid: 9fc2d59ed9527524d93430a82d9e13ec, type: 2}
+      Id: a00c2d80-4801-4987-9473-2bcac79d8b09
   Scale: 0
   ThumbCameraPreset: {fileID: 0}

@@ -16,10 +16,62 @@ MonoBehaviour:
   Object: {fileID: 2716828627827821297, guid: 2bcdb760250381f4da80432ca075fc81, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T09:15:25.0762283+02:00
-  Description: 
-  Attributes: []
-  Tags: []
-  Links: []
-  MaterialVariations: []
+  Description: 'Star 1-1/16 inch post is common to late model Stern, Sega, Bally
+    / Williams and other brand electronic pinball machines.
+
+    
+
+    Typically
+    fitted with a 5/16 inch inner diameter rubber ring (not included)'
+  Attributes:
+  - Key: Size
+    Value: 1-1/8"
+  - Key: Part Number
+    Value: 03-8319,550-5034,545-5013,03-7542,30-009005
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/03-8319-9
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/faceted-post-1-316-tall-white.html
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 2716828627827821297, guid: 2bcdb760250381f4da80432ca075fc81, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: a3b7ecb3-1575-4e36-aa5e-c659320ca7e8
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
+      Id: 9b5965b5-9dec-41a6-8bee-d6da77f43d26
+    - Name: Light Blue
+      Material: {fileID: 2100000, guid: f58dc073dcd8ca046aacfe0ab385caf1, type: 2}
+      Id: 3ff8f123-2b32-417e-a6ff-96489cebef50
+    - Name: Orange
+      Material: {fileID: 2100000, guid: 3a2701a0e4173794fbe74f129031708c, type: 2}
+      Id: 7d251dd7-63a4-4c9a-8db9-805f0dbf7aa0
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: 4a677b2cf1473f0409ef05622041f92f, type: 2}
+      Id: 0144a251-320d-4b8d-967e-f04d9cb3e927
+    - Name: Purple
+      Material: {fileID: 2100000, guid: d3e2031fac8f2fa4d9c568362bd9e33a, type: 2}
+      Id: 297e4e7e-1038-43da-bee5-63c659ad36b6
+    - Name: Green
+      Material: {fileID: 2100000, guid: af61f4e55b4098a41895bf6fe58a51c4, type: 2}
+      Id: 829ac7cf-79e6-4cc3-ba36-110fb284cda5
+    - Name: Green Fluorescent
+      Material: {fileID: 2100000, guid: 0c0f3858df4004f42bda5e70d3e21cf7, type: 2}
+      Id: abe345e7-d309-4e61-9f39-64bc6b5ede4e
+    - Name: Teal
+      Material: {fileID: 2100000, guid: 7825d51f5decd48499203461a98e744f, type: 2}
+      Id: f4c1983a-b4ab-4f9a-b52e-af7abb5e3c87
+    - Name: White
+      Material: {fileID: 2100000, guid: 9fc2d59ed9527524d93430a82d9e13ec, type: 2}
+      Id: eee72871-bcc6-476f-a6c3-e71c10dfbc94
+    - Name: Black
+      Material: {fileID: 2100000, guid: b59d0fa73fffa7344ad56aecc99cc2e9, type: 2}
+      Id: 9462470f-8f16-402c-b2dc-760cdbbc90a3
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
