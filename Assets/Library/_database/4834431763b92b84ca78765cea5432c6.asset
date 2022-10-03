@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 4834431763b92b84ca78765cea5432c6
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 7795429092739654929, guid: 4834431763b92b84ca78765cea5432c6, type: 3}
+  _categoryId: a891c5b0-26c4-4e0f-a795-8dbbb58b2e71
+  _addedAt: 2022-10-04T15:30:16.8995667+02:00
+  Description: Hex spacer post 1-1/8 x 1/4 inches #6-32 Tap both ends.
+  Attributes:
+  - Key: Size
+    Value: 1-1/8"
+  - Key: Part Number
+    Value: 254-5008-17
+  Tags:
+  - TagName: Metal
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/254-5008-17
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/metal-hex-spacers-1-1-78-6-32-thread-femalefemale.html
+  MaterialVariations: []
+  Scale: 0
+  ThumbCameraPreset: {fileID: 0}
