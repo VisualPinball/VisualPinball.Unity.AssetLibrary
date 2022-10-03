@@ -261,9 +261,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.3411765, g: 0.40662527, b: 1, a: 0.101960786}
+    - _BaseColor: {r: 0.19800001, g: 0.36822087, b: 1, a: 0.101960786}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.34117648, g: 0.40662524, b: 1, a: 0.101960786}
+    - _Color: {r: 0.19799998, g: 0.36822084, b: 1, a: 0.101960786}
     - _DiffusionProfileAsset: {r: 1.9919765e+26, g: 6.519066e-17, b: -1.06316796e-10, a: 4.0993775e-12}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -273,7 +273,7 @@ Material:
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0.06258902, g: 1, b: 0, a: 0}
-    - _TransmittanceColor: {r: 0.39811766, g: 0.51569426, b: 0.7372549, a: 1}
+    - _TransmittanceColor: {r: 0.39, g: 0.63531494, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
