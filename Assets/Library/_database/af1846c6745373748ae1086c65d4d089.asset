@@ -16,10 +16,53 @@ MonoBehaviour:
   Object: {fileID: 433035718996922932, guid: af1846c6745373748ae1086c65d4d089, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T09:15:25.3602392+02:00
-  Description: 
-  Attributes: []
-  Tags: []
-  Links: []
-  MaterialVariations: []
+  Description: 'Plastic post common to late model Bally / Williams and other brand
+    electronic pinball machines.
+
+    
+
+    Accommodates a #8 stud and typically
+    fitted with a 5/16 inch Inner Diameter rubber ring (not included). '
+  Attributes:
+  - Key: Size
+    Value: 1-3/8"
+  - Key: Part Number
+    Value: 03-8370,03-8319,C11562W
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/03-8370-9
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/plastic-translucent-star-posts-1-116-tall.html
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 433035718996922932, guid: af1846c6745373748ae1086c65d4d089, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: ea60e43a-ce17-44b8-9ed1-277c36329ef3
+    - Name: Purple
+      Material: {fileID: 2100000, guid: d3e2031fac8f2fa4d9c568362bd9e33a, type: 2}
+      Id: e41827c7-a519-4c6f-ac21-9079217476ec
+    - Name: Amber
+      Material: {fileID: 2100000, guid: 779e37cc7054f1841918632767c28508, type: 2}
+      Id: 0a728e44-6975-427f-95af-eae9a678865c
+    - Name: Green
+      Material: {fileID: 2100000, guid: af61f4e55b4098a41895bf6fe58a51c4, type: 2}
+      Id: 80638f29-40fc-430b-a899-45a8157188f8
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: 4a677b2cf1473f0409ef05622041f92f, type: 2}
+      Id: 818521cf-cc5b-437c-8a47-8e3bc3ccb2b2
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
+      Id: 49a1a882-fe9c-41e4-ae47-242ae9740ea8
+    - Name: Orange
+      Material: {fileID: 2100000, guid: 3a2701a0e4173794fbe74f129031708c, type: 2}
+      Id: 02053336-6170-47dd-8da4-21b7ef351273
+    - Name: Black
+      Material: {fileID: 2100000, guid: b59d0fa73fffa7344ad56aecc99cc2e9, type: 2}
+      Id: 8f0c3c38-91bb-43d7-b04b-5b31a2b2151e
   Scale: 0
   ThumbCameraPreset: {fileID: 0}

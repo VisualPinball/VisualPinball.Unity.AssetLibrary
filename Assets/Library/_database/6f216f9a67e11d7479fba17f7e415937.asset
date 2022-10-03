@@ -16,12 +16,19 @@ MonoBehaviour:
   Object: {fileID: 4878683001666819339, guid: 6f216f9a67e11d7479fba17f7e415937, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-09-29T00:42:13.3714023+02:00
-  Description: 
+  Description: "1-1/8\" tall ribbed plastic playfield post with concentric rings
+    design used on many early solid state Bally and Williams pinball machine playfields.
+    \n\nIncludes inner metal post."
   Attributes:
-  - Key: Author
-    Value: Niwak
-  Tags: []
-  Links: []
+  - Key: Size
+    Value: 1-1/8"
+  - Key: Part Number
+    Value: C-952-7,C-952-13,C-952-4,4A-258,4A-259,03-7491-9
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/C-952-7
   MaterialVariations:
   - Name: Plastic
     Object: {fileID: 4878683001666819339, guid: 6f216f9a67e11d7479fba17f7e415937, type: 3}

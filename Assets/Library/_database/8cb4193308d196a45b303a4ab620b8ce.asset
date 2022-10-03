@@ -16,10 +16,40 @@ MonoBehaviour:
   Object: {fileID: 1994206309651177157, guid: 8cb4193308d196a45b303a4ab620b8ce, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T09:15:24.2046219+02:00
-  Description: 
-  Attributes: []
-  Tags: []
-  Links: []
-  MaterialVariations: []
+  Description: "One of the most common plastic playfield posts.\r\n\nUsed on many
+    brands of electromechanical and electronic pinball machines. \n\nIncludes inner
+    metal post."
+  Attributes:
+  - Key: Size
+    Value: 1"
+  - Key: Part Number
+    Value: C-11561
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/C-11561-20
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/faceted-post-1.html
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 1994206309651177157, guid: 8cb4193308d196a45b303a4ab620b8ce, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: 8bcda8e5-e0ac-4235-9ca3-d9d59427ab64
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
+      Id: f38ba099-79de-4e38-b9d7-9a6b2ed801a4
+    - Name: Green
+      Material: {fileID: 2100000, guid: af61f4e55b4098a41895bf6fe58a51c4, type: 2}
+      Id: 18616c56-7631-4f3c-8de1-8e8a7a3e075b
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: 4a677b2cf1473f0409ef05622041f92f, type: 2}
+      Id: 6f8704f4-99f2-41e6-b840-bc0b575afb79
+    - Name: White
+      Material: {fileID: 2100000, guid: 9fc2d59ed9527524d93430a82d9e13ec, type: 2}
+      Id: 81be223e-d7f2-42e7-92ad-79739f22ad54
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
