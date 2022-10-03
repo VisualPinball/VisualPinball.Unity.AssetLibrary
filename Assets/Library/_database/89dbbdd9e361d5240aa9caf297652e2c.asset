@@ -21,9 +21,18 @@ MonoBehaviour:
   Tags: []
   Links: []
   MaterialVariations:
-  - Name: 
-    Object: {fileID: 0}
+  - Name: Plastic
+    Object: {fileID: 6042044929055217257, guid: 89dbbdd9e361d5240aa9caf297652e2c, type: 3}
     Slot: 0
-    Overrides: []
+    Overrides:
+    - Name: Clear
+      Material: {fileID: 2100000, guid: 8e70bd01e226f854b860c0f67c0ce623, type: 2}
+      Id: 7a631bd0-9a30-4745-bf51-46a56025a1c3
+    - Name: Green
+      Material: {fileID: 2100000, guid: af61f4e55b4098a41895bf6fe58a51c4, type: 2}
+      Id: bbba4983-c76d-49d2-ba35-9b39309f6d8c
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
+      Id: 6c6999f2-650d-4745-a691-794c896f2581
   Scale: 0
   ThumbCameraPreset: {fileID: 0}

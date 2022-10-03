@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Plastic Post - Plastic Transparent
+  m_Name: Plastic Post - Plastic Green
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
@@ -261,9 +261,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.101960786}
+    - _BaseColor: {r: 0.036539998, g: 0.87, b: 0.1337771, a: 0.101960786}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.101960786}
+    - _Color: {r: 0.036539998, g: 0.87, b: 0.13377705, a: 0.101960786}
     - _DiffusionProfileAsset: {r: 1.9919765e+26, g: 6.519066e-17, b: -1.06316796e-10, a: 4.0993775e-12}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -272,8 +272,8 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ThicknessRemap: {r: 0.13770172, g: 0.9935622, b: 0, a: 0}
-    - _TransmittanceColor: {r: 0.85800004, g: 0.85800004, b: 0.85800004, a: 1}
+    - _ThicknessRemap: {r: 0.0940136, g: 1, b: 0, a: 0}
+    - _TransmittanceColor: {r: 0, g: 0.7372549, b: 0.061437853, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
