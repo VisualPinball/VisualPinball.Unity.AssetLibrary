@@ -18,7 +18,7 @@ MonoBehaviour:
   _addedAt: 2022-10-04T09:15:24.5023297+02:00
   Description: 'Plastic minipost 1 inch tall used in pinball machines.
 
-    
+
 
     Typically
     uses a 27/64 inch white rubber ring (not included).'
@@ -47,3 +47,5 @@ MonoBehaviour:
       Id: 28659e16-f5ca-4dd4-a3c8-d4430cd69377
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2

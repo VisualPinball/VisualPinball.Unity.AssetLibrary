@@ -44,3 +44,5 @@ MonoBehaviour:
       Id: b731c391-013a-4ad0-aad4-617fe3a95d8c
   Scale: 1
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  UnpackPrefab: 0
+  Quality: 2

@@ -19,10 +19,10 @@ MonoBehaviour:
   Description: 'Transparent plastic 1-1/4 inch tall post or standoff is common to
     many late model electronic pinball machines.
 
-    
 
-    It typically is fitted
-    with a 3/16 inch Inner Diameter rubber ring. '
+
+    It typically is fitted with
+    a 3/16 inch Inner Diameter rubber ring. '
   Attributes:
   - Key: Size
     Value: 1-1/4"
@@ -75,3 +75,5 @@ MonoBehaviour:
       Id: ef03fae7-0fd0-4ef6-8c1c-88a000268e0b
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2

@@ -19,7 +19,7 @@ MonoBehaviour:
   Description: 'Playfield minipost with wood screw base measures 1-7/16 inch overall
     (including screw thread).
 
-    
+
 
     Includes collidable rubber.'
   Attributes:
@@ -45,3 +45,5 @@ MonoBehaviour:
       Id: 1c2b1384-195b-47dc-83ad-09c18cdbc40f
   Scale: 1
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2
