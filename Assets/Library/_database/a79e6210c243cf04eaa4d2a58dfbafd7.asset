@@ -37,3 +37,5 @@ MonoBehaviour:
       Id: 8f1eec0b-8b08-483d-b8dc-8bbb08ef4373
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2

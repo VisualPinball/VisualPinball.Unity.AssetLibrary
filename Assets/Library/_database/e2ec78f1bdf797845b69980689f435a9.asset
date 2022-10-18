@@ -24,3 +24,5 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2

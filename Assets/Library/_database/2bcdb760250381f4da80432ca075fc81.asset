@@ -19,10 +19,10 @@ MonoBehaviour:
   Description: 'Star 1-1/16 inch post is common to late model Stern, Sega, Bally
     / Williams and other brand electronic pinball machines.
 
-    
 
-    Typically
-    fitted with a 5/16 inch inner diameter rubber ring (not included)'
+
+    Typically fitted
+    with a 5/16 inch inner diameter rubber ring (not included)'
   Attributes:
   - Key: Size
     Value: 1-1/16"
@@ -75,3 +75,5 @@ MonoBehaviour:
       Id: 9462470f-8f16-402c-b2dc-760cdbbc90a3
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2

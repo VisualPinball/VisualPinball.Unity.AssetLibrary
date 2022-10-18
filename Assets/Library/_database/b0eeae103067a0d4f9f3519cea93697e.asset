@@ -18,7 +18,7 @@ MonoBehaviour:
   _addedAt: 2022-10-04T09:15:26.1802507+02:00
   Description: 'Narrow plastic post 1-1/16 inch transparent plastic.
 
-    
+
 
     Accommodates
     a 3/16 inch inner diameter rubber ring. '
@@ -77,3 +77,5 @@ MonoBehaviour:
       Id: 00580d9a-3f31-4457-ab6f-944640ddd921
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2

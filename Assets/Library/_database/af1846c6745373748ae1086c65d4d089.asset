@@ -19,10 +19,10 @@ MonoBehaviour:
   Description: 'Plastic post common to late model Bally / Williams and other brand
     electronic pinball machines.
 
-    
 
-    Accommodates a #8 stud and typically
-    fitted with a 5/16 inch Inner Diameter rubber ring (not included). '
+
+    Accommodates a #8 stud and typically fitted
+    with a 5/16 inch Inner Diameter rubber ring (not included). '
   Attributes:
   - Key: Size
     Value: 1-3/8"
@@ -66,3 +66,5 @@ MonoBehaviour:
       Id: 8f0c3c38-91bb-43d7-b04b-5b31a2b2151e
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  UnpackPrefab: 0
+  Quality: 2
