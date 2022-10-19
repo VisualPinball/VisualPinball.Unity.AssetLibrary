@@ -10,22 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 1f7c8fe560f24274a84fee1f3a2db304
+  m_Name: e05c794ef17e7634487d304a6156f2b2
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 569175098423555931, guid: 1f7c8fe560f24274a84fee1f3a2db304, type: 3}
+  Object: {fileID: 743763787272916004, guid: e05c794ef17e7634487d304a6156f2b2, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
-  _addedAt: 2022-10-19T00:38:35.3263912+02:00
-  Description: 
+  _addedAt: 2022-10-19T11:45:45.5866411+02:00
+  Description: Hex nut with a visible thread coming out of the top.
   Attributes:
+  - Key: Part Number
+    Value: 91813A150
   - Key: Author
     Value: freezy
   - Key: Thread Size
-    Value: 10-32
-  Tags: []
-  Links: []
+    Value: 10-24
+  - Key: Width
+    Value: 3/8"
+  - Key: Height
+    Value: 1/8"
+  Tags:
+  - TagName: Hex Nut
+  - TagName: Screw Thread
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91813A150/
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraPreset: {fileID: 0}
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4
