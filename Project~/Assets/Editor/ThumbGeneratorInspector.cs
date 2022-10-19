@@ -37,8 +37,26 @@ namespace VisualPinball.Unity.Library.Editor
 		{
 			EditorGUILayout.PropertyField(_assetLibraryProperty);
 
-			if (GUILayout.Button("Process!")) {
+			GUI.enabled = !_generator.IsProcessing;
+			if (GUILayout.Button("Process All")) {
 				_generator.StartProcessing();
+			}
+			if (GUILayout.Button("Process New")) {
+				_generator.StartProcessing(true);
+			}
+			if (GUILayout.Button("Process Selected")) {
+				_generator.StartProcessing(selectedOnly: true);
+			}
+
+			GUI.enabled = _generator.IsProcessing;
+			if (GUILayout.Button("Stop Processing")) {
+				_generator.StopProcessing();
+			}
+
+			GUI.enabled = true;
+
+			if (_generator.IsProcessing) {
+				GUILayout.Label($"Processing {_generator.NumProcessed + 1}/{_generator.TotalProcessing}");
 			}
 		}
 	}
