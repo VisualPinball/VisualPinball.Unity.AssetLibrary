@@ -56,7 +56,7 @@ namespace VisualPinball.Unity.Library.Editor
 			GUI.enabled = true;
 
 			if (_generator.IsProcessing) {
-				GUILayout.Label($"Processing {_generator.NumProcessed + 1}/{_generator.TotalProcessing}");
+				GUILayout.Label($"Processing {_generator.NumProcessed}/{_generator.TotalProcessing}");
 			}
 		}
 	}
