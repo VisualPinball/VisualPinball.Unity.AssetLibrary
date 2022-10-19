@@ -19,6 +19,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting.Antlr3.Runtime.Collections;
 using UnityEditor;
 using UnityEngine;
 using VisualPinball.Unity.Editor;
@@ -30,6 +31,10 @@ namespace VisualPinball.Unity.Library
 		[SerializeReference]
 		public Editor.AssetLibrary AssetLibrary;
 
+		public bool IsProcessing { get; private set; }
+		public int TotalProcessing { get; private set; }
+		public int NumProcessed { get; private set; }
+
 		private List<AssetMaterialCombination> _assets;
 		private GameObject _currentGo;
 		private ThumbGeneratorComponent _currentTbc;
@@ -38,7 +43,7 @@ namespace VisualPinball.Unity.Library
 		private PlayfieldComponent _pf;
 		private Vector3 _tableCenter;
 
-		public void StartProcessing()
+		public void StartProcessing(bool newOnly = false, bool selectedOnly = false)
 		{
 			_camera = Camera.main;
 
@@ -63,7 +68,19 @@ namespace VisualPinball.Unity.Library
 				_assets = new List<AssetMaterialCombination>(assets
 					.SelectMany(a => AssetMaterialCombination.GetCombinations(a.Asset))
 				);
+
+				if (newOnly) {
+					_assets = _assets.Where(a => !a.HasThumbnail).ToList();
+				}
+				if (selectedOnly) {
+					var selectedAssets = new HashSet<Asset>(EditorWindow.GetWindow<AssetBrowser>().SelectedAssets);
+					_assets = _assets.Where(a => selectedAssets.Contains(a.Asset)).ToList();
+				}
+
+				NumProcessed = 0;
+				TotalProcessing = _assets.Count;
 				if (_assets.Count > 0) {
+					IsProcessing = true;
 					Process(NextAsset());
 				} else {
 					Debug.Log("No assets found to process.");
@@ -72,6 +89,11 @@ namespace VisualPinball.Unity.Library
 			} else {
 				Debug.Log($"No category found.");
 			}
+		}
+
+		public void StopProcessing()
+		{
+			_assets.Clear();
 		}
 
 		private void Process(AssetMaterialCombination a)
@@ -111,6 +133,7 @@ namespace VisualPinball.Unity.Library
 			} else {
 				AssetLibrary.DefaultThumbCameraPreset.ApplyTo(_camera.transform);
 				Debug.Log("All done!");
+				IsProcessing = false;
 			}
 		}
 
@@ -121,6 +144,7 @@ namespace VisualPinball.Unity.Library
 			}
 			var next = _assets.First();
 			_assets.RemoveAt(0);
+			NumProcessed++;
 			return next;
 		}
 	}
