@@ -16,12 +16,23 @@ MonoBehaviour:
   Object: {fileID: 8934560613171117529, guid: afae010859d40074bbd7a528ae4cf8d3, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-15T00:26:18.9795274+02:00
-  Description: 
+  Description: A steel hex nut.
   Attributes:
+  - Key: Part Number
+    Value: 91813A190
+  - Key: Thread Size
+    Value: 3/8"-16
+  - Key: Width
+    Value: 5/8"
+  - Key: Height
+    Value: 1/4"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Hex Nut
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91813A190/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: dcf08986d96fede4795f309017d50707, type: 2}

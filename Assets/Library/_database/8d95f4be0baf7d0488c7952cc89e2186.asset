@@ -17,7 +17,11 @@ MonoBehaviour:
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-19T00:38:36.5703896+02:00
   Description: 
-  Attributes: []
+  Attributes:
+  - Key: Author
+    Value: freezy
+  - Key: Thread Size
+    Value: 10-32
   Tags: []
   Links: []
   MaterialVariations: []

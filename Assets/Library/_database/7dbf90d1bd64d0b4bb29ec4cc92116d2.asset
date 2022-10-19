@@ -16,9 +16,17 @@ MonoBehaviour:
   Object: {fileID: 6330113174452625187, guid: 7dbf90d1bd64d0b4bb29ec4cc92116d2, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-19T00:38:33.7333913+02:00
-  Description: 
-  Attributes: []
-  Tags: []
+  Description: Use this prefab to create custom-sized threads. Most screws already
+    use it, but if you need a longer (visible) thread, just add a bunch more of those.
+  Attributes:
+  - Key: Thread Size
+    Value: 10-24
+  - Key: Thread Length
+    Value: 1/4"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Screw Thread
   Links: []
   MaterialVariations: []
   Scale: 0

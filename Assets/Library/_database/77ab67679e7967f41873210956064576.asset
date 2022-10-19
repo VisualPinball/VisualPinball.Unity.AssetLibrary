@@ -10,29 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 2fa983304aaadb947b49e8bf62ba6f51
+  m_Name: 77ab67679e7967f41873210956064576
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 4249255864495671435, guid: 2fa983304aaadb947b49e8bf62ba6f51, type: 3}
+  Object: {fileID: 2594129759900728355, guid: 77ab67679e7967f41873210956064576, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
-  _addedAt: 2022-10-19T00:38:34.6983931+02:00
-  Description: Decorative Round Phillips Screw Head.
+  _addedAt: 2022-10-19T11:26:59.7026243+02:00
+  Description: A tall, domed head provides a finished appearance. These screws have
+    a zinc plating for corrosion resistance in wet environments. Length is measured
+    from under the head.
   Attributes:
-  - Key: Diameter
-    Value: 0.359"
-  - Key: Height
-    Value: 0.137"
+  - Key: Part Number
+    Value: 90279A829
   - Key: Thread Size
     Value: 10-32
   - Key: Thread Length
-    Value: No Thread
+    Value: 1/4"
+  - Key: Diameter
+    Value: 0.359"
   - Key: Author
     Value: freezy
   Tags:
   - TagName: Phillips Screw
-  Links: []
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/90279A829/
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraPreset: {fileID: 0}
   UnpackPrefab: 0
   Quality: 4
