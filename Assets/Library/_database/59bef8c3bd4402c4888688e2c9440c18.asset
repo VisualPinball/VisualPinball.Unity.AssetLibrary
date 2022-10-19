@@ -16,7 +16,8 @@ MonoBehaviour:
   Object: {fileID: 6465173905060017760, guid: 59bef8c3bd4402c4888688e2c9440c18, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-19T00:38:31.8886275+02:00
-  Description: External-Tooth Lock Washer.
+  Description: 'Teeth on the outside edge of the washer bite into the screw head
+    and joint for a tight grip. '
   Attributes:
   - Key: Part Number
     Value: 90375A011
@@ -24,6 +25,8 @@ MonoBehaviour:
     Value: No. 10
   - Key: Height
     Value: 0.018"
+  - Key: Diameter
+    Value: 0.41"
   - Key: Author
     Value: freezy
   Tags:
@@ -34,5 +37,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0009
   UnpackPrefab: 0
   Quality: 4

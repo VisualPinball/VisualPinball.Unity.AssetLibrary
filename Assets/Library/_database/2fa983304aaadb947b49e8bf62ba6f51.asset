@@ -16,8 +16,10 @@ MonoBehaviour:
   Object: {fileID: 4249255864495671435, guid: 2fa983304aaadb947b49e8bf62ba6f51, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-19T00:38:34.6983931+02:00
-  Description: Decorative Round Phillips Screw Head.
+  Description: A tall, domed head provides a finished appearance.
   Attributes:
+  - Key: Part Number
+    Value: 90279A825
   - Key: Diameter
     Value: 0.359"
   - Key: Height
@@ -30,9 +32,12 @@ MonoBehaviour:
     Value: freezy
   Tags:
   - TagName: Phillips Screw
-  Links: []
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/90279A825/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0002
   UnpackPrefab: 0
   Quality: 4

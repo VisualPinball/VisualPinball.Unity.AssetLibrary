@@ -16,16 +16,31 @@ MonoBehaviour:
   Object: {fileID: 1739933387046017302, guid: fbf15ca7e4cce404ab3a3370e5a4e2aa, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-19T00:38:36.2453908+02:00
-  Description: 
+  Description: ' Serrations under the head grip the material surface for mild vibration
+    resistance, and the flange distributes pressure where the screw meets the surface,
+    eliminating the need for a separate washer.'
   Attributes:
-  - Key: Author
-    Value: freezy
+  - Key: Part Number
+    Value: 97646A239
   - Key: Thread Size
     Value: 10-32
-  Tags: []
-  Links: []
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Width
+    Value: 5/16"
+  - Key: Height
+    Value: 3/16"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Hex Screw Head
+  - TagName: Flanged
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/97646A239/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0005
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

@@ -37,6 +37,7 @@ MonoBehaviour:
     Url: https://www.mcmaster.com/90279A825/
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: dcf08986d96fede4795f309017d50707, type: 2}
+  ThumbCameraHeight: 0.008
   UnpackPrefab: 0
   Quality: 4

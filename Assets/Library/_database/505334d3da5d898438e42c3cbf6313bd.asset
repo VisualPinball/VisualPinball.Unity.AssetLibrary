@@ -31,11 +31,13 @@ MonoBehaviour:
     Value: freezy
   Tags:
   - TagName: Hex Nut
+  - TagName: Nylon-Insert
   Links:
   - Name: McMaster-Carr
     Url: https://www.mcmaster.com/91831A411/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 4

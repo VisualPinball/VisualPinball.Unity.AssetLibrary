@@ -18,14 +18,26 @@ MonoBehaviour:
   _addedAt: 2022-10-19T00:38:38.1155022+02:00
   Description: 
   Attributes:
-  - Key: Author
-    Value: freezy
+  - Key: Part Number
+    Value: 91792A825
   - Key: Thread Size
     Value: 10-32
-  Tags: []
-  Links: []
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Diameter
+    Value: 0.373"
+  - Key: Height
+    Value: 0.11"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Slotted Screw Head
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91792A825/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0002
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4
