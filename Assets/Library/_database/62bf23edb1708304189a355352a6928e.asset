@@ -16,14 +16,28 @@ MonoBehaviour:
   Object: {fileID: 497181409611427641, guid: 62bf23edb1708304189a355352a6928e, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-15T00:26:21.2102151+02:00
-  Description: 
+  Description: Press them into a drilled or punched hole with an arbor press or similar
+    pressure tool. Also known as self-clinching studs, ribs under the head hold the
+    stud firmly in place.
   Attributes:
+  - Key: Part Number
+    Value: 93580A647
+  - Key: Diameter
+    Value: 0.191"
+  - Key: Thread Size
+    Value: 4-40
+  - Key: Thread Length
+    Value: No Thread
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Press-Fit Stud
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/93580A647/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0025
   UnpackPrefab: 0
   Quality: 4

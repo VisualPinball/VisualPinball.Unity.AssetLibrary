@@ -18,12 +18,24 @@ MonoBehaviour:
   _addedAt: 2022-10-15T00:26:22.2237659+02:00
   Description: 
   Attributes:
+  - Key: Part Number
+    Value: 97482A010
+  - Key: Thread Size
+    Value: 1/16"
+  - Key: Diameter
+    Value: 1/8"
+  - Key: Height
+    Value: 0.051"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Rivet
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/97482A010/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0002
   UnpackPrefab: 0
   Quality: 4

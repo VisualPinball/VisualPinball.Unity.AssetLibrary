@@ -16,14 +16,27 @@ MonoBehaviour:
   Object: {fileID: 5711293751837567423, guid: 02d6593a2e56db64ba11f4c6deb83ef9, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-15T00:26:23.0222763+02:00
-  Description: 
+  Description: A lower head height than standard domed head rivets provides a more
+    finished appearance.
   Attributes:
+  - Key: Part Number
+    Value: 97490A341
+  - Key: Thread Size
+    Value: 1/4"
+  - Key: Diameter
+    Value: 0.52"
+  - Key: Height
+    Value: 0.121"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Rivet
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/97490A341/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0003
   UnpackPrefab: 0
   Quality: 4

@@ -16,12 +16,24 @@ MonoBehaviour:
   Object: {fileID: 6206818225093092477, guid: bb8673acf2c5a3840ae0473c09e0382c, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-15T00:26:08.7314672+02:00
-  Description: 
+  Description: Also known as acorn nuts, these cap nuts have a smooth rounded head
+    that covers and protects threads while providing a finished appearance.
   Attributes:
+  - Key: Part Number
+    Value: 99022A101
+  - Key: Thread Size
+    Value: 4-40
+  - Key: Width
+    Value: 1/4"
+  - Key: Height
+    Value: 1/4"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Hex Cap Nut
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/99022A101/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

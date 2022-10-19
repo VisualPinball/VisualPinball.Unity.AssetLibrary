@@ -18,12 +18,16 @@ MonoBehaviour:
   _addedAt: 2022-10-15T00:26:21.5242162+02:00
   Description: 
   Attributes:
+  - Key: Diameter
+    Value: 0.26"
   - Key: Author
-    Value: freezy
-  Tags: []
+    Value: Niwak
+  Tags:
+  - TagName: Rivet
   Links: []
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0005
   UnpackPrefab: 0
   Quality: 4

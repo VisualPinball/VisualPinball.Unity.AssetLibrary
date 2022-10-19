@@ -24,6 +24,12 @@ MonoBehaviour:
     Value: 91770A825
   - Key: Thread Size
     Value: 10-32
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Diameter
+    Value: 0.448"
+  - Key: Height
+    Value: 0.118"
   - Key: Author
     Value: freezy
   Tags:
@@ -34,5 +40,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.0005
   UnpackPrefab: 0
   Quality: 4

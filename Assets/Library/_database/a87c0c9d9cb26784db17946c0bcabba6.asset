@@ -26,12 +26,14 @@ MonoBehaviour:
     Value: 4-40
   - Key: Height
     Value: 3/32"
-  Tags: []
+  Tags:
+  - TagName: Hex Nut
   Links:
   - Name: McMaster-Carr
     Url: https://www.mcmaster.com/91813A120/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 4
