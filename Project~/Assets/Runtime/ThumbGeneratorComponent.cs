@@ -14,6 +14,8 @@
 // You should have received a copy of the GNU General Public License
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
+// ReSharper disable InconsistentNaming
+
 using System;
 using UnityEditor;
 using UnityEditorInternal;
@@ -31,7 +33,7 @@ namespace VisualPinball.Unity.Library
 
 		public string ThumbnailGuid;
 
-		private const int NumPreFrames = 32;
+		private const int NumPreFrames = 8;
 		private const int NumPostFrames = 2;
 		private int _frame;
 
@@ -39,8 +41,8 @@ namespace VisualPinball.Unity.Library
 
 		private void Start()
 		{
-			_frame = NumPreFrames + NumPostFrames;
-			InternalEditorUtility.RepaintAllViews();
+			_frame = 0;
+			TriggerRender();
 		}
 
 		private void OnRenderObject()
@@ -48,11 +50,16 @@ namespace VisualPinball.Unity.Library
 			if (_frame == NumPreFrames) {
 				Screenshot();
 			}
-			if (_frame-- > 0) {
-				InternalEditorUtility.RepaintAllViews();
+			if (_frame++ < NumPreFrames + NumPostFrames) {
+				TriggerRender();
 				return;
 			}
 			OnScreenshot?.Invoke(this, EventArgs.Empty);
+		}
+
+		private void TriggerRender()
+		{
+			InternalEditorUtility.RepaintAllViews();
 		}
 
 		private void Screenshot()

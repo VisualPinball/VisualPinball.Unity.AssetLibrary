@@ -19,7 +19,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting.Antlr3.Runtime.Collections;
 using UnityEditor;
 using UnityEngine;
 using VisualPinball.Unity.Editor;
@@ -38,6 +37,7 @@ namespace VisualPinball.Unity.Library
 		private List<AssetMaterialCombination> _assets;
 		private GameObject _currentGo;
 		private ThumbGeneratorComponent _currentTbc;
+		private AssetMaterialCombination _currentAmc;
 		private Camera _camera;
 
 		private PlayfieldComponent _pf;
@@ -98,6 +98,7 @@ namespace VisualPinball.Unity.Library
 
 		private void Process(AssetMaterialCombination a)
 		{
+			_currentAmc = a;
 			if (a.Asset.ThumbCameraPreset != null) {
 				a.Asset.ThumbCameraPreset.ApplyTo(_camera.transform);
 			} else {
@@ -126,6 +127,7 @@ namespace VisualPinball.Unity.Library
 		{
 			_currentTbc!.OnScreenshot -= DoneProcessing;
 			DestroyImmediate(_currentGo);
+			EditorWindow.GetWindow<AssetBrowser>().RefreshThumb(_currentAmc.Asset);
 
 			var next = NextAsset();
 			if (next != null) {
