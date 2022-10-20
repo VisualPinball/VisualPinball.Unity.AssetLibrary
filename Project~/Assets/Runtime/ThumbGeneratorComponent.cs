@@ -17,6 +17,8 @@
 // ReSharper disable InconsistentNaming
 
 using System;
+using System.IO;
+using NetVips;
 using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
@@ -34,7 +36,7 @@ namespace VisualPinball.Unity.Library
 		public string ThumbnailGuid;
 
 		private const int NumPreFrames = 8;
-		private const int NumPostFrames = 2;
+		private const int NumPostFrames = 4;
 		private int _frame;
 
 		public event EventHandler OnScreenshot;
@@ -50,6 +52,9 @@ namespace VisualPinball.Unity.Library
 			if (_frame == NumPreFrames) {
 				Screenshot();
 			}
+			if (_frame == NumPreFrames + NumPostFrames - 1) {
+				Resize(ThumbnailGuid);
+			}
 			if (_frame++ < NumPreFrames + NumPostFrames) {
 				TriggerRender();
 				return;
@@ -57,7 +62,7 @@ namespace VisualPinball.Unity.Library
 			OnScreenshot?.Invoke(this, EventArgs.Empty);
 		}
 
-		private void TriggerRender()
+		private static void TriggerRender()
 		{
 			InternalEditorUtility.RepaintAllViews();
 		}
@@ -77,9 +82,28 @@ namespace VisualPinball.Unity.Library
 
 		private void Screenshot(string guid)
 		{
-			var path = @$"{AssetBrowser.ThumbPath}/{guid}.png";
-			ScreenCapture.CaptureScreenshot(path);
-			Debug.Log($"Screenshot for \"{Prefab.name}\" saved at {path}");
+			try {
+				var path = @$"{AssetBrowser.ThumbPath}/{guid}_large.png";
+				ScreenCapture.CaptureScreenshot(path, 2);
+				Debug.Log($"Screenshot for \"{Prefab.name}\" saved at {path}");
+
+			} catch (Exception e) {
+				Debug.LogError(e);
+			}
+		}
+
+		private static void Resize(string guid)
+		{
+			const int r = 72;
+			const int s = 1024;
+			var src = Path.GetFullPath(@$"{AssetBrowser.ThumbPath}/{guid}_large.png");
+			var dest = Path.GetFullPath(@$"{AssetBrowser.ThumbPath}/{guid}.png");
+			var mask = Image.NewFromBuffer($"<svg viewBox=\"0 0 {s} {s}\"><rect x=\"0\" y=\"0\" width=\"{s}\" height=\"{s}\" rx=\"{r}\" ry=\"{r}\" fill=\"#fff\"/></svg>");
+			using var large = Image.NewFromFile(src);
+			using var rounded = large.Bandjoin(mask);
+			using var resized = rounded.Resize(0.25);
+			resized.WriteToFile(dest);
+			File.Delete(src);
 		}
 	}
 }

@@ -93,7 +93,8 @@ namespace VisualPinball.Unity.Library
 
 		public void StopProcessing()
 		{
-			_assets.Clear();
+			_assets?.Clear();
+			IsProcessing = false;
 		}
 
 		private void Process(AssetMaterialCombination a)
@@ -114,7 +115,8 @@ namespace VisualPinball.Unity.Library
 				_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object) as GameObject;
 			}
 
-			a.Apply(_currentGo);
+			a.ApplyObjectPos(_currentGo);
+			a.ApplyMaterial(_currentGo);
 
 			Debug.Log($"Processing {_currentGo!.name}");
 			_currentTbc = _currentGo!.AddComponent<ThumbGeneratorComponent>();
