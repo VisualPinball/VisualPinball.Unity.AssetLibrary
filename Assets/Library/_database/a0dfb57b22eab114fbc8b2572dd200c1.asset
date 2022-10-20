@@ -20,6 +20,8 @@ MonoBehaviour:
   Attributes:
   - Key: Part Number
     Value: 91831A005
+  - Key: Thread Size
+    Value: 4-40
   - Key: Width
     Value: 1/4"
   - Key: Height
