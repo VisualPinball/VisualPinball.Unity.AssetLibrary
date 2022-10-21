@@ -44,6 +44,9 @@ namespace VisualPinball.Unity.Library
 		private void Start()
 		{
 			_frame = 0;
+			ModuleInitializer.Initialize();
+			NetVips.Cache.MaxFiles = 0;
+			NetVips.Cache.Max = 0;
 			TriggerRender();
 		}
 
