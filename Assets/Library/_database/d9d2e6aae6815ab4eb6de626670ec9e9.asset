@@ -18,12 +18,21 @@ MonoBehaviour:
   _addedAt: 2022-10-21T22:01:26.7802998+02:00
   Description: 
   Attributes:
+  - Key: Part Number
+    Value: 90107A010
   - Key: Thread Size
-    Value: 8-32
+    Value: No. 8
+  - Key: Diameter
+    Value: 3/8"
+  - Key: Height
+    Value: 0.024"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Washer
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/90107A010/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

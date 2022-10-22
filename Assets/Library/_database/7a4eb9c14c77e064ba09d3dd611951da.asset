@@ -16,14 +16,22 @@ MonoBehaviour:
   Object: {fileID: 420306259565353533, guid: 7a4eb9c14c77e064ba09d3dd611951da, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-21T20:25:44.4227859+02:00
-  Description: 
+  Description: 'Teeth on the outside edge of the washer bite into the screw head
+    and joint for a tight grip. '
   Attributes:
+  - Key: Part Number
+    Value: 90375A007
+  - Key: Thread Size
+    Value: No. 6
+  - Key: Height
+    Value: 0.016"
   - Key: Author
     Value: freezy
-  - Key: Thread Size
-    Value: 6-32
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Washer
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/90375A007/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
