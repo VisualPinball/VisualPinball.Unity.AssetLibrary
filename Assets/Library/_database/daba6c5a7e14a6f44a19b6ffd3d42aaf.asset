@@ -16,7 +16,8 @@ MonoBehaviour:
   Object: {fileID: 2777661921905632467, guid: daba6c5a7e14a6f44a19b6ffd3d42aaf, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-19T00:38:34.3473914+02:00
-  Description: Steel Cap Nut.
+  Description: Also known as acorn nuts, these cap nuts have a smooth rounded head
+    that covers and protects threads while providing a finished appearance.
   Attributes:
   - Key: Part Number
     Value: 91855A460
@@ -36,5 +37,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 4

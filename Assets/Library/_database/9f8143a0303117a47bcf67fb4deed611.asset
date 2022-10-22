@@ -16,14 +16,24 @@ MonoBehaviour:
   Object: {fileID: 8844814866075104688, guid: 9f8143a0303117a47bcf67fb4deed611, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-21T22:01:27.9133257+02:00
-  Description: 
+  Description: Also known as acorn nuts, these cap nuts have a smooth rounded head
+    that covers and protects threads while providing a finished appearance.
   Attributes:
+  - Key: Part Number
+    Value: 91855A440
   - Key: Thread Size
     Value: 8-32
+  - Key: Width
+    Value: 5/16"
+  - Key: Height
+    Value: 11/32"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Hex Cap Nut
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91855A440/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

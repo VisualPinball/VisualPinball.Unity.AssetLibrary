@@ -20,14 +20,14 @@ MonoBehaviour:
   Attributes:
   - Key: Part Number
     Value: 90279A825
-  - Key: Diameter
-    Value: 0.359"
-  - Key: Height
-    Value: 0.137"
   - Key: Thread Size
     Value: 10-32
   - Key: Thread Length
     Value: No Thread
+  - Key: Diameter
+    Value: 0.359"
+  - Key: Height
+    Value: 0.137"
   - Key: Author
     Value: freezy
   Tags:
