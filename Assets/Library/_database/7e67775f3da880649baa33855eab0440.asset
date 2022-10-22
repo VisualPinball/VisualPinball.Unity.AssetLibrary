@@ -18,12 +18,21 @@ MonoBehaviour:
   _addedAt: 2022-10-21T20:25:44.7138140+02:00
   Description: 
   Attributes:
+  - Key: Part Number
+    Value: 92146A617
+  - Key: Thread Size
+    Value: No. 6
+  - Key: Diameter
+    Value: 1/4"
+  - Key: Height
+    Value: 0.031"
   - Key: Author
     Value: freezy
-  - Key: Thread Size
-    Value: 6-32
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Washer
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/92146A617/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
