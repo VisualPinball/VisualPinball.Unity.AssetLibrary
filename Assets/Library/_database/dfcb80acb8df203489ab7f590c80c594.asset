@@ -17,12 +17,16 @@ MonoBehaviour:
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-23T23:55:37.3770926+02:00
   Description: 
-  Attributes: []
+  Attributes:
+  - Key: Thread Size
+    Value: 6-32
+  - Key: Thread Length
+    Value: 1/4"
   Tags: []
   Links: []
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
   ThumbCameraHeight: 0
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4
