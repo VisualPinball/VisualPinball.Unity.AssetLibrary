@@ -18,12 +18,23 @@ MonoBehaviour:
   _addedAt: 2022-10-21T20:25:50.2428791+02:00
   Description: 
   Attributes:
-  - Key: Author
-    Value: freezy
+  - Key: Part Number
+    Value: 90128A121
   - Key: Thread Size
     Value: 6-32
-  Tags: []
-  Links: []
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Diameter
+    Value: 0.226"
+  - Key: Height
+    Value: 0.138"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Hex Socket Screw Head
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/90128A121/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
