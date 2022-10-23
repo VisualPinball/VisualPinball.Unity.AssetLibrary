@@ -19,7 +19,7 @@ MonoBehaviour:
   Description: 
   Attributes:
   - Key: Part Number
-    Value: 90279A143
+    Value: 90279A144
   - Key: Thread Size
     Value: 6-32
   - Key: Thread Length
@@ -34,7 +34,7 @@ MonoBehaviour:
   - TagName: Phillips Screw
   Links:
   - Name: McMaster-Carr
-    Url: https://www.mcmaster.com/90279A143/
+    Url: https://www.mcmaster.com/90279A144/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

@@ -24,13 +24,14 @@ MonoBehaviour:
   - Key: Thread Size
     Value: 6-32
   - Key: Thread Length
-    Value: No Thread
+    Value: 1/4"
   - Key: Diameter
     Value: 0.262"
   - Key: Author
     Value: freezy
   Tags:
   - TagName: Phillips Screw
+  - TagName: Screw
   Links:
   - Name: McMaster-Carr
     Url: https://www.mcmaster.com/91771A144/

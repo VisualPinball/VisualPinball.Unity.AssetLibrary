@@ -19,7 +19,7 @@ MonoBehaviour:
   Description: 
   Attributes:
   - Key: Part Number
-    Value: 91792A142
+    Value: 91792A144
   - Key: Thread Size
     Value: 6-32
   - Key: Thread Length
@@ -34,7 +34,7 @@ MonoBehaviour:
   - TagName: Slotted Screw Head
   Links:
   - Name: McMaster-Carr
-    Url: https://www.mcmaster.com/91792A142/
+    Url: https://www.mcmaster.com/91792A144/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

@@ -16,17 +16,32 @@ MonoBehaviour:
   Object: {fileID: 8200212678615529093, guid: 8eb26217ea0b312428390e1959f68a64, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-23T23:55:35.2408123+02:00
-  Description: 
+  Description: The flange distributes pressure where the screw meets the surface,
+    eliminating the need for a separate washer.
   Attributes:
+  - Key: Part Number
+    Value: 90316A160
   - Key: Thread Size
     Value: 6-32
   - Key: Thread Length
     Value: 1/4"
-  Tags: []
-  Links: []
+  - Key: Width
+    Value: 1/4"
+  - Key: Height
+    Value: 3/32"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Hex Screw Head
+  - TagName: Flanged
+  - TagName: Slotted
+  - TagName: Screw
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/90316A160/
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
   ThumbCameraHeight: 0.008
   UnpackPrefab: 0
   Quality: 4
