@@ -20,9 +20,12 @@ MonoBehaviour:
   Attributes:
   - Key: Thread Size
     Value: 8-32
+  - Key: Thread Length
+    Value: 1/4"
   - Key: Author
     Value: freezy
-  Tags: []
+  Tags:
+  - TagName: Screw Thread
   Links: []
   MaterialVariations: []
   Scale: 0
