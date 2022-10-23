@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: fa38a57c269a3794b86d5f77de9aa546
+  m_Name: 1eeef86486d81e64cb3609d23e3d0327
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 8653739838691501683, guid: fa38a57c269a3794b86d5f77de9aa546, type: 3}
+  Object: {fileID: 39747319236791188, guid: 1eeef86486d81e64cb3609d23e3d0327, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
-  _addedAt: 2022-10-21T20:25:45.9417424+02:00
+  _addedAt: 2022-10-23T23:41:21.9024424+02:00
   Description: This screws are angled under the head to sit flush within countersunk
     holes.
   Attributes:
@@ -37,6 +37,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
-  ThumbCameraHeight: 0.004
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 4

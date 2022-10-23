@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7778146242981367889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8665783924996097262}
+  m_Layer: 0
+  m_Name: Screw, Pan, Slotted, 0.25in (6-32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8665783924996097262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7778146242981367889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2355287983302845618}
+  - {fileID: 1849792638365078004}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2394687304850063292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8665783924996097262}
+    m_Modifications:
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4783982750665995159, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_Name
+      value: Screw Head, Pan, Slotted (6-32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4783982750665995159, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+--- !u!4 &2355287983302845618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 113727554333612814, guid: c02b6626ad0236840b046aa8d5190286, type: 3}
+  m_PrefabInstance: {fileID: 2394687304850063292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5189251516165081008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8665783924996097262}
+    m_Modifications:
+    - target: {fileID: 3732671099239965201, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_Name
+      value: Threaded Rod, 0.25in (6-32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732671099239965201, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+--- !u!4 &1849792638365078004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5883992873716635204, guid: fcd473dac65846a4aa74e5a18b1e7014, type: 3}
+  m_PrefabInstance: {fileID: 5189251516165081008}
+  m_PrefabAsset: {fileID: 0}
