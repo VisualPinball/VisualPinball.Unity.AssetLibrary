@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5563035725712259967}
   - component: {fileID: 2924182585988445390}
   m_Layer: 0
-  m_Name: 6-32 Hex Nut, 5_16_ x 11_64_, Flanged (94831A001)
+  m_Name: Hex Nut, Flanged (6-32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
