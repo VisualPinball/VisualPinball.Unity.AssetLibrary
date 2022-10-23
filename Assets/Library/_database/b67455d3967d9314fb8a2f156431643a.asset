@@ -18,11 +18,14 @@ MonoBehaviour:
   _addedAt: 2022-10-19T00:38:39.0165218+02:00
   Description: 
   Attributes:
-  - Key: Author
-    Value: freezy
   - Key: Thread Size
     Value: 10-32
-  Tags: []
+  - Key: Thread Length
+    Value: 1/4"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Screw Thread
   Links: []
   MaterialVariations: []
   Scale: 0
