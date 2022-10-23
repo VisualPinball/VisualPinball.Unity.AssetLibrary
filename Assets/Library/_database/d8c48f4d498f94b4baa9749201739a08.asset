@@ -16,14 +16,25 @@ MonoBehaviour:
   Object: {fileID: 8069902673096352682, guid: d8c48f4d498f94b4baa9749201739a08, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-21T22:01:32.3300748+02:00
-  Description: 
+  Description: These screws have a tall, domed head that provides a finished appearance.
   Attributes:
+  - Key: Part Number
+    Value: 91783A189
   - Key: Thread Size
     Value: 8-32
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Diameter
+    Value: 0.309"
+  - Key: Height
+    Value: 0.120"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Slotted Screw Head
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91783A189/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

@@ -16,9 +16,9 @@ MonoBehaviour:
   Object: {fileID: 1739933387046017302, guid: fbf15ca7e4cce404ab3a3370e5a4e2aa, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-19T00:38:36.2453908+02:00
-  Description: ' Serrations under the head grip the material surface for mild vibration
+  Description: Serrations under the head grip the material surface for mild vibration
     resistance, and the flange distributes pressure where the screw meets the surface,
-    eliminating the need for a separate washer.'
+    eliminating the need for a separate washer.
   Attributes:
   - Key: Part Number
     Value: 97646A239

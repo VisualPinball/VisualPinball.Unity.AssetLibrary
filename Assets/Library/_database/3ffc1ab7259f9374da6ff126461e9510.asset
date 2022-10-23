@@ -18,12 +18,21 @@ MonoBehaviour:
   _addedAt: 2022-10-21T22:01:28.9053250+02:00
   Description: 
   Attributes:
+  - Key: Part Number
+    Value: 91813A160
   - Key: Thread Size
     Value: 8-32
+  - Key: Width
+    Value: 3/8"
+  - Key: Height
+    Value: 1/8"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Hex Nut
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91813A160/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

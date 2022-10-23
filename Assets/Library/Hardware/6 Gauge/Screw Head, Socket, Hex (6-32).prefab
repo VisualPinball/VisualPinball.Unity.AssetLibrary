@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2159276025119942647}
   - component: {fileID: 5888774291411567537}
   m_Layer: 0
-  m_Name: 6-32 Socket Screw Head (90128A121)
+  m_Name: Screw Head, Socket, Hex (6-32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

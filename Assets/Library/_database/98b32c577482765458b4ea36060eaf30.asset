@@ -16,14 +16,27 @@ MonoBehaviour:
   Object: {fileID: 1084944527684683162, guid: 98b32c577482765458b4ea36060eaf30, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-21T22:01:31.0343419+02:00
-  Description: 
+  Description: "These locknuts have a nylon insert that firmly grips threads to resist
+    loosening and a flange that distributes the load over a large area. They\u2019re
+    reusable, but their holding power lessens with each use."
   Attributes:
+  - Key: Part Number
+    Value: 93298A102
   - Key: Thread Size
     Value: 8-32
+  - Key: Width
+    Value: 11/32"
+  - Key: Height
+    Value: 1/4"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Hex Nut
+  - TagName: Flanged
+  - TagName: Nylon-Insert
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/93298A102/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
