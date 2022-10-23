@@ -18,15 +18,27 @@ MonoBehaviour:
   _addedAt: 2022-10-23T23:55:36.8003364+02:00
   Description: 
   Attributes:
+  - Key: Part Number
+    Value: 91772A144
   - Key: Thread Size
     Value: 6-32
   - Key: Thread Length
     Value: 1/4"
-  Tags: []
-  Links: []
+  - Key: Diameter
+    Value: 0.270"
+  - Key: Height
+    Value: 0.097"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Screw
+  - TagName: Phillips Screw
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91772A144/
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
   ThumbCameraHeight: 0.008
   UnpackPrefab: 0
   Quality: 4
