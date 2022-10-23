@@ -16,14 +16,24 @@ MonoBehaviour:
   Object: {fileID: 1429402925738176315, guid: 6c71ff0aeea93b146845f697a562fa51, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-21T22:01:28.5843267+02:00
-  Description: 
+  Description: This screws are angled under the head to sit flush within countersunk
+    holes.
   Attributes:
+  - Key: Part Number
+    Value: 91771A189
   - Key: Thread Size
     Value: 8-32
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Diameter
+    Value: 0.312"
   - Key: Author
     Value: freezy
-  Tags: []
-  Links: []
+  Tags:
+  - TagName: Phillips Screw
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91771A189/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
