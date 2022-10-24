@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 6.377907, g: 5.507435, b: 5.025875, a: 1}
+  m_IndirectSpecularColor: {r: 5.4003944, g: 4.663946, b: 4.255858, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 30
+  m_Intensity: 50
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -1268,7 +1268,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 38.197186
+  m_Intensity: 63.661976
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1810,7 +1810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731251123}
   m_LocalRotation: {x: 0.27781588, y: 0.36497167, z: -0.1150751, w: 0.8811196}
-  m_LocalPosition: {x: -0.06, y: 0.0762, z: -0.06}
+  m_LocalPosition: {x: -0.0212, y: 0.0235, z: -0.0212}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2457,7 +2457,7 @@ Transform:
   - {fileID: 1843620886}
   - {fileID: 472130745}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &936955338
 MonoBehaviour:
@@ -3215,6 +3215,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1123326636132910625, guid: 3a32b392f9553364f85c02bc5d8b9214, type: 3}
   m_PrefabInstance: {fileID: 1729903884}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1832789757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517549635448847021, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8551117298542116903, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
+      propertyPath: m_Name
+      value: Hex Nut, Nylon-Insert, Top Rod (6-32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 802e1a542790c0c4787785a007fe2ffc, type: 3}
 --- !u!1 &1835884080
 GameObject:
   m_ObjectHideFlags: 0
