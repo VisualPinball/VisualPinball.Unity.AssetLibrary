@@ -19,7 +19,7 @@ MonoBehaviour:
   Description: 
   Attributes:
   - Key: Part Number
-    Value: 91772A188
+    Value: 91772A190
   - Key: Thread Size
     Value: 10-32
   - Key: Thread Length
@@ -32,7 +32,7 @@ MonoBehaviour:
   - TagName: Phillips Screw
   Links:
   - Name: McMaster-Carr
-    Url: https://www.mcmaster.com/91772A188/
+    Url: https://www.mcmaster.com/91772A190/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

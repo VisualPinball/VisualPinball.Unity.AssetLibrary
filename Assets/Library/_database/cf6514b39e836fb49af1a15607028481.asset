@@ -22,7 +22,8 @@ MonoBehaviour:
     Value: freezy
   - Key: Thread Size
     Value: 8-32
-  Tags: []
+  Tags:
+  - TagName: Screw
   Links: []
   MaterialVariations: []
   Scale: 0

@@ -16,14 +16,28 @@ MonoBehaviour:
   Object: {fileID: 8150390265333953646, guid: e1e353c5ab00b1849acb31ab616d5b89, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-24T17:56:02.2472860+02:00
-  Description: 
+  Description: The flange distributes pressure where the nut meets the material surface,
+    eliminating the need for a separate washer. About half the strength of medium-strength
+    steel flange locknuts, use them in light duty fastening applications, such as
+    securing access panels. Height includes the flange.
   Attributes:
   - Key: Author
     Value: freezy
   - Key: Thread Size
     Value: 10-24
-  Tags: []
-  Links: []
+  - Key: Part Number
+    Value: 94831A011
+  - Key: Width
+    Value: 3/8"
+  - Key: Height
+    Value: 7/32"
+  Tags:
+  - TagName: Hex Nut
+  - TagName: Flanged
+  - TagName: Top Rod
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/94831A011/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

@@ -16,17 +16,31 @@ MonoBehaviour:
   Object: {fileID: 1864275623726750657, guid: d636f6da6df1ff046aeacbfa3de9acc0, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-24T17:52:05.4363818+02:00
-  Description: 
+  Description: These screws have an extra-wide truss head that distributes holding
+    pressure to reduce the likelihood of crushing thin material. Length is measured
+    from under the head.
   Attributes:
-  - Key: Author
-    Value: freezy
+  - Key: Part Number
+    Value: 91770A825
   - Key: Thread Size
     Value: 10-32
-  Tags: []
-  Links: []
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Diameter
+    Value: 0.448"
+  - Key: Height
+    Value: 0.118"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Screw
+  - TagName: Phillips Screw
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91770A825/
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
   ThumbCameraHeight: 0.008
   UnpackPrefab: 0
   Quality: 4

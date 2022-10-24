@@ -18,12 +18,23 @@ MonoBehaviour:
   _addedAt: 2022-10-24T17:27:45.7381441+02:00
   Description: 
   Attributes:
-  - Key: Author
-    Value: freezy
+  - Key: Part Number
+    Value: 94831A005
   - Key: Thread Size
     Value: 8-32
-  Tags: []
-  Links: []
+  - Key: Width
+    Value: 11/32"
+  - Key: Height
+    Value: 13/64"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Hex Nut
+  - TagName: Flanged
+  - TagName: Top Rod
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/94831A005/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

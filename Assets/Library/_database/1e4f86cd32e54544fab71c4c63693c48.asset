@@ -22,11 +22,23 @@ MonoBehaviour:
     Value: freezy
   - Key: Thread Size
     Value: 10-32
-  Tags: []
-  Links: []
+  - Key: Part Number
+    Value: 93075A827
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Width
+    Value: 5/16"
+  - Key: Height
+    Value: 1/8"
+  Tags:
+  - TagName: Screw
+  - TagName: Hex Screw Head
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/93075A827/
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
   ThumbCameraHeight: 0.008
   UnpackPrefab: 0
   Quality: 4
