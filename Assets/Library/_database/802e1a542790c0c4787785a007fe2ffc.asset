@@ -31,6 +31,7 @@ MonoBehaviour:
   Tags:
   - TagName: Hex Nut
   - TagName: Nylon-Insert
+  - TagName: Top Rod
   Links:
   - Name: McMaster-Carr
     Url: https://www.mcmaster.com/91831A007/
