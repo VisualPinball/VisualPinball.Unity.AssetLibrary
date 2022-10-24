@@ -20,7 +20,7 @@ MonoBehaviour:
     eliminating the need for a separate washer.
   Attributes:
   - Key: Part Number
-    Value: 90316A849
+    Value: 90316A837
   - Key: Thread Size
     Value: 10-32
   - Key: Thread Length
@@ -37,7 +37,7 @@ MonoBehaviour:
   - TagName: Slotted
   Links:
   - Name: McMaster-Carr
-    Url: https://www.mcmaster.com/90316A849/
+    Url: https://www.mcmaster.com/90316A837/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

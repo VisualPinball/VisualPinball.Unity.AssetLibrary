@@ -16,14 +16,26 @@ MonoBehaviour:
   Object: {fileID: 8480354444098971714, guid: 6eda1694f13284445bb79f017e957237, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-24T17:44:02.6633536+02:00
-  Description: 
+  Description: 'The flange distributes pressure where the nut meets the material
+    surface, eliminating the need for a separate washer. '
   Attributes:
   - Key: Author
     Value: freezy
   - Key: Thread Size
     Value: 10-32
-  Tags: []
-  Links: []
+  - Key: Part Number
+    Value: 94831A611
+  - Key: Width
+    Value: 3/8"
+  - Key: Height
+    Value: 7/32"
+  Tags:
+  - TagName: Hex Nut
+  - TagName: Flanged
+  - TagName: Top Rod
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/94831A611/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}

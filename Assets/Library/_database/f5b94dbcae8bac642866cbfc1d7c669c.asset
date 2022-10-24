@@ -16,14 +16,26 @@ MonoBehaviour:
   Object: {fileID: 4029387853449300978, guid: f5b94dbcae8bac642866cbfc1d7c669c, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-24T17:56:03.0437288+02:00
-  Description: 
+  Description: The nylon insert grips the bolt to resist loosening without damaging
+    threads. They're reusable, but their holding power lessens with each use.
   Attributes:
-  - Key: Author
-    Value: freezy
+  - Key: Part Number
+    Value: 91831A011
   - Key: Thread Size
     Value: 10-24
-  Tags: []
-  Links: []
+  - Key: Width
+    Value: 3/8"
+  - Key: Height
+    Value: 15/64"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Hex Nut
+  - TagName: Nylon-Insert
+  - TagName: Top Rod
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91831A011/
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
