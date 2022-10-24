@@ -31,6 +31,7 @@ MonoBehaviour:
   Tags:
   - TagName: Hex Nut
   - TagName: Flanged
+  - TagName: Top Rod
   Links:
   - Name: McMaster-Carr
     Url: https://www.mcmaster.com/94831A001/
