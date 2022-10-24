@@ -17,12 +17,16 @@ MonoBehaviour:
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
   _addedAt: 2022-10-24T17:38:17.2319142+02:00
   Description: 
-  Attributes: []
+  Attributes:
+  - Key: Author
+    Value: freezy
+  - Key: Thread Size
+    Value: 8-32
   Tags: []
   Links: []
   MaterialVariations: []
   Scale: 0
-  ThumbCameraPreset: {fileID: 0}
-  ThumbCameraHeight: 0
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
+  ThumbCameraHeight: 0.008
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4
