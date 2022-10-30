@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 4176bfad87fb68a499e13113980e0ea5
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 6036484632654166996, guid: 4176bfad87fb68a499e13113980e0ea5, type: 3}
+  _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
+  _addedAt: 2022-10-30T20:12:51.7340493+01:00
+  Description: Press them into a drilled or punched hole with an arbor press or similar
+    pressure tool. Also known as self-clinching studs, ribs under the head hold the
+    stud firmly in place.
+  Attributes:
+  - Key: Part Number
+    Value: 93580A647
+  - Key: Diameter
+    Value: 0.191"
+  - Key: Thread Size
+    Value: 4-40
+  - Key: Thread Length
+    Value: No Thread
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Press-Fit Stud
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/93580A647/
+  MaterialVariations: []
+  Scale: 0
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
+  ThumbCameraHeight: 0.008
+  UnpackPrefab: 0
+  Quality: 4

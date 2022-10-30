@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 2e77c28331b432e4ab8a0db757700f03
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 7140275927915075966, guid: 2e77c28331b432e4ab8a0db757700f03, type: 3}
+  _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
+  _addedAt: 2022-10-30T20:11:24.1358480+01:00
+  Description: Steel Hex Nut, 4-40 Thread Size
+  Attributes:
+  - Key: Author
+    Value: freezy
+  - Key: Part Number
+    Value: 91813A120,MS35649-242
+  - Key: Thread Size
+    Value: 4-40
+  - Key: Height
+    Value: 3/32"
+  Tags:
+  - TagName: Hex Nut
+  - TagName: Top Rod
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/91813A120/
+  MaterialVariations: []
+  Scale: 0
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 4
