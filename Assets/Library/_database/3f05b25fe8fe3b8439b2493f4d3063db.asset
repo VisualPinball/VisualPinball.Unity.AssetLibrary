@@ -22,7 +22,8 @@ MonoBehaviour:
     Value: 10-32
   - Key: Author
     Value: freezy
-  Tags: []
+  Tags:
+  - TagName: Screw Thread
   Links: []
   MaterialVariations: []
   Scale: 0

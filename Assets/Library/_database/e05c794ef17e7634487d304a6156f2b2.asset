@@ -30,7 +30,6 @@ MonoBehaviour:
     Value: 1/8"
   Tags:
   - TagName: Hex Nut
-  - TagName: Screw Thread
   - TagName: Top Rod
   Links:
   - Name: McMaster-Carr

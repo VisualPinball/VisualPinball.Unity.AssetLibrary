@@ -32,7 +32,7 @@ MonoBehaviour:
     Value: freezy
   Tags:
   - TagName: Phillips Screw
-  - TagName: Combi Slotted
+  - TagName: Slotted
   Links:
   - Name: McMaster-Carr
     Url: https://www.mcmaster.com/90604A559/
