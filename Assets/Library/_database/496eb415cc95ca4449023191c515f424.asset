@@ -35,10 +35,11 @@ MonoBehaviour:
     Object: {fileID: 292987247278266026, guid: 496eb415cc95ca4449023191c515f424, type: 3}
     Slot: 0
     Overrides:
-    - Name: Light
+    - Name: Stained
       Material: {fileID: 2100000, guid: db66bf43cda18af44b995e8105ca2471, type: 2}
       Id: 577d86dd-39f6-4b70-99a0-c8450e119cfe
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2
