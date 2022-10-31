@@ -16,26 +16,31 @@ MonoBehaviour:
   Object: {fileID: 5941633136803709614, guid: 525ca63b38d5f154a938d3f82cb3459a, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
   _addedAt: 2022-10-04T13:58:06.6201453+02:00
-  Description: Double bumper ring.
+  Description: Bumper post with dual rubber ring grooves.
   Attributes:
+  - Key: Part Number
+    Value: 02-4450,02-4423,04-193000,97-000102-00
   - Key: Size
     Value: 1-3/16"
-  - Key: Part Number
-    Value: 02-4450
+  - Key: Thread Size
+    Value: 8-32
   Tags:
   - TagName: Metal
   Links:
   - Name: Marco Specialties
     Url: https://www.marcospecialties.com/pinball-parts/02-4450
+  - Name: Pinball Makers
+    Url: https://pinballmakers.com/wiki/images/a/a9/Post_-Dual_Ring_8-32_Thread_6-32_at_top_02-4423.SLDPRT
   MaterialVariations:
   - Name: Metal
     Object: {fileID: 5941633136803709614, guid: 525ca63b38d5f154a938d3f82cb3459a, type: 3}
     Slot: 0
     Overrides:
-    - Name: Light
+    - Name: Stained
       Material: {fileID: 2100000, guid: db66bf43cda18af44b995e8105ca2471, type: 2}
       Id: af45bea9-f07b-40ec-bd98-5a6f9e2d7648
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

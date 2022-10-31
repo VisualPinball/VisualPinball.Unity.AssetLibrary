@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: e4003bdac703f9544a1595c4d3c15c88
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 6333827088303488747, guid: e4003bdac703f9544a1595c4d3c15c88, type: 3}
+  _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
+  _addedAt: 2022-10-31T23:54:11.1857909+01:00
+  Description: Bumper post with dual rubber ring grooves.
+  Attributes:
+  - Key: Part Number
+    Value: 02-4450,02-4423,04-193000,97-000102-00
+  - Key: Size
+    Value: 1-3/16"
+  - Key: Thread Size
+    Value: 8-32
+  Tags:
+  - TagName: Metal
+  Links: []
+  MaterialVariations: []
+  Scale: 1
+  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 4

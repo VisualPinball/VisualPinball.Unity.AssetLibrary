@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &110683917287000606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 291173929911541632}
+    m_Modifications:
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151593811645656351, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015789443076533717, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+      propertyPath: m_Name
+      value: Post - Mini Post - 1.0in - Metal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2ae716a2f78c9347b18dc8d4ac05fa5, type: 3}
+--- !u!1001 &2235214715178619340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 278150773872630867, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: _instanceID
+      value: -744530
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1081.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6600589437666548010, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+      propertyPath: m_Name
+      value: Rubber Ring, Collidable (0.42in)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+--- !u!4 &291173929911541632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1949890230077738572, guid: 0a522ab6d9a450d469570057205bc066, type: 3}
+  m_PrefabInstance: {fileID: 2235214715178619340}
+  m_PrefabAsset: {fileID: 0}
