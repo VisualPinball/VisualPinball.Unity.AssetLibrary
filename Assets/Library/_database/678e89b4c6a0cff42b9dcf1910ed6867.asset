@@ -18,10 +18,12 @@ MonoBehaviour:
   _addedAt: 2022-10-04T15:30:14.8590068+02:00
   Description: 1/4 inch drive hex standoff with 6-32 thread taps at both ends.
   Attributes:
-  - Key: Size
-    Value: 1/4"
   - Key: Part Number
     Value: 254-5008-00
+  - Key: Size
+    Value: 1/4"
+  - Key: Width
+    Value: 1/4"
   Tags:
   - TagName: Metal
   Links:
@@ -32,5 +34,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2

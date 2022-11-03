@@ -18,10 +18,12 @@ MonoBehaviour:
   _addedAt: 2022-10-04T15:30:16.8995667+02:00
   Description: Hex spacer post 1-1/8 x 1/4 inches #6-32 Tap both ends.
   Attributes:
-  - Key: Size
-    Value: 1-1/8"
   - Key: Part Number
     Value: 254-5008-17
+  - Key: Size
+    Value: 1-1/8"
+  - Key: Width
+    Value: 1/4"
   Tags:
   - TagName: Metal
   Links:
@@ -32,3 +34,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2

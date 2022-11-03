@@ -19,10 +19,12 @@ MonoBehaviour:
   Description: Hex spacer post 1/2 inch length x 1/4 inch width with #6-32 taps at
     both ends.
   Attributes:
-  - Key: Size
-    Value: 1/2"
   - Key: Part Number
     Value: 254-5008-03
+  - Key: Size
+    Value: 1/2"
+  - Key: Width
+    Value: 1/4"
   Tags:
   - TagName: Metal
   Links:
@@ -33,5 +35,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2

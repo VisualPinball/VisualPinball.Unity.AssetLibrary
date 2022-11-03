@@ -20,6 +20,7 @@ MonoBehaviour:
   Attributes: []
   Tags:
   - TagName: Metal
+  - TagName: Plastic
   Links: []
   MaterialVariations:
   - Name: Plastic

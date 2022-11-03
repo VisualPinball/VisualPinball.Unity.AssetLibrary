@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: f3e6739588d76b74fb395a7673c94b1c
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 4820350766834456741, guid: f3e6739588d76b74fb395a7673c94b1c, type: 3}
+  _categoryId: a891c5b0-26c4-4e0f-a795-8dbbb58b2e71
+  _addedAt: 2022-11-04T10:44:36.9193859+01:00
+  Description: 
+  Attributes:
+  - Key: Size
+    Value: 3/16"
+  - Key: Diameter
+    Value: 3/8"
+  - Key: Author
+    Value: Niwak
+  Tags:
+  - TagName: Plastic
+  Links: []
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 4820350766834456741, guid: f3e6739588d76b74fb395a7673c94b1c, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Black
+      Material: {fileID: 2100000, guid: 48c3378e8b4f27a4584c013251ac0f43, type: 2}
+      Id: 7f5accfe-e188-4276-accf-267b5ae17d4d
+  Scale: 0
+  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2

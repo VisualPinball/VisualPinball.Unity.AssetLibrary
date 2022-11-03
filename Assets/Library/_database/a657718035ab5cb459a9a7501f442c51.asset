@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: a657718035ab5cb459a9a7501f442c51
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 483274146440323953, guid: a657718035ab5cb459a9a7501f442c51, type: 3}
+  _categoryId: a891c5b0-26c4-4e0f-a795-8dbbb58b2e71
+  _addedAt: 2022-11-04T10:44:34.8539357+01:00
+  Description: 'Spacer nylon #6 x 3/4 inch self locking. '
+  Attributes:
+  - Key: Part Number
+    Value: 254-5007-03
+  - Key: Size
+    Value: 3/4"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/254-5007-03
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 483274146440323953, guid: a657718035ab5cb459a9a7501f442c51, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Black
+      Material: {fileID: 2100000, guid: 48c3378e8b4f27a4584c013251ac0f43, type: 2}
+      Id: 1a4bc0b6-bf40-4d23-bb04-c64d1b585735
+  Scale: 0
+  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2
