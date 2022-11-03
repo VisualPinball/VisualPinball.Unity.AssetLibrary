@@ -18,10 +18,12 @@ MonoBehaviour:
   _addedAt: 2022-10-04T15:30:15.1709326+02:00
   Description: 1/4 inch hex spacer post - female/female 6-32 thread 3/4 inches long.
   Attributes:
-  - Key: Size
-    Value: 3/4"
   - Key: Part Number
     Value: 254-5008-04,02-4252-12
+  - Key: Size
+    Value: 3/4"
+  - Key: Width
+    Value: 1/4"
   Tags:
   - TagName: Metal
   Links:
@@ -32,3 +34,6 @@ MonoBehaviour:
   MaterialVariations: []
   Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2

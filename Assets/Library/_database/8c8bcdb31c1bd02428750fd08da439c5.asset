@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 8c8bcdb31c1bd02428750fd08da439c5
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 6366751957779778142, guid: 8c8bcdb31c1bd02428750fd08da439c5, type: 3}
+  _categoryId: a891c5b0-26c4-4e0f-a795-8dbbb58b2e71
+  _addedAt: 2022-11-04T10:37:07.0513002+01:00
+  Description: 
+  Attributes:
+  - Key: Part Number
+    Value: 254-5007-00
+  - Key: Size
+    Value: 5/8"
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Plastic
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/254-5007-00
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 6366751957779778142, guid: 8c8bcdb31c1bd02428750fd08da439c5, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Black
+      Material: {fileID: 2100000, guid: 48c3378e8b4f27a4584c013251ac0f43, type: 2}
+      Id: 9da9e8cd-c635-4674-9d65-cff8c1c4933d
+  Scale: 0
+  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2

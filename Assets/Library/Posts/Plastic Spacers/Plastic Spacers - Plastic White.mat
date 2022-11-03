@@ -17,6 +17,7 @@ Material:
   - _MATERIAL_FEATURE_TRANSMISSION
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
+  - _SUBSURFACE_MASK_MAP
   - _THICKNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -40,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7dcb3ee7273120a428bd48a9d70bb397, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -80,15 +81,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7dcb3ee7273120a428bd48a9d70bb397, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: 1b0b2c2ab3f5b484c95aa28c5b357cb1, type: 3}
+        m_Texture: {fileID: 2800000, guid: f4d35c150b3b6dc47924e9c0027e4365, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 35323eadbbd509a43969ea122d593f88, type: 3}
+        m_Texture: {fileID: 2800000, guid: b5ea370702869ce4f977970e27be0494, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
@@ -100,7 +101,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubsurfaceMaskMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 83811a682ad7df24fa1325fa183e400d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TangentMap:
@@ -112,7 +113,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
-        m_Texture: {fileID: 2800000, guid: 09d91d2bf78f7944e86886bba7fcb198, type: 3}
+        m_Texture: {fileID: 2800000, guid: 83811a682ad7df24fa1325fa183e400d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TransmittanceColorMap:
@@ -221,7 +222,7 @@ Material:
     - _RefractionModel: 2
     - _Smoothness: 0.933
     - _SmoothnessRemapMax: 1
-    - _SmoothnessRemapMin: 0.23598686
+    - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularOcclusionMode: 1
@@ -272,7 +273,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ThicknessRemap: {r: 0.40302652, g: 1, b: 0, a: 0}
+    - _ThicknessRemap: {r: 0.11104277, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 0.7372549, g: 0, b: 0, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
