@@ -61,8 +61,8 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8978308136384379488, guid: bb43ab5321df4ff46b3e0cb0f46f5b09, type: 3}
-  - {fileID: -564083652109618655, guid: bb43ab5321df4ff46b3e0cb0f46f5b09, type: 3}
+  - {fileID: 2100000, guid: 88374e31e67b61346b90ad6cb7806940, type: 2}
+  - {fileID: 2100000, guid: a0fa682bd4ea1d14e907bdf3a051a154, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5865669960216927822}
   - component: {fileID: 560711191651817183}
   m_Layer: 0
-  m_Name: Flipper, Generic (3in)
+  m_Name: Flipper, Generic (3in) - Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
