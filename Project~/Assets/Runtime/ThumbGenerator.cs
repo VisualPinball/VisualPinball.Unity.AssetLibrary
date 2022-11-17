@@ -106,14 +106,7 @@ namespace VisualPinball.Unity.Library
 				AssetLibrary.DefaultThumbCameraPreset.ApplyTo(_camera.transform);
 			}
 
-			if (a.Asset.Scale == AssetScale.Table) {
-				var parent = _pf.gameObject;
-				_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object, parent.transform) as GameObject;
-				_currentGo!.transform.localPosition = _tableCenter;
-
-			} else {
-				_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object) as GameObject;
-			}
+			_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object) as GameObject;
 
 			a.ApplyObjectPos(_currentGo);
 			a.ApplyMaterial(_currentGo);
