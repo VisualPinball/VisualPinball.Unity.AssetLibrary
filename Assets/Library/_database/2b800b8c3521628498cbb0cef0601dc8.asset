@@ -10,28 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 4b6035333f0c85945ace5d8bc280e02e
+  m_Name: 2b800b8c3521628498cbb0cef0601dc8
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 1423176538143981114, guid: 4b6035333f0c85945ace5d8bc280e02e, type: 3}
+  Object: {fileID: 5620486101798332538, guid: 2b800b8c3521628498cbb0cef0601dc8, type: 3}
   _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
-  _addedAt: 2022-09-27T23:47:30.5225607+02:00
-  Description: A generic three inch left flipper.
-  Attributes:
-  - Key: Author
-    Value: Niwak, freezy
-  - Key: Size
-    Value: 3in
-  Tags:
-  - TagName: Rubber
-  - TagName: Plastic
-  Links:
-  - Name: Marco Specialties
-    Url: https://www.marcospecialties.com/pinball-parts/515-5133-06-06
-  - Name: Pinball Life
-    Url: https://www.pinballlife.com/bally-flipper-bat-and-shaft-white.html
+  _addedAt: 2022-11-16T00:37:34.7041215+01:00
+  Description: 
+  Attributes: []
+  Tags: []
+  Links: []
   MaterialVariations: []
-  Scale: 1
+  Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2

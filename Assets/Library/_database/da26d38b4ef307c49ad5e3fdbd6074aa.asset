@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: da26d38b4ef307c49ad5e3fdbd6074aa
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 5096594246895634047, guid: da26d38b4ef307c49ad5e3fdbd6074aa, type: 3}
+  _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
+  _addedAt: 2022-11-18T15:38:10.9378843+01:00
+  Description: 'White and yellow 3 inch plastic flipper with molded 2-2/16 shaft
+    fits Data East pinball machines. '
+  Attributes:
+  - Key: Part Number
+    Value: 515-5133-01,515-5133-02,515-5133-08-00,18-003600
+  - Key: Size
+    Value: 3"
+  - Key: Author
+    Value: freezy
+  Tags: []
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/515-5133-01
+  MaterialVariations:
+  - Name: Rubber
+    Object: {fileID: 460845034391940119, guid: da26d38b4ef307c49ad5e3fdbd6074aa, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Black
+      Material: {fileID: 2100000, guid: e4ad5228c14d0274ca68710ba9a36ac6, type: 2}
+      Id: 5be2e728-1f9c-4e50-8fdd-2f8c4f85f32d
+    - Name: Blue
+      Material: {fileID: 2100000, guid: c047c8bbbfe324a4c98986e3e85c9d55, type: 2}
+      Id: 64a3d5d8-153d-4f8e-9ac0-3d07512f20e5
+    - Name: Orange
+      Material: {fileID: 2100000, guid: c3fc108e1119f804c96c6f39ce042d92, type: 2}
+      Id: 7092bf2f-1468-4dd2-bb56-7c3c1690b070
+    - Name: Purple
+      Material: {fileID: 2100000, guid: db112a2b318c8064796ada845accdde8, type: 2}
+      Id: 8300e0dd-3c62-4890-a88b-107d4c60bf90
+    - Name: White
+      Material: {fileID: 2100000, guid: e2abc8fe1d232944b953056f064bf69b, type: 2}
+      Id: b48ca168-d91e-465c-a058-dc1b098176a6
+  - Name: Plastic
+    Object: {fileID: 460845034391940119, guid: da26d38b4ef307c49ad5e3fdbd6074aa, type: 3}
+    Slot: 1
+    Overrides:
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: ca3763e298425894cb9301f1d293e48b, type: 2}
+      Id: e49db9fd-1c00-4ecb-a8ea-90adf34680c9
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2

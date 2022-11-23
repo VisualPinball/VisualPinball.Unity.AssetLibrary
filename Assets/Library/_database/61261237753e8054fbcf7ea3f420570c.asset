@@ -10,20 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 24667fa133077da4bb2c590413314e32
+  m_Name: 61261237753e8054fbcf7ea3f420570c
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 5178778220497712839, guid: 24667fa133077da4bb2c590413314e32, type: 3}
+  Object: {fileID: 6932317457981736851, guid: 61261237753e8054fbcf7ea3f420570c, type: 3}
   _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
-  _addedAt: 2022-09-27T23:47:43.6792785+02:00
+  _addedAt: 2022-11-18T14:55:38.0901730+01:00
   Description: 
-  Attributes:
-  - Key: Author
-    Value: BorgDog
+  Attributes: []
   Tags: []
   Links: []
   MaterialVariations: []
-  Scale: 1
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2

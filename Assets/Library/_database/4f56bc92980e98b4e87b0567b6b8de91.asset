@@ -10,23 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 0ee9ebdd1ffdf26409c54ad824a59d7a
+  m_Name: 4f56bc92980e98b4e87b0567b6b8de91
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 1210019902774001202, guid: 0ee9ebdd1ffdf26409c54ad824a59d7a, type: 3}
+  Object: {fileID: 2131140127662850576, guid: 4f56bc92980e98b4e87b0567b6b8de91, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
-  _addedAt: 2022-11-01T22:32:01.6148276+01:00
-  Description: 
+  _addedAt: 2022-11-24T08:38:25.5979881+01:00
+  Description: 'Narrow plastic post 1-1/16 inch transparent plastic.
+
+
+
+    Accommodates
+    a 3/16 inch inner diameter rubber ring. '
   Attributes:
   - Key: Size
     Value: 1-1/16"
   - Key: Part Number
-    Value: 03-8319,550-5034,545-5013,03-7542,30-009005
+    Value: 550-5059
   Tags:
   - TagName: Plastic
-  Links:
-  - Name: 
-    Url: 
+  Links: []
   MaterialVariations: []
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: 0
