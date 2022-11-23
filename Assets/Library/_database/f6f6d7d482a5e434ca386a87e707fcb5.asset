@@ -10,23 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 0ee9ebdd1ffdf26409c54ad824a59d7a
+  m_Name: f6f6d7d482a5e434ca386a87e707fcb5
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 1210019902774001202, guid: 0ee9ebdd1ffdf26409c54ad824a59d7a, type: 3}
+  Object: {fileID: 7365007198680060706, guid: f6f6d7d482a5e434ca386a87e707fcb5, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
-  _addedAt: 2022-11-01T22:32:01.6148276+01:00
-  Description: 
+  _addedAt: 2022-11-21T16:20:53.2550626+01:00
+  Description: 'Plastic post common to late model Bally / Williams and other brand
+    electronic pinball machines.
+
+
+
+    Accommodates a #8 stud and typically fitted
+    with a 5/16 inch Inner Diameter rubber ring (not included). '
   Attributes:
   - Key: Size
-    Value: 1-1/16"
+    Value: 1-3/8"
   - Key: Part Number
-    Value: 03-8319,550-5034,545-5013,03-7542,30-009005
+    Value: 03-8370,03-8319,C11562W
   Tags:
   - TagName: Plastic
-  Links:
-  - Name: 
-    Url: 
+  Links: []
   MaterialVariations: []
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: 0

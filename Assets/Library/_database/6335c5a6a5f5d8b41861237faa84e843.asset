@@ -10,23 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 0ee9ebdd1ffdf26409c54ad824a59d7a
+  m_Name: 6335c5a6a5f5d8b41861237faa84e843
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 1210019902774001202, guid: 0ee9ebdd1ffdf26409c54ad824a59d7a, type: 3}
+  Object: {fileID: 3050436735293321171, guid: 6335c5a6a5f5d8b41861237faa84e843, type: 3}
   _categoryId: bf9edf8f-2103-40ab-a0bb-ca5638d4ecd3
-  _addedAt: 2022-11-01T22:32:01.6148276+01:00
-  Description: 
+  _addedAt: 2022-11-21T17:09:23.9239290+01:00
+  Description: 'This post is common to late model Bally and Williams pinball machines
+    and accommodates 2 rubber rings. '
   Attributes:
   - Key: Size
     Value: 1-1/16"
   - Key: Part Number
-    Value: 03-8319,550-5034,545-5013,03-7542,30-009005
+    Value: 03-8247,30-009008-13
   Tags:
   - TagName: Plastic
-  Links:
-  - Name: 
-    Url: 
+  Links: []
   MaterialVariations: []
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: 0

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 1f3fe653d4dbcea41bd0880818e1fdf3
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 6018756913349428439, guid: 1f3fe653d4dbcea41bd0880818e1fdf3, type: 3}
+  _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
+  _addedAt: 2022-11-18T15:07:32.9983786+01:00
+  Description: 
+  Attributes: []
+  Tags: []
+  Links: []
+  MaterialVariations:
+  - Name: Rubber
+    Object: {fileID: 890983198340770815, guid: 1f3fe653d4dbcea41bd0880818e1fdf3, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Black
+      Material: {fileID: 2100000, guid: f054b17a9bc01ad459f41f84a129ff91, type: 2}
+      Id: 69b3c530-28e7-4d3d-b1df-5a59ee61ed41
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 28124a842fea33740a4e20c28eb8b113, type: 2}
+      Id: 8e21e956-bf3c-46d7-abb1-c4736098e26d
+    - Name: Orange
+      Material: {fileID: 2100000, guid: e2bb0661857723345956aaa3408df595, type: 2}
+      Id: 2a772793-1409-4417-88ee-19f8b771cbf8
+    - Name: Purple
+      Material: {fileID: 2100000, guid: 72a95bafb0013884899dc0ba47ac517f, type: 2}
+      Id: 85bc7082-aca8-451a-961e-0c7024ea86a6
+    - Name: White
+      Material: {fileID: 2100000, guid: 1147be4dc8764b7408e6b0cd989d03c3, type: 2}
+      Id: 0b385331-a63f-45fa-b21a-d9d96b3dac31
+  - Name: Plastic
+    Object: {fileID: 890983198340770815, guid: 1f3fe653d4dbcea41bd0880818e1fdf3, type: 3}
+    Slot: 1
+    Overrides:
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: c89d674c2eca43d4fa11f4c37f9574f3, type: 2}
+      Id: 468225bc-47c6-4d21-99e7-39324abe106a
+    - Name: Red
+      Material: {fileID: 2100000, guid: 31c12e8daeda3604db2e33c06b0935f0, type: 2}
+      Id: 3ace65a6-8a8c-4b0d-be88-17b08bc15728
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2
