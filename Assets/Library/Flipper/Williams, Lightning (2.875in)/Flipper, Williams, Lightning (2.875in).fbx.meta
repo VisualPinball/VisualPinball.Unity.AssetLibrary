@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 00da643e8f5a006418b1c0e6c45f9cc6
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -647164347915374969
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.007_L_Materials.blend
+  - first:
+      74: -6440959450101368324
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.008_L_Materials.blend
+  - first:
+      74: 2623878559524860550
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.009_L_Materials.blend
+  - first:
+      74: -2893818371928626218
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.011_L_Materials.blend
+  - first:
+      74: 8570740088524721360
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.012_L_Materials.blend
+  - first:
+      74: 2613314274008020946
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.013_L_Materials.blend
+  - first:
+      74: 5182631282370746469
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.015_L_Materials.blend
+  - first:
+      74: 6273564698030232618
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.017_L_Materials.blend
+  - first:
+      74: -7430272227733728388
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.018_L_Materials.blend
+  - first:
+      74: 8072760488432208811
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.019_L_Materials.blend
+  - first:
+      74: -3796558888774600506
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.020_L_Materials.blend
+  - first:
+      74: 5142452405997109849
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.021_L_Materials.blend
+  - first:
+      74: -2701535598017856443
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.022_L_Materials.blend
+  - first:
+      74: -4798596471949607315
+    second: Flipper, Williams, Lightning (2-7/8")|Shader NodetreeAction.023_L_Materials.blend
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
