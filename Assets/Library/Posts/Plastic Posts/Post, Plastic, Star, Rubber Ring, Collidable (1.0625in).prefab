@@ -7,17 +7,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 278150773872630867, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: _instanceID
+      value: -40794
+      objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 476
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1081.0001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25,19 +41,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1949890230077738572, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53,7 +69,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6600589437666548010, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
       propertyPath: m_Name
-      value: Post, Plastic, Star, Rubber Ring (1.0625in)
+      value: Post, Plastic, Star, Rubber Ring, Collidable (1.0625in)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902505136547602290, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902505136547602290, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902505136547602290, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902505136547602290, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: Position.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902505136547602290, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: Position.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902505136547602290, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
+      propertyPath: Rotation.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adb7ce087e87aaa45b2b2f91283238f8, type: 3}
