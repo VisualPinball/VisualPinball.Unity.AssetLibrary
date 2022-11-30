@@ -111,9 +111,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6600589437666548010}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 476, y: 1081.0001, z: 0}
-  m_LocalScale: {x: 1852.7096, y: 1852.7094, z: 1852.7094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2503281788789083613}
@@ -144,9 +144,9 @@ MonoBehaviour:
   _editorLayer: 0
   _editorLayerName: 
   _editorLayerVisibility: 1
-  Position: {x: 476, y: 1081.0001, z: 0}
-  Rotation: {x: 90, y: 0, z: 0}
-  Size: {x: 1852.7096, y: 1852.7094, z: 1852.7094}
+  Position: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
+  Size: {x: 1, y: 1, z: 1}
   Translation: {x: 0, y: 0, z: 0}
   ObjectRotation: {x: 0, y: 0, z: 0}
   _originalRotateZ: 0
