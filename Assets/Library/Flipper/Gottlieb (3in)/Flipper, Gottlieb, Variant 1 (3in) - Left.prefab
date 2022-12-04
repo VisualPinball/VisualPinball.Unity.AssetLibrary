@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7662790737776130916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3195613274538538525}
+  - component: {fileID: 3571517125558089219}
+  - component: {fileID: 7545310403299566077}
+  - component: {fileID: 4474699849789090156}
+  m_Layer: 0
+  m_Name: Flipper, Gottlieb, Variant 1 (3in) - Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3195613274538538525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7662790737776130916}
+  m_LocalRotation: {x: 0, y: 0.87035567, z: 0, w: 0.49242356}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7713353160193250043}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3571517125558089219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7662790737776130916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 545ad741f74d2444faf5d2882fba6b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isLocked: 0
+  _editorLayer: 0
+  _editorLayerName: Layer_1
+  _editorLayerVisibility: 1
+  Position: {x: 0, y: 0}
+  _startAngle: 121
+  EndAngle: 70
+  _surface: {fileID: 0}
+  IsEnabled: 1
+  IsDualWound: 0
+  _height: 50
+  _baseRadius: 24
+  _endRadius: 16
+  FlipperRadiusMin: 0
+  FlipperRadiusMax: 113
+  _rubberThickness: 6
+  _rubberHeight: 19
+  _rubberWidth: 20
+  InstantiateAsPrefab: 0
+  _originalRotateZ: 0
+--- !u!114 &7545310403299566077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7662790737776130916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6867661ef306b40958372e88a16b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PhysicsMaterial: {fileID: 0}
+  ShowColliderMesh: 1
+  ShowAabbs: 0
+  Mass: 1
+  Strength: 700
+  Elasticity: 0.88
+  ElasticityFalloff: 0.15
+  Friction: 0.4
+  Return: 0.25
+  RampUp: 1
+  TorqueDamping: 0.3
+  TorqueDampingAngle: 4
+  Scatter: 0
+  FlipperCorrection: {fileID: 0}
+  useFlipperTricksPhysics: 1
+  SOSRampUp: 2.5
+  SOSEM: 0.85
+  EOSReturn: 0.055
+  EOSTNew: 0.8
+  EOSANew: 1
+  EOSRampup: 0
+  Overshoot: 3
+  BumpOnRelease: 0.4
+  useFlipperLiveCatch: 0
+  LiveCatchDistanceMin: 40
+  LiveCatchDistanceMax: 100
+  LiveCatchMinimalBallSpeed: 6
+  LiveCatchFullTime: 16
+  LiveCatchPerfectTime: 8
+  LiveCatchMinmalBounceSpeedMultiplier: 0.1
+  LiveCatchInaccurateBounceSpeedMultiplier: 1
+--- !u!114 &4474699849789090156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7662790737776130916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConversionMode: 1
+--- !u!1001 &7758511577115054710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3195613274538538525}
+    m_Modifications:
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 858850891341896247, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+      propertyPath: m_Name
+      value: Flipper, Gottlieb, Variant 1 (3in)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+--- !u!4 &7713353160193250043 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 45195396733354125, guid: f1c93283b322e8148bb5757f995f267c, type: 3}
+  m_PrefabInstance: {fileID: 7758511577115054710}
+  m_PrefabAsset: {fileID: 0}
