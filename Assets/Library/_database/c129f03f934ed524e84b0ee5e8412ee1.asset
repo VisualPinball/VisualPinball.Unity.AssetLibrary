@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: c129f03f934ed524e84b0ee5e8412ee1
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 4781968502162011993, guid: c129f03f934ed524e84b0ee5e8412ee1, type: 3}
+  _categoryId: 63f7437d-6ca5-4ff8-af90-d5bbf1d7c006
+  _addedAt: 2022-12-10T23:04:10.9524659+01:00
+  Description: 'Gottlieb Bumper Assembly.
+
+
+    Includes the lamp.
+
+
+    Check the
+    src~ folder for the Substance Materials used to texture. Should be easy to replace
+    the artwork.'
+  Attributes:
+  - Key: Part Number
+    Value: 10434-W,A-16883-GY,C-10433-W,10433Z,A-10436,C-115-1,A-16634,C-114-3
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Gottlieb
+  Links: []
+  MaterialVariations: []
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: ee98116218811694c856c46eb912660d, type: 2}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2
