@@ -10,33 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 08f911f21dd04b540a85c27e52867480
+  m_Name: 668de6a512a9d734ca17bc26383a7af0
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 7885820346232609370, guid: 08f911f21dd04b540a85c27e52867480, type: 3}
+  Object: {fileID: 6297278223085393881, guid: 668de6a512a9d734ca17bc26383a7af0, type: 3}
   _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
-  _addedAt: 2022-10-30T20:14:48.7421489+01:00
-  Description: 
+  _addedAt: 2022-12-14T14:52:13.8894359+01:00
+  Description: This screws are angled under the head to sit flush within countersunk
+    holes.
   Attributes:
   - Key: Part Number
-    Value: 91772A513
+    Value: 91858A194
   - Key: Thread Size
-    Value: 18-8
+    Value: 8-32
   - Key: Thread Length
     Value: No Thread
   - Key: Diameter
-    Value: 0.219"
-  - Key: Height
-    Value: 0.080"
+    Value: 0.312"
   - Key: Author
     Value: freezy
   Tags:
+  - TagName: Flat
+  - TagName: Slotted
   - TagName: Phillips
   Links:
   - Name: McMaster-Carr
-    Url: https://www.mcmaster.com/91772A513/
+    Url: https://www.mcmaster.com/91858A194/
   MaterialVariations: []
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
-  ThumbCameraHeight: 0.008
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 227bb9df5028f714d9dd6dd47a69f1af, type: 2}
+  ThumbCameraHeight: 0.004
   UnpackPrefab: 0
   Quality: 4

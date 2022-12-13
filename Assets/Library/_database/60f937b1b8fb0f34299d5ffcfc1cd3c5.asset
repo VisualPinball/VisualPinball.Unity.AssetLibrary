@@ -10,25 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 617dc7e367d3c4b47afdb4c78cfd2c4a
+  m_Name: 60f937b1b8fb0f34299d5ffcfc1cd3c5
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 8900976666973102731, guid: 617dc7e367d3c4b47afdb4c78cfd2c4a, type: 3}
-  _categoryId: 72423dd4-6953-46ad-9ab3-92cf40a7c5e3
-  _addedAt: 2022-10-24T17:38:17.8736387+02:00
+  Object: {fileID: 7662790737776130916, guid: 60f937b1b8fb0f34299d5ffcfc1cd3c5, type: 3}
+  _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
+  _addedAt: 2022-12-04T21:50:11.1153466+01:00
   Description: 
-  Attributes:
-  - Key: Author
-    Value: freezy
-  - Key: Thread Size
-    Value: 8-32
-  Tags:
-  - TagName: Phillips
-  - TagName: Screw
-  - TagName: Flat
+  Attributes: []
+  Tags: []
   Links: []
   MaterialVariations: []
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 38b1859491e4d7445a6280bcabc53742, type: 2}
-  ThumbCameraHeight: 0.008
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
-  Quality: 4
+  Quality: 2
