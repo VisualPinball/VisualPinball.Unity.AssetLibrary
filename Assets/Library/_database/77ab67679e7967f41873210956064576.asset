@@ -31,12 +31,11 @@ MonoBehaviour:
   - Key: Author
     Value: freezy
   Tags:
-  - TagName: Phillips Screw
+  - TagName: Phillips
   Links:
   - Name: McMaster-Carr
     Url: https://www.mcmaster.com/90279A829/
   MaterialVariations: []
-  Scale: 0
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: dcf08986d96fede4795f309017d50707, type: 2}
   ThumbCameraHeight: 0.014
   UnpackPrefab: 0
