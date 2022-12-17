@@ -18,7 +18,8 @@ MonoBehaviour:
   _addedAt: 2022-11-18T15:07:32.9983786+01:00
   Description: 
   Attributes: []
-  Tags: []
+  Tags:
+  - TagName: 3"
   Links: []
   MaterialVariations:
   - Name: Rubber

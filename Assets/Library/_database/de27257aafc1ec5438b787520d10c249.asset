@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: de27257aafc1ec5438b787520d10c249
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 21726441761977847, guid: de27257aafc1ec5438b787520d10c249, type: 3}
+  _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
+  _addedAt: 2022-12-17T01:24:09.8341065+01:00
+  Description: 'Two inch left flipper cap set w/ raised blue ink lettering used on
+    many EM and SS games, including Williams and Bally machines. '
+  Attributes:
+  - Key: Part Number
+    Value: 'C-609-5,A-3739,3A-7245-L,03-7245-L '
+  - Key: Author
+    Value: bord,freezy
+  Tags:
+  - TagName: 2"
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/C-609SET
+  MaterialVariations: []
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraHeight: 0.001
+  UnpackPrefab: 0
+  Quality: 2

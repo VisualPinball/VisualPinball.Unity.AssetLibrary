@@ -25,7 +25,8 @@ MonoBehaviour:
     Value: 3"
   - Key: Author
     Value: freezy
-  Tags: []
+  Tags:
+  - TagName: 3"
   Links:
   - Name: Marco Specialties
     Url: https://www.marcospecialties.com/pinball-parts/515-5133-01
