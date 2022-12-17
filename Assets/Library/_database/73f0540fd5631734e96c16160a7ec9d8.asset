@@ -33,6 +33,6 @@ MonoBehaviour:
     Url: https://www.marcospecialties.com/pinball-parts/A-21464
   MaterialVariations: []
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
-  ThumbCameraHeight: 0
+  ThumbCameraHeight: 0.001
   UnpackPrefab: 0
   Quality: 2
