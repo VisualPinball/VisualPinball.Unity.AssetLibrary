@@ -65,3 +65,4 @@ org.visualpinball.unity.assetlibrary*.tgz
 *.assbin
 *.painter_lock
 *.xsd
+*.spp
