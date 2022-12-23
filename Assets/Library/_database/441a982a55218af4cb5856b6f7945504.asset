@@ -29,7 +29,7 @@ MonoBehaviour:
   - Name: Marco Specialties
     Url: https://www.marcospecialties.com/pinball-parts/C-609SET
   MaterialVariations: []
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 30c355cd87a19b44e9f8d61d7b8a6cb1, type: 2}
   ThumbCameraHeight: 0.001
   UnpackPrefab: 0
   Quality: 2

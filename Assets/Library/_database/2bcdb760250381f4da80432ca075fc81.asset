@@ -46,9 +46,6 @@ MonoBehaviour:
     - Name: Blue
       Material: {fileID: 2100000, guid: 64a83c49a9d5c524ea04d5556eab8c3a, type: 2}
       Id: 9b5965b5-9dec-41a6-8bee-d6da77f43d26
-    - Name: Light Blue
-      Material: {fileID: 2100000, guid: f58dc073dcd8ca046aacfe0ab385caf1, type: 2}
-      Id: 3ff8f123-2b32-417e-a6ff-96489cebef50
     - Name: Orange
       Material: {fileID: 2100000, guid: 3a2701a0e4173794fbe74f129031708c, type: 2}
       Id: 7d251dd7-63a4-4c9a-8db9-805f0dbf7aa0
@@ -73,7 +70,7 @@ MonoBehaviour:
     - Name: Black
       Material: {fileID: 2100000, guid: b59d0fa73fffa7344ad56aecc99cc2e9, type: 2}
       Id: 9462470f-8f16-402c-b2dc-760cdbbc90a3
-  Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2
