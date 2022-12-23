@@ -72,10 +72,7 @@ MonoBehaviour:
     - Name: Teal
       Material: {fileID: 2100000, guid: 7825d51f5decd48499203461a98e744f, type: 2}
       Id: 9eb56f8d-b23c-475d-a227-c89009747343
-    - Name: Gold
-      Material: {fileID: 2100000, guid: 9ab5c310b7c3e7740a1003afd75e9d70, type: 2}
-      Id: 00580d9a-3f31-4457-ab6f-944640ddd921
-  Scale: 0
   ThumbCameraPreset: {fileID: 0}
+  ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2
