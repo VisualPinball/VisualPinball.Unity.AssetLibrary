@@ -25,17 +25,24 @@ namespace VisualPinball.Unity.Library.Editor
 	{
 		private ThumbGenerator _generator;
 		private SerializedProperty _assetLibraryProperty;
+		private SerializedProperty _defaultEnvironmentProperty;
 
 		private void OnEnable()
 		{
 			_generator = target as ThumbGenerator;
 
 			_assetLibraryProperty = serializedObject.FindProperty(nameof(ThumbGenerator.AssetLibrary));
+			_defaultEnvironmentProperty = serializedObject.FindProperty(nameof(ThumbGenerator.DefaultEnvironment));
 		}
 
 		public override void OnInspectorGUI()
 		{
+			serializedObject.Update();
+			
 			EditorGUILayout.PropertyField(_assetLibraryProperty);
+			EditorGUILayout.PropertyField(_defaultEnvironmentProperty);
+			
+			serializedObject.ApplyModifiedProperties();
 
 			GUI.enabled = !_generator.IsProcessing;
 			if (GUILayout.Button("Process All")) {
