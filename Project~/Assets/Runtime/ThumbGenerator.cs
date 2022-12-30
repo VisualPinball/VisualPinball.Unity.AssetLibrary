@@ -21,6 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using VisualPinball.Unity.Editor;
 
 namespace VisualPinball.Unity.Library
@@ -30,25 +31,32 @@ namespace VisualPinball.Unity.Library
 		[SerializeReference]
 		public Editor.AssetLibrary AssetLibrary;
 
+		[SerializeReference]
+		public GameObject DefaultEnvironment;
+
 		public bool IsProcessing { get; private set; }
 		public int TotalProcessing { get; private set; }
 		public int NumProcessed { get; private set; }
+
 
 		private List<AssetMaterialCombination> _assets;
 		private GameObject _currentGo;
 		private ThumbGeneratorComponent _currentTbc;
 		private AssetMaterialCombination _currentAmc;
 		private Camera _camera;
-
-		private PlayfieldComponent _pf;
-		private Vector3 _tableCenter;
+		private readonly Dictionary<string, GameObject> _environmentObjects = new();
 
 		public void StartProcessing(bool newOnly = false, bool selectedOnly = false)
 		{
 			_camera = Camera.main;
-
-			_pf = GetComponentInChildren<PlayfieldComponent>();
-			_tableCenter = new Vector3(_pf.Width / 2f, _pf.Height / 2f,0);
+			
+			var bgParent = SceneManager.GetActiveScene().GetRootGameObjects().FirstOrDefault(go => go.name == "_BackgroundObjects");
+			_environmentObjects.Clear();
+			if (bgParent != null) {
+				foreach (var mr in bgParent.GetComponentsInChildren<MeshRenderer>(true)) {
+					_environmentObjects[mr.name] = mr.gameObject;
+				}
+			}
 
 			var category = AssetLibrary.GetCategories().FirstOrDefault(c => c.Name.Contains("Flipper"));
 			//var category = AssetLibrary.GetCategories().FirstOrDefault(c => c.Name.Contains("Flipper"));
@@ -99,23 +107,45 @@ namespace VisualPinball.Unity.Library
 
 		private void Process(AssetMaterialCombination a)
 		{
+			// camera preset
 			_currentAmc = a;
 			if (a.Asset.ThumbCameraPreset != null) {
 				a.Asset.ThumbCameraPreset.ApplyTo(_camera.transform);
 			} else {
 				AssetLibrary.DefaultThumbCameraPreset.ApplyTo(_camera.transform);
 			}
-
+			
+			// background object
+			if (a.Asset.EnvironmentGameObjectName != null && _environmentObjects.ContainsKey(a.Asset.EnvironmentGameObjectName)) {
+				ToggleEnvironment(_environmentObjects[a.Asset.EnvironmentGameObjectName]);
+			} else {
+				ToggleEnvironment(DefaultEnvironment);
+			}
+			
+			// instantiate prefab
 			_currentGo = PrefabUtility.InstantiatePrefab(a.Asset.Object) as GameObject;
 
+			// apply position and material
 			a.ApplyObjectPos(_currentGo);
 			a.ApplyMaterial(_currentGo);
 
+			// launch generation
 			Debug.Log($"Processing {_currentGo!.name}");
 			_currentTbc = _currentGo!.AddComponent<ThumbGeneratorComponent>();
 			_currentTbc!.ThumbnailGuid = a.ThumbId;
 			_currentTbc!.Prefab = a.Asset.Object;
 			_currentTbc!.OnScreenshot += DoneProcessing;
+		}
+
+		private void ToggleEnvironment(GameObject go)
+		{
+			if (go.activeInHierarchy) {
+				return;
+			}
+			foreach (var bgo in _environmentObjects.Values) {
+				bgo.SetActive(false);
+			}
+			go.SetActive(true);
 		}
 
 		private void DoneProcessing(object sender, EventArgs e)
