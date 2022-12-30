@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 0a09f823654858140b82af99f00b1650
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 398764112358096283, guid: 0a09f823654858140b82af99f00b1650, type: 3}
+  _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
+  _addedAt: 2022-12-30T01:48:37.5728433+01:00
+  Description: 
+  Attributes:
+  - Key: Part Number
+    Value: B-11203,B-9631,A-9381
+  - Key: Author
+    Value: freezy
+  Tags: []
+  Links: []
+  MaterialVariations: []
+  EnvironmentGameObjectName: Playfield - Kicker - 1.25in - Beveled
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: e361b46afd684324dbc1ddcecd669c95, type: 2}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 2
