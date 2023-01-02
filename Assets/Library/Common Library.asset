@@ -250,6 +250,7 @@ MonoBehaviour:
       - 84b043b7a2db21549bc31f828c49218e
       - 7c7b42568ba2ebe4b9ad7ea00d71ecc8
       - fe5fedce7add48843b47a3dbcdb73c5a
+      - ad0adf6383fc5214b91f3bdba9428742
       m_values:
       - {fileID: 11400000, guid: f808804153a3e1c4d8b2a5e21b1bb240, type: 2}
       - {fileID: 11400000, guid: 8f4b97acb950e1443b0766436f8c279d, type: 2}
@@ -482,6 +483,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 2b836c75e95943746a05c584be7b327d, type: 2}
       - {fileID: 11400000, guid: db5edf7ca48929b489d29d8bd0408949, type: 2}
       - {fileID: 11400000, guid: a38d1c01066e7de40922455057063bde, type: 2}
+      - {fileID: 11400000, guid: a6301c4686f5892429f45cc35c89e483, type: 2}
     Categories:
       m_keys:
       - bbb765a5-6f24-41d9-8da9-793646218b40
@@ -491,6 +493,7 @@ MonoBehaviour:
       - a891c5b0-26c4-4e0f-a795-8dbbb58b2e71
       - 63f7437d-6ca5-4ff8-af90-d5bbf1d7c006
       - b02b361a-7b85-4c7c-a39b-66502dbd8fea
+      - 39c36919-30a1-4170-a3e9-e807b91b5ef1
       m_values:
       - Id: bbb765a5-6f24-41d9-8da9-793646218b40
         Name: Apron
@@ -506,3 +509,5 @@ MonoBehaviour:
         Name: Bumpers
       - Id: b02b361a-7b85-4c7c-a39b-66502dbd8fea
         Name: Kickers
+      - Id: 39c36919-30a1-4170-a3e9-e807b91b5ef1
+        Name: Cabinet
