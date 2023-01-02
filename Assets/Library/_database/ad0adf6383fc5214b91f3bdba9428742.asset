@@ -13,13 +13,25 @@ MonoBehaviour:
   m_Name: ad0adf6383fc5214b91f3bdba9428742
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 6646082722125525337, guid: ad0adf6383fc5214b91f3bdba9428742, type: 3}
+  Object: {fileID: 6607079051002909913, guid: ad0adf6383fc5214b91f3bdba9428742, type: 3}
   _categoryId: 39c36919-30a1-4170-a3e9-e807b91b5ef1
-  _addedAt: 2023-01-02T12:13:21.6368804+01:00
-  Description: 
-  Attributes: []
-  Tags: []
-  Links: []
+  _addedAt: 2023-01-02T21:58:26.4395392+01:00
+  Description: Data East/Spooky Pinball Coin Door with lights for each slot, and
+    a light group for both.
+  Attributes:
+  - Key: Part Number
+    Value: 500-5018-17
+  - Key: Manufacturer
+    Value: Data East,Spooky Pinball
+  - Key: Author
+    Value: freezy
+  Tags:
+  - TagName: Coin Door
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/500-5018-XX
+  - Name: Pinball Life
+    Url: https://www.pinballlife.com/data-east-coin-door.html
   MaterialVariations: []
   EnvironmentGameObjectName: Cabinet Wall - Solid - Large
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 52070213499abc44a8140809bb35089e, type: 2}
