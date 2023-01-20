@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: 15b077f8c87101e4ea8f2c958fa4c9af
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 7622696269925914035, guid: 15b077f8c87101e4ea8f2c958fa4c9af, type: 3}
+  _categoryId: 39c36919-30a1-4170-a3e9-e807b91b5ef1
+  _addedAt: 2023-01-23T22:11:55.8072156+01:00
+  Description: 
+  Attributes:
+  - Key: Part Number
+    Value: 5428N111
+  Tags:
+  - TagName: Power Connector
+  Links:
+  - Name: McMaster-Carr
+    Url: https://www.mcmaster.com/5428N111/
+  MaterialVariations: []
+  EnvironmentGameObjectName: Cabinet Wall - Connector
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: a0e13b68b07e4894296bc53db0b0c9c8, type: 2}
+  ThumbCameraHeight: 0
+  UnpackPrefab: 0
+  Quality: 4
