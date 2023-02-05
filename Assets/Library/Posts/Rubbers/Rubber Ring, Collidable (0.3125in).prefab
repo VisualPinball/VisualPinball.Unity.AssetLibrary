@@ -96,7 +96,6 @@ GameObject:
   - component: {fileID: 8902505136547602290}
   - component: {fileID: 278150773872630867}
   - component: {fileID: 6770110314281131064}
-  - component: {fileID: 499941059070037178}
   m_Layer: 0
   m_Name: Rubber Ring, Collidable (0.3125in)
   m_TagString: Untagged
@@ -162,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882edbbe53953ef4ab3b3f846c4a5d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _instanceID: 68942
+  _instanceID: 60524
   UseLegacyMesh: 0
   Sides: 4
 --- !u!114 &6770110314281131064
@@ -188,16 +187,3 @@ MonoBehaviour:
   Scatter: 0
   CollisionReductionFactor: 0
   OverwritePhysics: 1
---- !u!114 &499941059070037178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6600589437666548010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 1

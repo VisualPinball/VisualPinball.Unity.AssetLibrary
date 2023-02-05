@@ -96,7 +96,6 @@ GameObject:
   - component: {fileID: 5674456237599090985}
   - component: {fileID: 3958534349585443336}
   - component: {fileID: 7550277994212371043}
-  - component: {fileID: 3729999866216446689}
   m_Layer: 0
   m_Name: Post, Plastic, Mini, Rubber Ring, Collidable (1.0in)
   m_TagString: Untagged
@@ -163,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882edbbe53953ef4ab3b3f846c4a5d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _instanceID: 824556
+  _instanceID: 59340
   UseLegacyMesh: 0
   Sides: 4
 --- !u!114 &7550277994212371043
@@ -189,78 +188,82 @@ MonoBehaviour:
   Scatter: 0
   CollisionReductionFactor: 0
   OverwritePhysics: 1
---- !u!114 &3729999866216446689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7974111033391984497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 1
 --- !u!1001 &599994732391710146
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3331780225563146263}
     m_Modifications:
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1673217450647454267, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+    - target: {fileID: 1673217450647454267, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+        type: 3}
       propertyPath: m_Name
       value: Post, Plastic, Mini (1in)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
 --- !u!4 &969862594675409424 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382, type: 3}
+  m_CorrespondingSourceObject: {fileID: 371046569459400658, guid: e6a64bc89e3bbeb4a818f2ea9ef4b382,
+    type: 3}
   m_PrefabInstance: {fileID: 599994732391710146}
   m_PrefabAsset: {fileID: 0}

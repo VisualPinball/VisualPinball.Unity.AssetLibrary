@@ -490,7 +490,6 @@ GameObject:
   - component: {fileID: 5266721895243935203}
   - component: {fileID: 4781968502162011995}
   - component: {fileID: 4781968502162011994}
-  - component: {fileID: 4781968502162011988}
   m_Layer: 0
   m_Name: Bumper, Gottlieb
   m_TagString: Untagged
@@ -558,19 +557,6 @@ MonoBehaviour:
   Force: 15
   Scatter: 0
   HitEvent: 1
---- !u!114 &4781968502162011988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4781968502162011993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 1
 --- !u!1 &6613406557553964773
 GameObject:
   m_ObjectHideFlags: 0
