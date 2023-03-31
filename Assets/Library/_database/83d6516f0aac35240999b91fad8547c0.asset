@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: a04400ddc2e2f714788e0eb5419b8c92
+  m_Name: 83d6516f0aac35240999b91fad8547c0
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 2741747278291522521, guid: a04400ddc2e2f714788e0eb5419b8c92, type: 3}
+  Object: {fileID: 7011051901947214030, guid: 83d6516f0aac35240999b91fad8547c0, type: 3}
   _categoryId: a891c5b0-26c4-4e0f-a795-8dbbb58b2e71
-  _addedAt: 2022-10-04T15:30:15.1709326+02:00
-  Description: 1/4 inch hex spacer post - female/female 6-32 thread 3/4 inches long.
+  _addedAt: 2023-03-31T19:50:54.0900586+02:00
+  Description: 
   Attributes:
   - Key: Part Number
-    Value: 254-5008-04,02-4252-12
+    Value: 02-4250-44
   - Key: Size
-    Value: 3/4"
+    Value: 2-3/4"
   - Key: Width
     Value: 1/4"
   Tags:
@@ -29,12 +29,10 @@ MonoBehaviour:
   - TagName: Hex
   Links:
   - Name: Marco Specialties
-    Url: https://www.marcospecialties.com/pinball-parts/254-5008-04
-  - Name: Pinball Life
-    Url: https://www.pinballlife.com/metal-hex-spacers-14-78-6-32-thread-femalefemale.html
+    Url: https://www.marcospecialties.com/pinball-parts/02-4250-44
   MaterialVariations: []
   EnvironmentGameObjectName: 
-  ThumbCameraPreset: {fileID: 0}
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: ee98116218811694c856c46eb912660d, type: 2}
   ThumbCameraHeight: 0
   UnpackPrefab: 0
   Quality: 2
