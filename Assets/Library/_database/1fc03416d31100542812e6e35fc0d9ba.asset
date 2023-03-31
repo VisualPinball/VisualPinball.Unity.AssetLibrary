@@ -27,13 +27,14 @@ MonoBehaviour:
     Value: 1/4"
   Tags:
   - TagName: Metal
+  - TagName: Hex
   Links:
   - Name: Marco Specialties
     Url: https://www.marcospecialties.com/pinball-parts/254-5008-03
   - Name: Pinball Life
     Url: https://www.pinballlife.com/metal-hex-spacers-14-78-6-32-thread-femalefemale.html
   MaterialVariations: []
-  Scale: 0
+  EnvironmentGameObjectName: 
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: 0
   UnpackPrefab: 0
