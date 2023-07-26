@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
+  m_Name: d1f889a758493d44eaa9d655d0eca55b
+  m_EditorClassIdentifier: 
+  Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
+  Object: {fileID: 6493463567481344027, guid: d1f889a758493d44eaa9d655d0eca55b, type: 3}
+  _categoryId: 04b7d3b1-c66f-4f88-bf65-ca3b47fe190f
+  _addedAt: 2023-07-26T23:22:37.3437896+02:00
+  Description: 
+  Attributes:
+  - Key: Part Number
+    Value: A-3994
+  - Key: Author
+    Value: bord,freezy
+  Tags:
+  - TagName: 3"
+  Links:
+  - Name: Marco Specialties
+    Url: https://www.marcospecialties.com/pinball-parts/A-3994-5
+  MaterialVariations:
+  - Name: Plastic
+    Object: {fileID: 416276529711251251, guid: d1f889a758493d44eaa9d655d0eca55b, type: 3}
+    Slot: 0
+    Overrides:
+    - Name: Black
+      Material: {fileID: 2100000, guid: aac4d4994a8217749b8792ab4282fea0, type: 2}
+      Id: ef4eed60-0c61-406c-b913-6f65c48ca632
+    - Name: White
+      Material: {fileID: 2100000, guid: 8aa2cdd5831e45440ae1af356673b3c7, type: 2}
+      Id: 24fa6064-dd7b-45a2-a501-9c87c53762cb
+    - Name: Yellow
+      Material: {fileID: 2100000, guid: 4226a026c3e56934492f2237849356a3, type: 2}
+      Id: 40491a26-ea21-4405-af44-e0cb5f9ddda0
+  - Name: Rubber
+    Object: {fileID: 416276529711251251, guid: d1f889a758493d44eaa9d655d0eca55b, type: 3}
+    Slot: 1
+    Overrides:
+    - Name: Black
+      Material: {fileID: 2100000, guid: f8d66109daf047244a29963eba1ec6dc, type: 2}
+      Id: 1d8e8351-9c6e-4c7a-a829-21c096b9a4a9
+    - Name: Blue
+      Material: {fileID: 2100000, guid: 7c3d52def81945f4285354bf86077936, type: 2}
+      Id: ace59d49-36cf-411f-804b-986de4bc8e2e
+    - Name: Orange
+      Material: {fileID: 2100000, guid: 3945528768708044383cb813658ec927, type: 2}
+      Id: 3d119463-d773-4de0-b1b0-ed3bed53fb3d
+    - Name: Purple
+      Material: {fileID: 2100000, guid: 1f336b8b33c3c4f439fd57a061567a95, type: 2}
+      Id: 772db164-da45-4d6b-ba55-38cf2ce850f1
+    - Name: White
+      Material: {fileID: 2100000, guid: d3833abb8deda764eb1c21b43d399b24, type: 2}
+      Id: 590a7e9e-8bbc-415a-bb91-5250c8d8d330
+  EnvironmentGameObjectName: 
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: 414d13c4ce29de24ba6b563c75651aaa, type: 2}
+  ThumbCameraHeight: 0.001
+  UnpackPrefab: 0
+  Quality: 2
