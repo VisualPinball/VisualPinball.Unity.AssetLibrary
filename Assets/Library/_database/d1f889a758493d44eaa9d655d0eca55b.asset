@@ -35,8 +35,8 @@ MonoBehaviour:
     - Name: Black
       Material: {fileID: 2100000, guid: aac4d4994a8217749b8792ab4282fea0, type: 2}
       Id: ef4eed60-0c61-406c-b913-6f65c48ca632
-    - Name: White
-      Material: {fileID: 2100000, guid: 8aa2cdd5831e45440ae1af356673b3c7, type: 2}
+    - Name: Red
+      Material: {fileID: 2100000, guid: 24c85ac423ddc6941ab76812a6282fda, type: 2}
       Id: 24fa6064-dd7b-45a2-a501-9c87c53762cb
     - Name: Yellow
       Material: {fileID: 2100000, guid: 4226a026c3e56934492f2237849356a3, type: 2}
