@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139404330841208940}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4255838879385777486}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4252524366524732200
 MeshFilter:
@@ -96,7 +96,6 @@ GameObject:
   - component: {fileID: 6596838310111257712}
   - component: {fileID: 2584099283602089809}
   - component: {fileID: 9076129059602392890}
-  - component: {fileID: 2805889362642646968}
   m_Layer: 0
   m_Name: Peg, Plastic, T14, Rubber Ring, Collidable (1.25in)
   m_TagString: Untagged
@@ -111,6 +110,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8906608387015533096}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -119,7 +119,6 @@ Transform:
   - {fileID: 197544559237297887}
   - {fileID: 973763170135813698}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5678318092427751054
 MeshFilter:
@@ -163,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882edbbe53953ef4ab3b3f846c4a5d9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _instanceID: -416446
+  _instanceID: 120780
   UseLegacyMesh: 0
   Sides: 4
 --- !u!114 &9076129059602392890
@@ -180,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PhysicsMaterial: {fileID: 0}
   ShowColliderMesh: 1
+  ShowColliderOctree: 0
   ShowAabbs: 0
   HitEvent: 1
   Threshold: 2
@@ -189,24 +189,12 @@ MonoBehaviour:
   Scatter: 0
   CollisionReductionFactor: 0
   OverwritePhysics: 1
---- !u!114 &2805889362642646968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8906608387015533096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 1
 --- !u!1001 &9218851274277624246
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4255838879385777486}
     m_Modifications:
     - target: {fileID: 3766792209538596551, guid: c51bd1563bb08104a8cebebf66370824, type: 3}
@@ -258,6 +246,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c51bd1563bb08104a8cebebf66370824, type: 3}
 --- !u!4 &973763170135813698 stripped
 Transform:

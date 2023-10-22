@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
+using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEditor.Presets;
@@ -25,6 +26,8 @@ namespace VisualPinball.Unity.AssetLibrary.Editor
 	{
 		private static Preset _maskMapPreset;
 		private static Preset _normalMapPreset;
+
+		private static readonly string[] ExcludedProps = { "m_MaxTextureSize", "m_PlatformSettings" };
 
 		private void OnPreprocessAsset()
 		{
@@ -42,7 +45,7 @@ namespace VisualPinball.Unity.AssetLibrary.Editor
 					_maskMapPreset = AssetDatabase.LoadAssetAtPath<Preset>($"{presetPath}/MaskMap.preset");
 				}
 				if (_maskMapPreset) {
-					_maskMapPreset.ApplyTo(assetImporter);
+					ApplyPresetExcludingProperties(_maskMapPreset, assetImporter, ExcludedProps);
 				} else {
 					Debug.LogWarning($"Unable to load mask map preset for {assetPath}.");
 				}
@@ -53,11 +56,37 @@ namespace VisualPinball.Unity.AssetLibrary.Editor
 					_normalMapPreset = AssetDatabase.LoadAssetAtPath<Preset>($"{presetPath}/NormalMap.preset");
 				}
 				if (_normalMapPreset) {
-					_normalMapPreset.ApplyTo(assetImporter);
+					ApplyPresetExcludingProperties(_normalMapPreset, assetImporter, ExcludedProps);
 				} else {
 					Debug.LogWarning($"Unable to load normal map preset for {assetPath}.");
 				}
 			}
+		}
+
+		private static void ApplyPresetExcludingProperties(Preset preset, Object target, params string[] excludedPropertyPaths)
+		{
+			var appliedPropertyPaths = GetAllPropertyPaths(target);
+			foreach(var excludedPropertyPath in excludedPropertyPaths) {
+				appliedPropertyPaths.Remove(excludedPropertyPath);
+			}
+			preset.ApplyTo(target, appliedPropertyPaths.ToArray());
+		}
+
+		private static List<string> GetAllPropertyPaths(Object target)
+		{
+			var serializedObject = new SerializedObject(target);
+			var propertyPaths = new List<string>(10);
+			var serializedProperty = serializedObject.GetIterator();
+			if (!serializedProperty.NextVisible(true)) {
+				return propertyPaths;
+			}
+
+			while(serializedProperty.NextVisible(false)) {
+				//Debug.Log($"Property: {serializedProperty.propertyPath}");
+				propertyPaths.Add(serializedProperty.propertyPath);
+			}
+
+			return propertyPaths;
 		}
 	}
 }

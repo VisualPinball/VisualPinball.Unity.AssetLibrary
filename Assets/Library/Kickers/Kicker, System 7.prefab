@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5174706748909591881}
   - component: {fileID: 4276896933361540240}
   - component: {fileID: 6486905572688686004}
-  - component: {fileID: 7701665133049968586}
   m_Layer: 0
   m_Name: Kicker, System 7
   m_TagString: Untagged
@@ -28,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398764112358096283}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -35,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 3829530903265388664}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2808264517891820108
 MonoBehaviour:
@@ -79,6 +78,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PhysicsMaterial: {fileID: 0}
   ShowColliderMesh: 1
+  ShowColliderOctree: 0
   ShowAabbs: 0
   Scatter: 0
   HitAccuracy: 0.7
@@ -136,19 +136,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7701665133049968586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398764112358096283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 1
 --- !u!1 &4498791177460642498
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,13 +161,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4498791177460642498}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8466918821061848957}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &183206693516912605
 MeshFilter:
