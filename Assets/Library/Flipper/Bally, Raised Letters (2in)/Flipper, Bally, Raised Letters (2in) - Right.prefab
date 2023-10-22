@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6692399185544528633}
   - component: {fileID: 4695467882304733927}
   - component: {fileID: 1733717750001456409}
-  - component: {fileID: 5665641582241947016}
   m_Layer: 0
   m_Name: Flipper, Bally, Raised Letters (2in) - Right
   m_TagString: Untagged
@@ -26,6 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940637326306054016}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.87035567, z: 0, w: 0.49242356}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
@@ -33,7 +33,6 @@ Transform:
   m_Children:
   - {fileID: 2859021533500680419}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4695467882304733927
 MonoBehaviour:
@@ -81,6 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PhysicsMaterial: {fileID: 0}
   ShowColliderMesh: 1
+  ShowColliderOctree: 0
   ShowAabbs: 0
   Mass: 1
   Strength: 1100
@@ -110,19 +110,6 @@ MonoBehaviour:
   LiveCatchPerfectTime: 8
   LiveCatchMinmalBounceSpeedMultiplier: 0.1
   LiveCatchInaccurateBounceSpeedMultiplier: 1
---- !u!114 &5665641582241947016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1940637326306054016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 1
 --- !u!1 &5345663732499977838
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,13 +135,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5345663732499977838}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6692399185544528633}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5319797678571001922
 MeshFilter:

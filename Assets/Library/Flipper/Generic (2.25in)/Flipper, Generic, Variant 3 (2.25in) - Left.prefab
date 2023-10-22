@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6990712535865729805}
   - component: {fileID: 8992996536314815251}
   - component: {fileID: 2732359516908369133}
-  - component: {fileID: 8305845641962978428}
   m_Layer: 0
   m_Name: Flipper, Generic, Variant 3 (2.25in) - Left
   m_TagString: Untagged
@@ -26,6 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2813248690767883892}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.87035567, z: 0, w: 0.49242356}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
@@ -34,7 +34,6 @@ Transform:
   - {fileID: 4256580638422834101}
   - {fileID: 8102074521760971826}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8992996536314815251
 MonoBehaviour:
@@ -82,6 +81,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PhysicsMaterial: {fileID: 0}
   ShowColliderMesh: 1
+  ShowColliderOctree: 0
   ShowAabbs: 0
   Mass: 1
   Strength: 2200
@@ -111,19 +111,6 @@ MonoBehaviour:
   LiveCatchPerfectTime: 8
   LiveCatchMinmalBounceSpeedMultiplier: 0.1
   LiveCatchInaccurateBounceSpeedMultiplier: 1
---- !u!114 &8305845641962978428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2813248690767883892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 1
 --- !u!1 &8879842227237316232
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,13 +136,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8879842227237316232}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6990712535865729805}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5179001361899008919
 MeshFilter:
@@ -213,6 +200,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6990712535865729805}
     m_Modifications:
     - target: {fileID: 1670285585543738162, guid: 6e5495b391fc96e45b100e9621317998, type: 3}
@@ -280,6 +268,9 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e5495b391fc96e45b100e9621317998, type: 3}
 --- !u!4 &4256580638422834101 stripped
 Transform:
