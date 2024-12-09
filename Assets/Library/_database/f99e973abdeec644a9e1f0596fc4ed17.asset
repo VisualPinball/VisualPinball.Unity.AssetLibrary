@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 7a24f6799218939478cd845a997f6f4d
+  m_Name: f99e973abdeec644a9e1f0596fc4ed17
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 624688633635916920, guid: 7a24f6799218939478cd845a997f6f4d, type: 3}
-  _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
-  _addedAt: 2024-12-09T13:12:38.5735434+01:00
-  Description: The "Simple Hole" kicker included in VPX, with a slightly optimized
-    geometry.
+  Object: {fileID: 6563151203485904801, guid: f99e973abdeec644a9e1f0596fc4ed17, type: 3}
+  _categoryId: f015d986-fb53-4dc1-a789-61098c130d9e
+  _addedAt: 2024-12-09T13:40:56.0807782+01:00
+  Description: The spinner included in VPX. Same geometry and same UV map, but includes
+    a material.
   Attributes:
   - Key: Source
     Value: VPX
   Tags: []
   Links: []
   MaterialVariations: []
-  EnvironmentGameObjectName: Playfield - Kicker - 1.25in
-  ThumbCameraPreset: {fileID: 2655988077585873504, guid: e361b46afd684324dbc1ddcecd669c95, type: 2}
-  ThumbCameraHeight: 0
+  EnvironmentGameObjectName: 
+  ThumbCameraPreset: {fileID: 2655988077585873504, guid: ee98116218811694c856c46eb912660d, type: 2}
+  ThumbCameraHeight: 0.0269875
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

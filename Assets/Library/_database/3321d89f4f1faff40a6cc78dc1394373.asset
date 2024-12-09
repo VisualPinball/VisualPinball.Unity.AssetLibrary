@@ -16,12 +16,14 @@ MonoBehaviour:
   Object: {fileID: 340677746526038381, guid: 3321d89f4f1faff40a6cc78dc1394373, type: 3}
   _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
   _addedAt: 2024-12-09T13:11:30.1124476+01:00
-  Description: 
-  Attributes: []
+  Description: The "Hole" kicker included in VPX, with a slightly optimized geometry.
+  Attributes:
+  - Key: Source
+    Value: VPX
   Tags: []
   Links: []
   MaterialVariations: []
-  EnvironmentGameObjectName: Playfield - Kicker - 1.25in
+  EnvironmentGameObjectName: Playfield - Kicker - 1.25in - Beveled
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: e361b46afd684324dbc1ddcecd669c95, type: 2}
   ThumbCameraHeight: 0
   UnpackPrefab: 0
