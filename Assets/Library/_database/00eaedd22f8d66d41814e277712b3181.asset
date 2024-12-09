@@ -17,7 +17,9 @@ MonoBehaviour:
   _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
   _addedAt: 2024-12-09T13:10:02.0012106+01:00
   Description: The "Gottlieb" kicker included in VPX, with a slightly optimized geometry.
-  Attributes: []
+  Attributes:
+  - Key: Source
+    Value: VPX
   Tags: []
   Links: []
   MaterialVariations: []
