@@ -10,18 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 84b043b7a2db21549bc31f828c49218e
+  m_Name: 00eaedd22f8d66d41814e277712b3181
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 3122423048861958677, guid: 84b043b7a2db21549bc31f828c49218e, type: 3}
+  Object: {fileID: 2523474705735713704, guid: 00eaedd22f8d66d41814e277712b3181, type: 3}
   _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
-  _addedAt: 2022-12-30T02:12:09.6362164+01:00
-  Description: 
-  Attributes:
-  - Key: Part Number
-    Value: C-15707,C-15708,A-11151,A-16045
-  - Key: Author
-    Value: freezy,BorgDog
+  _addedAt: 2024-12-09T13:10:02.0012106+01:00
+  Description: The "Gottlieb" kicker included in VPX, with a slightly optimized geometry.
+  Attributes: []
   Tags: []
   Links: []
   MaterialVariations: []
@@ -29,4 +25,4 @@ MonoBehaviour:
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: e361b46afd684324dbc1ddcecd669c95, type: 2}
   ThumbCameraHeight: 0
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

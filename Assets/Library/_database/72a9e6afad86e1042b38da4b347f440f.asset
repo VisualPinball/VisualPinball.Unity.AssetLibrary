@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 8f2b99d999553a0488b16d43bad4d4e3
+  m_Name: 72a9e6afad86e1042b38da4b347f440f
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 1411305249634049432, guid: 8f2b99d999553a0488b16d43bad4d4e3, type: 3}
+  Object: {fileID: 7085640759655817956, guid: 72a9e6afad86e1042b38da4b347f440f, type: 3}
   _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
-  _addedAt: 2022-12-30T01:52:30.2698333+01:00
-  Description: 
-  Attributes: []
+  _addedAt: 2024-12-09T13:03:45.9085484+01:00
+  Description: The "Cup 1" kicker included in VPX, with a slightly optimized geometry.
+  Attributes:
+  - Key: Source
+    Value: VPX
   Tags: []
   Links: []
   MaterialVariations: []
-  ThumbBackgroundObjectName: Playfield - Kicker - 1.25in
+  EnvironmentGameObjectName: Playfield - Kicker - 1.25in - Beveled
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: e361b46afd684324dbc1ddcecd669c95, type: 2}
-  ThumbCameraHeight: 0
-  ThumbTopLight: 1
+  ThumbCameraHeight: 0.001
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

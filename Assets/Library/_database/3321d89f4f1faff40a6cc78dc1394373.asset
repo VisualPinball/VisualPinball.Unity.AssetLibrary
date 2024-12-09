@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 7c7b42568ba2ebe4b9ad7ea00d71ecc8
+  m_Name: 3321d89f4f1faff40a6cc78dc1394373
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 6218589368341597124, guid: 7c7b42568ba2ebe4b9ad7ea00d71ecc8, type: 3}
+  Object: {fileID: 340677746526038381, guid: 3321d89f4f1faff40a6cc78dc1394373, type: 3}
   _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
-  _addedAt: 2022-12-30T23:26:21.6163068+01:00
+  _addedAt: 2024-12-09T13:11:30.1124476+01:00
   Description: 
   Attributes: []
   Tags: []
   Links: []
   MaterialVariations: []
-  EnvironmentGameObjectName: Playfield - Kicker - 1.25in - Beveled
+  EnvironmentGameObjectName: Playfield - Kicker - 1.25in
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: e361b46afd684324dbc1ddcecd669c95, type: 2}
   ThumbCameraHeight: 0
   UnpackPrefab: 0

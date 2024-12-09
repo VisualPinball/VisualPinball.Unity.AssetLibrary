@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81a98b83d8e16314b9e008c07c0fc397, type: 3}
-  m_Name: 0a09f823654858140b82af99f00b1650
+  m_Name: 4b8e73de9c50eb14ea46b21ae9089825
   m_EditorClassIdentifier: 
   Library: {fileID: 11400000, guid: a42f2c173b443374fab2544379eb3b0a, type: 2}
-  Object: {fileID: 398764112358096283, guid: 0a09f823654858140b82af99f00b1650, type: 3}
+  Object: {fileID: 6339177243580503528, guid: 4b8e73de9c50eb14ea46b21ae9089825, type: 3}
   _categoryId: b02b361a-7b85-4c7c-a39b-66502dbd8fea
-  _addedAt: 2022-12-30T01:48:37.5728433+01:00
-  Description: 
+  _addedAt: 2024-12-09T13:08:45.4127253+01:00
+  Description: The "Cup 2" kicker included in VPX, with a slightly optimized geometry.
   Attributes:
-  - Key: Part Number
-    Value: B-11203,B-9631,A-9381
-  - Key: Author
-    Value: freezy
+  - Key: Source
+    Value: VPX
   Tags: []
   Links: []
   MaterialVariations: []
