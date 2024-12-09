@@ -16,13 +16,17 @@ MonoBehaviour:
   Object: {fileID: 7699796167282593510, guid: 5995cbc7c81af7a48bca922eb99f5c32, type: 3}
   _categoryId: 533ca600-0917-471b-94da-7d87bb5d18fe
   _addedAt: 2024-12-09T13:43:43.4340773+01:00
-  Description: 
-  Attributes: []
-  Tags: []
+  Description: The "Rectangle" drop target included in VPX. Same geometry and same
+    UV map, but includes a material.
+  Attributes:
+  - Key: Source
+    Value: VPX
+  Tags:
+  - TagName: Hit Target
   Links: []
   MaterialVariations: []
   EnvironmentGameObjectName: Playfield - Target - 0.65in
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: -0.003
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

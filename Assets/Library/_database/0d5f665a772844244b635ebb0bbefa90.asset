@@ -16,13 +16,17 @@ MonoBehaviour:
   Object: {fileID: 1844034425727054085, guid: 0d5f665a772844244b635ebb0bbefa90, type: 3}
   _categoryId: 533ca600-0917-471b-94da-7d87bb5d18fe
   _addedAt: 2024-12-09T13:43:43.8499018+01:00
-  Description: 
-  Attributes: []
-  Tags: []
+  Description: The "Square Fat" drop target included in VPX. Same geometry and same
+    UV map, but includes a material.
+  Attributes:
+  - Key: Source
+    Value: VPX
+  Tags:
+  - TagName: Hit Target
   Links: []
   MaterialVariations: []
   EnvironmentGameObjectName: Playfield - Target - 0.65in
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: -0.003
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4
