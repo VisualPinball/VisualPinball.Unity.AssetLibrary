@@ -16,13 +16,17 @@ MonoBehaviour:
   Object: {fileID: 3915102299544891818, guid: c73355b2b8af0ad47b03c3a3797d0a84, type: 3}
   _categoryId: 533ca600-0917-471b-94da-7d87bb5d18fe
   _addedAt: 2024-12-09T13:43:43.0189976+01:00
-  Description: 
-  Attributes: []
-  Tags: []
+  Description: The "Beveled" drop target included in VPX. Same geometry and same
+    UV map, but includes a material.
+  Attributes:
+  - Key: Source
+    Value: VPX
+  Tags:
+  - TagName: Drop Target
   Links: []
   MaterialVariations: []
   EnvironmentGameObjectName: Playfield - Target - 0.65in
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: -0.003
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

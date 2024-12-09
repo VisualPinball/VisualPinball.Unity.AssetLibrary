@@ -16,13 +16,17 @@ MonoBehaviour:
   Object: {fileID: 4310716883191764206, guid: 40ea1c392bac0354582c0cee55e10b03, type: 3}
   _categoryId: 533ca600-0917-471b-94da-7d87bb5d18fe
   _addedAt: 2024-12-09T13:43:43.3310097+01:00
-  Description: 
-  Attributes: []
-  Tags: []
+  Description: The "Slim" drop target included in VPX. Same geometry and same UV
+    map, but includes a material.
+  Attributes:
+  - Key: Source
+    Value: VPX
+  Tags:
+  - TagName: Hit Target
   Links: []
   MaterialVariations: []
   EnvironmentGameObjectName: Playfield - Target - 0.65in
   ThumbCameraPreset: {fileID: 0}
   ThumbCameraHeight: -0.003
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4

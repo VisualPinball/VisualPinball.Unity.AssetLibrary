@@ -16,13 +16,17 @@ MonoBehaviour:
   Object: {fileID: 7602880531322189651, guid: 9505b85583f2ca2448c1ec3521808410, type: 3}
   _categoryId: 533ca600-0917-471b-94da-7d87bb5d18fe
   _addedAt: 2024-12-09T13:43:43.1248990+01:00
-  Description: 
-  Attributes: []
-  Tags: []
+  Description: The "Simple" drop target included in VPX. Same geometry and same UV
+    map, but includes a material.
+  Attributes:
+  - Key: Source
+    Value: VPX
+  Tags:
+  - TagName: Drop Target
   Links: []
   MaterialVariations: []
   EnvironmentGameObjectName: Playfield - Target - 0.65in
   ThumbCameraPreset: {fileID: 2655988077585873504, guid: 42ff1390796e56943a02edf674c5cc7e, type: 2}
   ThumbCameraHeight: -0.003
   UnpackPrefab: 0
-  Quality: 2
+  Quality: 4
